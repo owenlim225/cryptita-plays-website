@@ -2,20 +2,17 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import {
-  ArrowDownRight,
   ArrowRight,
   BookOpen,
   CalendarDays,
   ChevronLeft,
   ChevronRight,
-  CircleDot,
   ExternalLink,
   GraduationCap,
   HeartHandshake,
   Menu,
   Network,
   Quote,
-  Sparkles,
   X,
 } from "lucide-react";
 
@@ -23,6 +20,7 @@ const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
   mark: "/brand/cryptita-mark.png",
   hero: "/images/learning-event.jpg",
+  heroVideo: "/images/tambunan-outreach.mp4",
   library: "/images/community-gathering.jpg",
   university: "/images/classroom-session.jpg",
   outreach: "/images/group-discussion.jpg",
@@ -47,7 +45,7 @@ const programs = [
     copy: "Seminars and workshops introduce blockchain basics, digital safety, career awareness, and responsible participation with honesty and context.",
     image: ASSETS.university,
     alt: "Attendees listening to a speaker in a classroom",
-    tone: "dark",
+    tone: "light",
   },
   {
     number: "03",
@@ -159,35 +157,15 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          <div className="hero-grid-lines" aria-hidden="true" />
+          <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline />
+          <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
-              <div className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> An education-first initiative from the Philippines</div>
-              <h1>Knowledge belongs <em>everywhere.</em></h1>
-              <p className="hero-lede">Cryptita Plays makes digital literacy, blockchain awareness, and future-ready learning accessible, safe, and human for communities too often left out.</p>
+              <h1>Bridging Web3 Education and Social Impact</h1>
               <div className="hero-actions">
-                <a href="#mission" className="button button-primary">Explore the mission <ArrowDownRight /></a>
-                <Link to="/donate" className="text-link">Put learning in more hands <ArrowRight /></Link>
+                <Link to="/donate" className="button button-primary">Donate <ArrowRight /></Link>
               </div>
-              <div className="hero-footnote"><CircleDot /> Built for real communities, not just the connected ones.</div>
             </Reveal>
-            <Reveal className="hero-art-wrap" delay={120}>
-              <div className="hero-art-card">
-                <img src={ASSETS.hero} alt="Attendees seated at tables during a learning event" className="hero-art" />
-                <div className="hero-art-caption"><span>01</span><span>Books → networks → possibility</span></div>
-              </div>
-              <div className="hero-orbit orbit-one" aria-hidden="true" />
-              <div className="hero-orbit orbit-two" aria-hidden="true" />
-              <div className="floating-chip chip-top"><Sparkles /> <span>Learning is a bridge</span></div>
-              <div className="floating-chip chip-bottom"><span className="chip-number">5</span><span>iskolar scholars<br />per mini-library</span></div>
-            </Reveal>
-          </div>
-          <a href="#mission" className="scroll-cue" aria-label="Scroll to mission"><span>Scroll to explore</span><ArrowDownRight /></a>
-        </section>
-
-        <section className="marquee-band" aria-label="Cryptita Plays commitments">
-          <div className="marquee-track">
-            <span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span><i>✦</i><span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span>
           </div>
         </section>
 
@@ -279,8 +257,8 @@ function Home() {
 
         <section className="founder-section section-padding">
           <div className="container founder-layout">
-            <Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal>
-            <Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal>
+            <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" /></Reveal>
+            <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
           </div>
         </section>
 
