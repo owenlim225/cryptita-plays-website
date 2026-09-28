@@ -29,16 +29,19 @@ const ASSETS = {
 const books = [
   {
     title: "Barya to Blockchain: Web3 Young Learners Encyclopedia",
+    author: "Arshelene Lingao (Cryptita Plays)",
     image: "/images/encyclopedia-cover.png",
     alt: "Cover of Web3 Young Learners Encyclopedia",
   },
   {
     title: "Programming for Youth: Code Like a Cook",
+    author: "GANAP with Eli (Eli Rabadon)",
     image: "/images/cook-cover.png",
     alt: "Cover of Programming for Youth: Code Like a Cook",
   },
   {
     title: "Wave3 Handbook",
+    author: "Mary Dee Ruzgal & Christop Waves",
     image: "/images/wave3-cover.png",
     alt: "Cover of Wave3 Handbook",
   },
@@ -269,7 +272,7 @@ function Home() {
 
         <section className="learning-section section-padding" id="learning">
           <div className="container">
-            <Reveal><SectionHeading eyebrow="Books & learning resources" title="Learning that travels" copy="Explore the books and learning resources created to make new ideas easier to approach." /></Reveal>
+            <Reveal><SectionHeading eyebrow="Books & learning resources" title="Books shaped by community." copy="Created with Cryptita communities and collaborators, these books make Web3 and coding easier to explore." /></Reveal>
             <div className="book-grid">
               {books.map((book, index) => (
                 <Reveal className="book-card" key={book.title} delay={index * 70}>
@@ -279,6 +282,7 @@ function Home() {
                   <div className="book-caption">
                     <span>{String(index + 1).padStart(2, "0")} / {String(books.length).padStart(2, "0")}</span>
                     <h3>{book.title}</h3>
+                    <p>By {book.author}</p>
                   </div>
                 </Reveal>
               ))}
@@ -314,7 +318,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="founder-section section-padding">
+        <section className="founder-section section-padding" id="our-story">
           <div className="container founder-layout">
             <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" /></Reveal>
             <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
@@ -342,7 +346,7 @@ function Home() {
           </div>
         </section>
       </main>
-      <SiteFooter page="home" />
+      <SiteFooter />
     </div>
   );
 }
