@@ -15,6 +15,8 @@ import {
   X,
 } from "lucide-react";
 import { SiteFooter } from "../components/SiteFooter";
+import { CommunityPartnersStrip } from "../components/sections/CommunityPartnersStrip";
+import { EducationalPartnersStrip } from "../components/sections/EducationalPartnersStrip";
 import { useScrolledHeader } from "../hooks/useScrolledHeader";
 
 const ASSETS = {
@@ -233,6 +235,13 @@ function Home() {
           </div>
         </section>
 
+        <section className="marquee-band" aria-label="Cryptita Plays commitments">
+          <p className="sr-only">Learn safely. Share generously. Build for everyone.</p>
+          <div className="marquee-track" aria-hidden="true">
+            <span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span><i>✦</i><span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span>
+          </div>
+        </section>
+
         <section className="mission-section section-padding" id="mission">
           <div className="container mission-layout">
             <Reveal className="mission-side-note">
@@ -328,6 +337,8 @@ function Home() {
           </div>
         </section>
 
+        <EducationalPartnersStrip />
+
         <section className="impact-section section-padding" id="impact">
           <div className="container">
             <Reveal><SectionHeading eyebrow="The impact we aim for" title="Small, tangible shifts can change a community’s horizon." copy="We measure the work in access, confidence, continuity, and the people who feel more ready for what comes next." /></Reveal>
@@ -345,6 +356,8 @@ function Home() {
             <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
           </div>
         </section>
+
+        <CommunityPartnersStrip />
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">

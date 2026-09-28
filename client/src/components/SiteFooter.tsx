@@ -2,20 +2,12 @@ import { Link } from "react-router";
 
 const sitemapLinks = [
   { label: "Home", to: "/" },
-  { label: "Mission", to: "/#mission" },
+  { label: "Who We Are", to: "/who-we-are" },
   { label: "Programs", to: "/#programs" },
   { label: "Books & resources", to: "/#learning" },
-  { label: "Approach", to: "/#approach" },
-  { label: "Impact", to: "/#impact" },
-  { label: "Our Story", to: "/#our-story" },
-  { label: "Who We Are", to: "/who-we-are" },
   { label: "Engage with us", to: "/engage" },
   { label: "Stories & events", to: "/#events" },
   { label: "Donate", to: "/donate" },
-  { label: "How to give", to: "/donate#giving" },
-  { label: "Where it goes", to: "/donate#where-it-goes" },
-  { label: "Giving & trust", to: "/donate#trust" },
-  { label: "Giving FAQ", to: "/donate#faq" },
 ] as const;
 
 const informationLinks = [
