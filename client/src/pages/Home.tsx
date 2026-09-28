@@ -7,7 +7,6 @@ import {
   CalendarDays,
   ChevronLeft,
   ChevronRight,
-  ExternalLink,
   GraduationCap,
   HeartHandshake,
   Menu,
@@ -15,6 +14,7 @@ import {
   Quote,
   X,
 } from "lucide-react";
+import { SiteFooter } from "../components/SiteFooter";
 
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
@@ -25,6 +25,33 @@ const ASSETS = {
   university: "/images/classroom-session.jpg",
   outreach: "/images/group-discussion.jpg",
 };
+
+const books = [
+  {
+    title: "Barya to Blockchain: Web3 Young Learners Encyclopedia",
+    author: "Arshelene Lingao (Cryptita Plays)",
+    image: "/images/encyclopedia-cover.png",
+    alt: "Cover of Web3 Young Learners Encyclopedia",
+  },
+  {
+    title: "Programming for Youth: Code Like a Cook",
+    author: "GANAP with Eli (Eli Rabadon)",
+    image: "/images/cook-cover.png",
+    alt: "Cover of Programming for Youth: Code Like a Cook",
+  },
+  {
+    title: "Wave3 Handbook",
+    author: "Mary Dee Ruzgal & Christop Waves",
+    image: "/images/wave3-cover.png",
+    alt: "Cover of Wave3 Handbook",
+  },
+];
+
+const REAL_PHOTOS = Object.values(import.meta.glob("../../../assets/real photos/*.{jpg,jpeg,png}", {
+  eager: true,
+  query: "?url",
+  import: "default",
+})) as string[];
 
 const programs = [
   {
@@ -39,6 +66,16 @@ const programs = [
   },
   {
     number: "02",
+    icon: HeartHandshake,
+    kicker: "Learning in community",
+    title: "Outreach program",
+    copy: "We bring approachable digital literacy and Web3 learning to communities through in-person conversations and shared activities.",
+    image: ASSETS.outreach,
+    alt: "People gathered around a table for a group discussion",
+    tone: "violet",
+  },
+  {
+    number: "03",
     icon: GraduationCap,
     kicker: "Campus to community",
     title: "University Connect",
@@ -46,16 +83,6 @@ const programs = [
     image: ASSETS.university,
     alt: "Attendees listening to a speaker in a classroom",
     tone: "light",
-  },
-  {
-    number: "03",
-    icon: HeartHandshake,
-    kicker: "Everyday learning tools",
-    title: "Learning that travels",
-    copy: "From Barya to Blockchain to activity books and story-led materials, we turn complex concepts into useful, age-appropriate learning moments.",
-    image: ASSETS.outreach,
-    alt: "People gathered around a table for a group discussion",
-    tone: "violet",
   },
 ];
 
@@ -96,6 +123,7 @@ function SiteHeader() {
   const links = [
     ["Mission", "#mission"],
     ["Programs", "#programs"],
+    ["Books", "#learning"],
     ["Approach", "#approach"],
     ["Stories", "#events"],
   ];
@@ -138,6 +166,8 @@ function SectionHeading({ eyebrow, title, copy, light = false }: { eyebrow: stri
 
 function Home() {
   const [eventIndex, setEventIndex] = useState(0);
+  const [heroVideoUnavailable, setHeroVideoUnavailable] = useState(false);
+  const [heroPhotoIndex, setHeroPhotoIndex] = useState(0);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -149,6 +179,14 @@ function Home() {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    if (!heroVideoUnavailable || REAL_PHOTOS.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const interval = window.setInterval(() => {
+      setHeroPhotoIndex((index) => (index + 1) % REAL_PHOTOS.length);
+    }, 5500);
+    return () => window.clearInterval(interval);
+  }, [heroVideoUnavailable]);
+
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
 
@@ -157,7 +195,11 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline />
+          {heroVideoUnavailable ? (
+            REAL_PHOTOS.length > 0 && <img key={REAL_PHOTOS[heroPhotoIndex]} src={REAL_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
+          ) : (
+            <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline onError={() => setHeroVideoUnavailable(true)} />
+          )}
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
@@ -228,6 +270,26 @@ function Home() {
           </div>
         </section>
 
+        <section className="learning-section section-padding" id="learning">
+          <div className="container">
+            <Reveal><SectionHeading eyebrow="Books & learning resources" title="Books shaped by community." copy="Created with Cryptita communities and collaborators, these books make Web3 and coding easier to explore." /></Reveal>
+            <div className="book-grid">
+              {books.map((book, index) => (
+                <Reveal className="book-card" key={book.title} delay={index * 70}>
+                  <div className="book-cover-wrap">
+                    <img src={book.image} alt={book.alt} className="book-cover" loading="lazy" />
+                  </div>
+                  <div className="book-caption">
+                    <span>{String(index + 1).padStart(2, "0")} / {String(books.length).padStart(2, "0")}</span>
+                    <h3>{book.title}</h3>
+                    <p>By {book.author}</p>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="approach-section section-padding" id="approach">
           <div className="container approach-layout">
             <Reveal className="approach-object-wrap">
@@ -256,7 +318,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="founder-section section-padding">
+        <section className="founder-section section-padding" id="our-story">
           <div className="container founder-layout">
             <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" /></Reveal>
             <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
@@ -284,10 +346,7 @@ function Home() {
           </div>
         </section>
       </main>
-      <footer className="site-footer">
-        <div className="container footer-main"><Link to="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Let's build the bridge together.</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link to="/donate">Donate <ArrowRight /></Link></div></div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} Cryptita Plays</span><span>Education over hype. People over technology.</span><span>Philippines</span></div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

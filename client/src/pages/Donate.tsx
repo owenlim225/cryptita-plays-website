@@ -7,7 +7,6 @@ import {
   ArrowRight,
   ChevronDown,
   CircleDollarSign,
-  ExternalLink,
   HelpCircle,
   LockKeyhole,
   Menu,
@@ -16,6 +15,7 @@ import {
   WalletCards,
   X,
 } from "lucide-react";
+import { SiteFooter } from "../components/SiteFooter";
 
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
@@ -79,7 +79,7 @@ function Donate() {
           </div>
         </section>
 
-        <section className="donate-flow-section section-padding">
+        <section className="donate-flow-section section-padding" id="giving">
           <div className="container donate-flow-layout">
             <div className="donate-flow-intro"><div className="chapter-label"><span className="chapter-dot" /> Your contribution</div><h2>Choose clarity<br />over complexity.</h2><p>Crypto can move quickly. When giving opens, check the approved receiving details and review the recipient and amount before you confirm a payment.</p><div className="giving-steps"><div><span>01</span><p>Check the approved QR</p></div><div><span>02</span><p>Review recipient and amount</p></div><div><span>03</span><p>Approve in Binance Pay</p></div></div></div>
             <div className="donation-card">
@@ -98,20 +98,20 @@ function Donate() {
           </div>
         </section>
 
-        <section className="allocation-section section-padding">
+        <section className="allocation-section section-padding" id="where-it-goes">
           <div className="container">
             <div className="allocation-heading"><div><div className="chapter-label"><span className="chapter-dot" /> Where it goes</div><h2>A contribution can become<br /><em>a place to learn.</em></h2></div><p>Every chapter of the work is connected. Support helps the organization keep building access from the first book to the next confident question.</p></div>
             <div className="allocation-grid"><div className="allocation-card"><span>01</span><BookIcon /><h3>Mini-libraries</h3><p>Books, safe spaces, and learning resources in communities with limited connectivity.</p></div><div className="allocation-card allocation-card-dark"><span>02</span><WorkshopIcon /><h3>Workshops</h3><p>University seminars and community sessions grounded in safety and context.</p></div><div className="allocation-card allocation-card-violet"><span>03</span><ScholarIcon /><h3>ACIS scholars</h3><p>Monthly educational assistance, supplies, and encouragement for selected learners.</p></div></div>
           </div>
         </section>
 
-        <section className="trust-section section-padding"><div className="container trust-layout"><div className="trust-symbol"><ShieldCheck /></div><div><div className="chapter-label"><span className="chapter-dot" /> A note on trust</div><h2>Transparency is part of the program.</h2><p>Cryptita Plays believes donors should understand where they are giving and how to verify what happens next. Once the receiving method is approved, this page can publish clear giving instructions, campaign updates, and program reports in one place.</p><Link to="/#approach" className="small-link">Read our approach <ArrowRight /></Link></div></div></section>
+        <section className="trust-section section-padding" id="trust"><div className="container trust-layout"><div className="trust-symbol"><ShieldCheck /></div><div><div className="chapter-label"><span className="chapter-dot" /> A note on trust</div><h2>Transparency is part of the program.</h2><p>Cryptita Plays believes donors should understand where they are giving and how to verify what happens next. Once the receiving method is approved, this page can publish clear giving instructions, campaign updates, and program reports in one place.</p><Link to="/#approach" className="small-link">Read our approach <ArrowRight /></Link></div></div></section>
 
-        <section className="faq-section section-padding"><div className="container faq-layout"><div className="faq-heading"><div className="chapter-label"><span className="chapter-dot" /> Before you send</div><h2>Good questions<br />are welcome.</h2><p>Crypto donations are irreversible. If something on this page feels unclear, pause and ask before sending.</p><a className="faq-contact" href="mailto:cryptitaplays@gmail.com">Ask Cryptita Plays <ArrowRight /></a></div><div className="faq-list">{faqs.map(([question, answer], index) => <div className={`faq-item ${openFaq === index ? "open" : ""}`} key={question}><button onClick={() => setOpenFaq(openFaq === index ? null : index)} aria-expanded={openFaq === index}><span>{question}</span><ChevronDown /></button>{openFaq === index && <p>{answer}</p>}</div>)}</div></div></section>
+        <section className="faq-section section-padding" id="faq"><div className="container faq-layout"><div className="faq-heading"><div className="chapter-label"><span className="chapter-dot" /> Before you send</div><h2>Good questions<br />are welcome.</h2><p>Crypto donations are irreversible. If something on this page feels unclear, pause and ask before sending.</p><a className="faq-contact" href="mailto:cryptitaplays@gmail.com">Ask Cryptita Plays <ArrowRight /></a></div><div className="faq-list">{faqs.map(([question, answer], index) => <div className={`faq-item ${openFaq === index ? "open" : ""}`} key={question}><button onClick={() => setOpenFaq(openFaq === index ? null : index)} aria-expanded={openFaq === index}><span>{question}</span><ChevronDown /></button>{openFaq === index && <p>{answer}</p>}</div>)}</div></div></section>
 
         <section className="donate-bottom-cta"><div className="container"><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Keep the bridge open</div><h2>Learning is a<br /><em>shared asset.</em></h2><Link to="/" className="button button-light">Return to the story <ArrowLeft /></Link></div></section>
       </main>
-      <footer className="site-footer"><div className="container footer-main"><Link to="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Questions about giving?</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link to="/">Home <ArrowRight /></Link></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Cryptita Plays</span><span>Education over hype. People over technology.</span><span>Philippines</span></div></footer>
+      <SiteFooter />
     </div>
   );
 }
