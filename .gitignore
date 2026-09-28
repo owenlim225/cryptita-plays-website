@@ -113,5 +113,5 @@ client/public/__manus__/version.json
 .project-config.json
 
 # Local agent state and session logs
-.ma/
-.manus-logs/
+/.ma/state/
+/.manus-logs/
