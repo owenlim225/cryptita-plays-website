@@ -235,13 +235,6 @@ function Home() {
           </div>
         </section>
 
-        <section className="marquee-band" aria-label="Cryptita Plays commitments">
-          <p className="sr-only">Learn safely. Share generously. Build for everyone.</p>
-          <div className="marquee-track" aria-hidden="true">
-            <span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span><i>✦</i><span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span>
-          </div>
-        </section>
-
         <section className="mission-section section-padding" id="mission">
           <div className="container mission-layout">
             <Reveal className="mission-side-note">

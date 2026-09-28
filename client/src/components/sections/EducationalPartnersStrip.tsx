@@ -10,7 +10,7 @@ export function EducationalPartnersStrip() {
       <div className="container">
         <h2 className="partner-strip__heading" id={headingId}>Our educational partners</h2>
       </div>
-      <LogoLoop logos={logos} direction="left" speed={58} logoHeight={44} gap={56} accessibleLabel="Educational partner logos" />
+      <LogoLoop logos={logos} direction="left" speed={58} logoHeight={80} gap={72} accessibleLabel="Educational partner logos" />
     </section>
   );
 }

@@ -10,7 +10,7 @@ export function CommunityPartnersStrip() {
       <div className="container">
         <h2 className="partner-strip__heading" id={headingId}>Our community partners</h2>
       </div>
-      <LogoLoop logos={logos} direction="right" speed={58} logoHeight={44} gap={56} accessibleLabel="Community partner logos" />
+      <LogoLoop logos={logos} direction="right" speed={58} logoHeight={80} gap={72} accessibleLabel="Community partner logos" />
     </section>
   );
 }
