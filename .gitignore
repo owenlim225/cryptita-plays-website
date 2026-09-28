@@ -113,5 +113,10 @@ client/public/__manus__/version.json
 .project-config.json
 
 # Local agent state and session logs
-/.ma/state/
-/.manus-logs/
+.ma/
+.manus-logs/
+
+# Generated framework and local deployment metadata
+/.react-router/
+/.vercel/
+client/public/images/tambunan-outreach.mp4

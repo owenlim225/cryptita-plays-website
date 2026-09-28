@@ -1,31 +1,29 @@
 /* Learning Constellation: editorial humanism, beveled learning objects, and Cryptita Violet as the connective signal. */
 import { useEffect, useState } from "react";
-import { Link } from "wouter";
+import { Link } from "react-router";
 import {
-  ArrowDownRight,
   ArrowRight,
   BookOpen,
   CalendarDays,
   ChevronLeft,
   ChevronRight,
-  CircleDot,
   ExternalLink,
   GraduationCap,
   HeartHandshake,
   Menu,
   Network,
   Quote,
-  Sparkles,
   X,
 } from "lucide-react";
 
 const ASSETS = {
-  logo: "/manus-storage/CryptitaLongBevel_80c76541.png",
-  mark: "/manus-storage/cryptita-mark_119281b7.png",
-  hero: "/manus-storage/cryptita-hero_791d4be3.jpg",
-  library: "/manus-storage/cryptita-mini-library_fe95fb47.jpg",
-  university: "/manus-storage/cryptita-university-connect_372cc9ed.jpg",
-  outreach: "/manus-storage/cryptita-outreach_a7268088.jpg",
+  logo: "/brand/cryptita-plays-banner.png",
+  mark: "/brand/cryptita-mark.png",
+  hero: "/images/learning-event.jpg",
+  heroVideo: "/images/tambunan-outreach.mp4",
+  library: "/images/community-gathering.jpg",
+  university: "/images/classroom-session.jpg",
+  outreach: "/images/group-discussion.jpg",
 };
 
 const programs = [
@@ -36,7 +34,7 @@ const programs = [
     title: "Mini-library mission",
     copy: "We create community-based mini libraries where books, Web3 learning materials, and QR-based resources make curiosity possible—even without reliable internet.",
     image: ASSETS.library,
-    alt: "Children and a facilitator reading together in a small community learning nook",
+    alt: "People seated together at tables during a community gathering",
     tone: "light",
   },
   {
@@ -46,8 +44,8 @@ const programs = [
     title: "University Connect",
     copy: "Seminars and workshops introduce blockchain basics, digital safety, career awareness, and responsible participation with honesty and context.",
     image: ASSETS.university,
-    alt: "University students learning together around a table with a facilitator",
-    tone: "dark",
+    alt: "Attendees listening to a speaker in a classroom",
+    tone: "light",
   },
   {
     number: "03",
@@ -56,7 +54,7 @@ const programs = [
     title: "Learning that travels",
     copy: "From Barya to Blockchain to activity books and story-led materials, we turn complex concepts into useful, age-appropriate learning moments.",
     image: ASSETS.outreach,
-    alt: "A young scholar receiving books and school supplies from a mentor",
+    alt: "People gathered around a table for a group discussion",
     tone: "violet",
   },
 ];
@@ -104,7 +102,7 @@ function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container nav-inner">
-        <Link href="/" className="brand-lockup" aria-label="Cryptita Plays home">
+        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home">
           <img src={ASSETS.logo} alt="Cryptita Plays" className="brand-logo" />
           <img src={ASSETS.mark} alt="" className="brand-mark" aria-hidden="true" />
         </Link>
@@ -112,8 +110,8 @@ function SiteHeader() {
           {links.map(([label, href]) => (
             <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>
           ))}
-          <Link href="/donate" className="nav-donate" onClick={() => setOpen(false)}>
-            Support the work <ArrowUpRight />
+          <Link to="/donate" className="nav-donate" onClick={() => setOpen(false)}>
+            Support us <ArrowUpRight />
           </Link>
         </nav>
         <button className="menu-trigger" onClick={() => setOpen(!open)} aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"}>
@@ -159,35 +157,16 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          <div className="hero-grid-lines" aria-hidden="true" />
+          <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline />
+          <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
-              <div className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> An education-first initiative from the Philippines</div>
-              <h1>Knowledge belongs <em>everywhere.</em></h1>
-              <p className="hero-lede">Cryptita Plays makes digital literacy, blockchain awareness, and future-ready learning accessible, safe, and human for communities too often left out.</p>
+              <h1>Bridging Web3 Education and Social Impact</h1>
               <div className="hero-actions">
-                <a href="#mission" className="button button-primary">Explore the mission <ArrowDownRight /></a>
-                <Link href="/donate" className="text-link">Put learning in more hands <ArrowRight /></Link>
+                <a href="#mission" className="button button-primary">Explore the mission <ArrowRight /></a>
+                <Link to="/donate" className="button button-outline">Donate <ArrowRight /></Link>
               </div>
-              <div className="hero-footnote"><CircleDot /> Built for real communities, not just the connected ones.</div>
             </Reveal>
-            <Reveal className="hero-art-wrap" delay={120}>
-              <div className="hero-art-card">
-                <img src={ASSETS.hero} alt="A sculptural open book becoming a constellation of learning nodes" className="hero-art" />
-                <div className="hero-art-caption"><span>01</span><span>Books → networks → possibility</span></div>
-              </div>
-              <div className="hero-orbit orbit-one" aria-hidden="true" />
-              <div className="hero-orbit orbit-two" aria-hidden="true" />
-              <div className="floating-chip chip-top"><Sparkles /> <span>Learning is a bridge</span></div>
-              <div className="floating-chip chip-bottom"><span className="chip-number">5</span><span>iskolar scholars<br />per mini-library</span></div>
-            </Reveal>
-          </div>
-          <a href="#mission" className="scroll-cue" aria-label="Scroll to mission"><span>Scroll to explore</span><ArrowDownRight /></a>
-        </section>
-
-        <section className="marquee-band" aria-label="Cryptita Plays commitments">
-          <div className="marquee-track">
-            <span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span><i>✦</i><span>Learn safely</span><i>✦</i><span>Share generously</span><i>✦</i><span>Build for everyone</span>
           </div>
         </section>
 
@@ -279,14 +258,14 @@ function Home() {
 
         <section className="founder-section section-padding">
           <div className="container founder-layout">
-            <Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal>
-            <Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal>
+            <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" /></Reveal>
+            <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
           </div>
         </section>
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">
-            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><Link href="/donate" className="button button-dark">Support a chapter <ArrowRight /></Link></Reveal>
+            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><Link to="/donate" className="button button-dark">Support a chapter <ArrowRight /></Link></Reveal>
             <Reveal className="event-carousel" delay={100}>
               <div className="event-topline"><span>{activeEvent.date}</span><span>{String(eventIndex + 1).padStart(2, "0")} / {String(events.length).padStart(2, "0")}</span></div>
               <div className="event-card">
@@ -301,12 +280,12 @@ function Home() {
         <section className="cta-section">
           <div className="cta-stars" aria-hidden="true"><span /><span /><span /><span /></div>
           <div className="container cta-inner">
-            <Reveal><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Make the next chapter possible</div><h2>Put learning<br /><em>in more hands.</em></h2><p>Support the books, spaces, workshops, and scholars that help communities meet the digital future with confidence.</p><Link href="/donate" className="button button-light">See how to give <ArrowRight /></Link></Reveal>
+            <Reveal><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Make the next chapter possible</div><h2>Put learning<br /><em>in more hands.</em></h2><p>Support the books, spaces, workshops, and scholars that help communities meet the digital future with confidence.</p><Link to="/donate" className="button button-light">See how to give <ArrowRight /></Link></Reveal>
           </div>
         </section>
       </main>
       <footer className="site-footer">
-        <div className="container footer-main"><Link href="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Let's build the bridge together.</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link href="/donate">Donate <ArrowRight /></Link></div></div>
+        <div className="container footer-main"><Link to="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Let's build the bridge together.</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link to="/donate">Donate <ArrowRight /></Link></div></div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} Cryptita Plays</span><span>Education over hype. People over technology.</span><span>Philippines</span></div>
       </footer>
     </div>
