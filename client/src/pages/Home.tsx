@@ -15,6 +15,7 @@ import {
   X,
 } from "lucide-react";
 import { SiteFooter } from "../components/SiteFooter";
+import { useScrolledHeader } from "../hooks/useScrolledHeader";
 
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
@@ -120,6 +121,7 @@ function Reveal({ children, className = "", delay = 0 }: { children: React.React
 
 function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const isScrolled = useScrolledHeader();
   const links = [
     ["Mission", "#mission"],
     ["Programs", "#programs"],
@@ -128,7 +130,7 @@ function SiteHeader() {
     ["Stories", "#events"],
   ];
   return (
-    <header className="site-header">
+    <header className={`site-header site-header-home ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
         <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home">
           <img src={ASSETS.logo} alt="Cryptita Plays" className="brand-logo" />
@@ -166,7 +168,7 @@ function SectionHeading({ eyebrow, title, copy, light = false }: { eyebrow: stri
 
 function Home() {
   const [eventIndex, setEventIndex] = useState(0);
-  const [heroVideoUnavailable, setHeroVideoUnavailable] = useState(false);
+  const [heroVideoAvailable, setHeroVideoAvailable] = useState<boolean | null>(null);
   const [heroPhotoIndex, setHeroPhotoIndex] = useState(0);
 
   useEffect(() => {
@@ -180,12 +182,29 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    if (!heroVideoUnavailable || REAL_PHOTOS.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 4000);
+    fetch(ASSETS.heroVideo, { method: "HEAD", cache: "no-store", signal: controller.signal })
+      .then((response) => {
+        const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
+        const mediaResponse = !contentType || contentType.startsWith("video/") || contentType.includes("octet-stream");
+        setHeroVideoAvailable(response.ok && mediaResponse);
+      })
+      .catch(() => setHeroVideoAvailable(false))
+      .finally(() => window.clearTimeout(timeout));
+    return () => {
+      controller.abort();
+      window.clearTimeout(timeout);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (heroVideoAvailable !== false || REAL_PHOTOS.length < 2) return;
     const interval = window.setInterval(() => {
       setHeroPhotoIndex((index) => (index + 1) % REAL_PHOTOS.length);
-    }, 5500);
+    }, 2000);
     return () => window.clearInterval(interval);
-  }, [heroVideoUnavailable]);
+  }, [heroVideoAvailable]);
 
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
@@ -195,10 +214,12 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          {heroVideoUnavailable ? (
+          {heroVideoAvailable === true ? (
+            <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline onError={() => setHeroVideoAvailable(false)} />
+          ) : heroVideoAvailable === false ? (
             REAL_PHOTOS.length > 0 && <img key={REAL_PHOTOS[heroPhotoIndex]} src={REAL_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
           ) : (
-            <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline onError={() => setHeroVideoUnavailable(true)} />
+            <img src={ASSETS.hero} alt="" aria-hidden="true" className="hero-fallback-image" />
           )}
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
@@ -339,10 +360,23 @@ function Home() {
           </div>
         </section>
 
-        <section className="cta-section">
-          <div className="cta-stars" aria-hidden="true"><span /><span /><span /><span /></div>
-          <div className="container cta-inner">
-            <Reveal><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Make the next chapter possible</div><h2>Put learning<br /><em>in more hands.</em></h2><p>Support the books, spaces, workshops, and scholars that help communities meet the digital future with confidence.</p><Link to="/donate" className="button button-light">See how to give <ArrowRight /></Link></Reveal>
+        <section className="calendar-section" id="calendar" aria-labelledby="calendar-heading">
+          <div className="container calendar-inner">
+            <Reveal className="calendar-intro">
+              <div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Events & availability</div>
+              <h2 id="calendar-heading">See when we're<br /><em>already booked.</em></h2>
+              <p>Explore the dates and locations of our events. Dates with events are already committed. Select an event to see its location when provided, then get in touch if you'd like to plan one with us.</p>
+              <a href="mailto:cryptitaplays@gmail.com?subject=Event%20inquiry" className="button button-light">Plan an event with us <ArrowRight /></a>
+            </Reveal>
+            <Reveal className="calendar-embed-wrap" delay={100}>
+              <iframe
+                className="calendar-embed"
+                title="Cryptita Plays events and booked dates"
+                src="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila"
+                loading="lazy"
+              />
+              <a className="calendar-open-link" href="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila" target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
+            </Reveal>
           </div>
         </section>
       </main>

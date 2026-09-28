@@ -8,6 +8,8 @@ const sitemapLinks = [
   { label: "Approach", to: "/#approach" },
   { label: "Impact", to: "/#impact" },
   { label: "Our Story", to: "/#our-story" },
+  { label: "Who We Are", to: "/who-we-are" },
+  { label: "Engage with us", to: "/engage" },
   { label: "Stories & events", to: "/#events" },
   { label: "Donate", to: "/donate" },
   { label: "How to give", to: "/donate#giving" },
@@ -17,11 +19,12 @@ const sitemapLinks = [
 ] as const;
 
 const informationLinks = [
-  { label: "Our mission", to: "/#mission" },
-  { label: "Our approach", to: "/#approach" },
-  { label: "Our impact", to: "/#impact" },
-  { label: "Giving guidance", to: "/donate#giving" },
-  { label: "Giving FAQ", to: "/donate#faq" },
+  { label: "FAQ", to: "/faq" },
+  { label: "Who We Are", to: "/who-we-are" },
+  { label: "Engage with us", to: "/engage" },
+  { label: "Terms of Use", to: "/terms" },
+  { label: "Privacy Policy", to: "/privacy" },
+  { label: "Cookie Policy", to: "/cookies" },
 ] as const;
 
 const socialLinks = [

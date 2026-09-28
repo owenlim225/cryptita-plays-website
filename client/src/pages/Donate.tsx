@@ -16,6 +16,7 @@ import {
   X,
 } from "lucide-react";
 import { SiteFooter } from "../components/SiteFooter";
+import { useScrolledHeader } from "../hooks/useScrolledHeader";
 
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
@@ -39,8 +40,9 @@ const faqs = [
 
 function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const isScrolled = useScrolledHeader();
   return (
-    <header className="site-header site-header-solid">
+    <header className={`site-header site-header-solid ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
         <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home">
           <img src={ASSETS.logo} alt="Cryptita Plays" className="brand-logo" />
