@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "ma hook context-hydration"
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "ma hook context-hydration"
+      },
+      {
+        "type": "command",
+        "command": "ma hook active-autonomy"
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node ./scripts/active-autonomy-hook.mjs"
+      }
+    ]
+  }
+}
