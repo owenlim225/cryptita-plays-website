@@ -111,7 +111,7 @@ function SiteHeader() {
             <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>
           ))}
           <Link to="/donate" className="nav-donate" onClick={() => setOpen(false)}>
-            Support the work <ArrowUpRight />
+            Support us <ArrowUpRight />
           </Link>
         </nav>
         <button className="menu-trigger" onClick={() => setOpen(!open)} aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"}>
@@ -163,7 +163,8 @@ function Home() {
             <Reveal className="hero-copy">
               <h1>Bridging Web3 Education and Social Impact</h1>
               <div className="hero-actions">
-                <Link to="/donate" className="button button-primary">Donate <ArrowRight /></Link>
+                <a href="#mission" className="button button-primary">Explore the mission <ArrowRight /></a>
+                <Link to="/donate" className="button button-outline">Donate <ArrowRight /></Link>
               </div>
             </Reveal>
           </div>
