@@ -1,23 +1,9 @@
 /* Learning Constellation: keep navigation calm, editorial, and action-oriented; violet is the thread, not the wallpaper. */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Route, Switch } from "wouter";
+import { Outlet } from "react-router";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import Donate from "./pages/Donate";
-import NotFound from "./pages/NotFound";
-
-function Router() {
-  return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/donate" component={Donate} />
-      <Route path="/404" component={NotFound} />
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
 
 export default function App() {
   return (
@@ -25,7 +11,7 @@ export default function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <Outlet />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

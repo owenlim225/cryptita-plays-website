@@ -1,6 +1,6 @@
 /* Learning Constellation: editorial humanism, beveled learning objects, and Cryptita Violet as the connective signal. */
 import { useEffect, useState } from "react";
-import { Link } from "wouter";
+import { Link } from "react-router";
 import {
   ArrowDownRight,
   ArrowRight,
@@ -20,12 +20,12 @@ import {
 } from "lucide-react";
 
 const ASSETS = {
-  logo: "/manus-storage/CryptitaLongBevel_80c76541.png",
-  mark: "/manus-storage/cryptita-mark_119281b7.png",
-  hero: "/manus-storage/cryptita-hero_791d4be3.jpg",
-  library: "/manus-storage/cryptita-mini-library_fe95fb47.jpg",
-  university: "/manus-storage/cryptita-university-connect_372cc9ed.jpg",
-  outreach: "/manus-storage/cryptita-outreach_a7268088.jpg",
+  logo: "/brand/cryptita-plays-banner.png",
+  mark: "/brand/cryptita-mark.png",
+  hero: "/images/learning-event.jpg",
+  library: "/images/community-gathering.jpg",
+  university: "/images/classroom-session.jpg",
+  outreach: "/images/group-discussion.jpg",
 };
 
 const programs = [
@@ -36,7 +36,7 @@ const programs = [
     title: "Mini-library mission",
     copy: "We create community-based mini libraries where books, Web3 learning materials, and QR-based resources make curiosity possible—even without reliable internet.",
     image: ASSETS.library,
-    alt: "Children and a facilitator reading together in a small community learning nook",
+    alt: "People seated together at tables during a community gathering",
     tone: "light",
   },
   {
@@ -46,7 +46,7 @@ const programs = [
     title: "University Connect",
     copy: "Seminars and workshops introduce blockchain basics, digital safety, career awareness, and responsible participation with honesty and context.",
     image: ASSETS.university,
-    alt: "University students learning together around a table with a facilitator",
+    alt: "Attendees listening to a speaker in a classroom",
     tone: "dark",
   },
   {
@@ -56,7 +56,7 @@ const programs = [
     title: "Learning that travels",
     copy: "From Barya to Blockchain to activity books and story-led materials, we turn complex concepts into useful, age-appropriate learning moments.",
     image: ASSETS.outreach,
-    alt: "A young scholar receiving books and school supplies from a mentor",
+    alt: "People gathered around a table for a group discussion",
     tone: "violet",
   },
 ];
@@ -104,7 +104,7 @@ function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container nav-inner">
-        <Link href="/" className="brand-lockup" aria-label="Cryptita Plays home">
+        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home">
           <img src={ASSETS.logo} alt="Cryptita Plays" className="brand-logo" />
           <img src={ASSETS.mark} alt="" className="brand-mark" aria-hidden="true" />
         </Link>
@@ -112,7 +112,7 @@ function SiteHeader() {
           {links.map(([label, href]) => (
             <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>
           ))}
-          <Link href="/donate" className="nav-donate" onClick={() => setOpen(false)}>
+          <Link to="/donate" className="nav-donate" onClick={() => setOpen(false)}>
             Support the work <ArrowUpRight />
           </Link>
         </nav>
@@ -167,13 +167,13 @@ function Home() {
               <p className="hero-lede">Cryptita Plays makes digital literacy, blockchain awareness, and future-ready learning accessible, safe, and human for communities too often left out.</p>
               <div className="hero-actions">
                 <a href="#mission" className="button button-primary">Explore the mission <ArrowDownRight /></a>
-                <Link href="/donate" className="text-link">Put learning in more hands <ArrowRight /></Link>
+                <Link to="/donate" className="text-link">Put learning in more hands <ArrowRight /></Link>
               </div>
               <div className="hero-footnote"><CircleDot /> Built for real communities, not just the connected ones.</div>
             </Reveal>
             <Reveal className="hero-art-wrap" delay={120}>
               <div className="hero-art-card">
-                <img src={ASSETS.hero} alt="A sculptural open book becoming a constellation of learning nodes" className="hero-art" />
+                <img src={ASSETS.hero} alt="Attendees seated at tables during a learning event" className="hero-art" />
                 <div className="hero-art-caption"><span>01</span><span>Books → networks → possibility</span></div>
               </div>
               <div className="hero-orbit orbit-one" aria-hidden="true" />
@@ -286,7 +286,7 @@ function Home() {
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">
-            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><Link href="/donate" className="button button-dark">Support a chapter <ArrowRight /></Link></Reveal>
+            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><Link to="/donate" className="button button-dark">Support a chapter <ArrowRight /></Link></Reveal>
             <Reveal className="event-carousel" delay={100}>
               <div className="event-topline"><span>{activeEvent.date}</span><span>{String(eventIndex + 1).padStart(2, "0")} / {String(events.length).padStart(2, "0")}</span></div>
               <div className="event-card">
@@ -301,12 +301,12 @@ function Home() {
         <section className="cta-section">
           <div className="cta-stars" aria-hidden="true"><span /><span /><span /><span /></div>
           <div className="container cta-inner">
-            <Reveal><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Make the next chapter possible</div><h2>Put learning<br /><em>in more hands.</em></h2><p>Support the books, spaces, workshops, and scholars that help communities meet the digital future with confidence.</p><Link href="/donate" className="button button-light">See how to give <ArrowRight /></Link></Reveal>
+            <Reveal><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Make the next chapter possible</div><h2>Put learning<br /><em>in more hands.</em></h2><p>Support the books, spaces, workshops, and scholars that help communities meet the digital future with confidence.</p><Link to="/donate" className="button button-light">See how to give <ArrowRight /></Link></Reveal>
           </div>
         </section>
       </main>
       <footer className="site-footer">
-        <div className="container footer-main"><Link href="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Let's build the bridge together.</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link href="/donate">Donate <ArrowRight /></Link></div></div>
+        <div className="container footer-main"><Link to="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Let's build the bridge together.</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link to="/donate">Donate <ArrowRight /></Link></div></div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} Cryptita Plays</span><span>Education over hype. People over technology.</span><span>Philippines</span></div>
       </footer>
     </div>

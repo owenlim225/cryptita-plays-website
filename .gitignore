@@ -115,3 +115,7 @@ client/public/__manus__/version.json
 # Local agent state and session logs
 .ma/
 .manus-logs/
+
+# Generated framework and local deployment metadata
+/.react-router/
+/.vercel/

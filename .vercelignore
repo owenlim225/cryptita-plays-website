@@ -1,0 +1,18 @@
+# Agent workflow and local state are not part of the website deployment.
+.codex/
+.ma/
+.manus-logs/
+mcp/
+sprint/
+docs/
+
+# Original source assets are curated into client/public for the website.
+assets/
+
+# Local outputs and caches; Vercel builds these from source.
+build/
+dist/
+temp/
+.pnpm-store/
+.react-router/
+.vercel/
