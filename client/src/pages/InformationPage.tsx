@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { SiteFooter } from "../components/SiteFooter";
+import { useScrolledHeader } from "../hooks/useScrolledHeader";
 
 type InformationPageKey = "faq" | "who-we-are" | "engage" | "terms" | "privacy" | "cookies";
 
@@ -71,8 +72,9 @@ const pageContent: Record<Exclude<InformationPageKey, "faq">, { title: string; i
 
 function InformationHeader() {
   const [open, setOpen] = useState(false);
+  const isScrolled = useScrolledHeader();
   return (
-    <header className="site-header site-header-solid info-header">
+    <header className={`site-header site-header-solid info-header ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
         <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link>
         <nav className={`desktop-nav info-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
