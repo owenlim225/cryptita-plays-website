@@ -7,7 +7,6 @@ import {
   ArrowRight,
   ChevronDown,
   CircleDollarSign,
-  ExternalLink,
   HelpCircle,
   LockKeyhole,
   Menu,
@@ -16,6 +15,7 @@ import {
   WalletCards,
   X,
 } from "lucide-react";
+import { SiteFooter } from "../components/SiteFooter";
 
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
@@ -111,7 +111,7 @@ function Donate() {
 
         <section className="donate-bottom-cta"><div className="container"><div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Keep the bridge open</div><h2>Learning is a<br /><em>shared asset.</em></h2><Link to="/" className="button button-light">Return to the story <ArrowLeft /></Link></div></section>
       </main>
-      <footer className="site-footer"><div className="container footer-main"><Link to="/" className="footer-brand"><img src={ASSETS.logo} alt="Cryptita Plays" /></Link><div className="footer-contact"><span>Questions about giving?</span><a href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a><a href="tel:+639060925761">+63 906 092 5761</a></div><div className="footer-links"><a href="https://www.instagram.com/cryptitaplays" target="_blank" rel="noreferrer">Instagram <ExternalLink /></a><Link to="/">Home <ArrowRight /></Link></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Cryptita Plays</span><span>Education over hype. People over technology.</span><span>Philippines</span></div></footer>
+      <SiteFooter page="donate" />
     </div>
   );
 }
