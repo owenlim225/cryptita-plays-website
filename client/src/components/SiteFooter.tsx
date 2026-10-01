@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const sitemapLinks = [
   { label: "Home", to: "/" },
   { label: "Who We Are", to: "/who-we-are" },
-  { label: "Programs", to: "/#programs" },
+  { label: "Initiatives & programs", to: "/initiatives" },
   { label: "Books & resources", to: "/#learning" },
   { label: "Engage with us", to: "/engage" },
   { label: "Stories & events", to: "/#events" },
