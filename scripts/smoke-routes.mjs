@@ -13,26 +13,29 @@ async function readRoute(path) {
   return { status: response.status, html: await response.text() };
 }
 
-const [home, donate, explicit404, missing] = await Promise.all([
-  readRoute("/"),
-  readRoute("/donate"),
-  readRoute("/404"),
-  readRoute("/this-page-does-not-exist"),
-]);
+const title = (html) => html.match(/<title>([^<]+)<\/title>/i)?.[1] ?? "";
+const publicPaths = ["/", "/donate", "/faq", "/who-we-are", "/engage", "/terms", "/privacy", "/cookies"];
+const publicPages = await Promise.all(publicPaths.map(readRoute));
+const titles = new Set();
 
-assert.equal(home.status, 200, "Home should return HTTP 200");
-assert.equal(donate.status, 200, "Donate should return HTTP 200");
-assert.equal(explicit404.status, 404, "/404 should return HTTP 404");
-assert.equal(missing.status, 404, "Unknown routes should return HTTP 404");
-
-for (const [name, page] of [["Home", home], ["Donate", donate]]) {
-  assert.match(page.html, /<h1\b/i, `${name} should have a server-rendered heading`);
-  assert.match(page.html, /<meta\s+name="description"/i, `${name} should have a description`);
+for (const [index, page] of publicPages.entries()) {
+  const path = publicPaths[index];
+  assert.equal(page.status, 200, `${path} should return HTTP 200`);
+  assert.match(page.html, /<h1\b/i, `${path} should have a server-rendered heading`);
+  assert.match(page.html, /<meta\s+name="description"/i, `${path} should have a description`);
+  assert.ok(title(page.html), `${path} should have a title`);
+  assert.ok(!titles.has(title(page.html)), `${path} should have a distinct title`);
+  titles.add(title(page.html));
 }
 
-const title = (html) => html.match(/<title>([^<]+)<\/title>/i)?.[1] ?? "";
-assert.ok(title(home.html), "Home should have a title");
-assert.ok(title(donate.html), "Donate should have a title");
-assert.notEqual(title(home.html), title(donate.html), "Public routes need distinct titles");
+for (const path of ["/404", "/this-page-does-not-exist"]) {
+  const page = await readRoute(path);
+  assert.equal(page.status, 404, `${path} should return HTTP 404`);
+  assert.match(page.html, /<meta\s+name="robots"\s+content="noindex"/i, `${path} should not be indexed`);
+}
 
-console.log("Route smoke checks passed: /, /donate, /404, and unknown path.");
+const heroImage = await fetch(new URL("/images/learning-event.jpg", baseUrl), { method: "HEAD" });
+assert.equal(heroImage.status, 200, "The public hero image should be available");
+assert.match(heroImage.headers.get("content-type") ?? "", /^image\//i, "The hero asset should be an image");
+
+console.log(`Route smoke checks passed: ${publicPaths.length} public routes, 404 responses, and hero image.`);

@@ -23,11 +23,13 @@ const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
   mark: "/brand/cryptita-mark.png",
   hero: "/images/learning-event.jpg",
-  heroVideo: "/images/tambunan-outreach.mp4",
   library: "/images/community-gathering.jpg",
   university: "/images/classroom-session.jpg",
   outreach: "/images/group-discussion.jpg",
 };
+
+const HERO_PHOTOS = [ASSETS.hero, ASSETS.library, ASSETS.university, ASSETS.outreach];
+const PUBLIC_CALENDAR_URL = "https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila";
 
 const books = [
   {
@@ -49,12 +51,6 @@ const books = [
     alt: "Cover of Wave3 Handbook",
   },
 ];
-
-const REAL_PHOTOS = Object.values(import.meta.glob("../../../assets/real photos/*.{jpg,jpeg,png}", {
-  eager: true,
-  query: "?url",
-  import: "default",
-})) as string[];
 
 const programs = [
   {
@@ -170,8 +166,8 @@ function SectionHeading({ eyebrow, title, copy, light = false }: { eyebrow: stri
 
 function Home() {
   const [eventIndex, setEventIndex] = useState(0);
-  const [heroVideoAvailable, setHeroVideoAvailable] = useState<boolean | null>(null);
   const [heroPhotoIndex, setHeroPhotoIndex] = useState(0);
+  const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -184,29 +180,20 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController();
-    const timeout = window.setTimeout(() => controller.abort(), 4000);
-    fetch(ASSETS.heroVideo, { method: "HEAD", cache: "no-store", signal: controller.signal })
-      .then((response) => {
-        const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
-        const mediaResponse = !contentType || contentType.startsWith("video/") || contentType.includes("octet-stream");
-        setHeroVideoAvailable(response.ok && mediaResponse);
-      })
-      .catch(() => setHeroVideoAvailable(false))
-      .finally(() => window.clearTimeout(timeout));
-    return () => {
-      controller.abort();
-      window.clearTimeout(timeout);
-    };
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReduceMotion(query.matches);
+    update();
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
   }, []);
 
   useEffect(() => {
-    if (heroVideoAvailable !== false || REAL_PHOTOS.length < 2) return;
+    if (reduceMotion || HERO_PHOTOS.length < 2) return;
     const interval = window.setInterval(() => {
-      setHeroPhotoIndex((index) => (index + 1) % REAL_PHOTOS.length);
-    }, 2000);
+      setHeroPhotoIndex((index) => (index + 1) % HERO_PHOTOS.length);
+    }, 5000);
     return () => window.clearInterval(interval);
-  }, [heroVideoAvailable]);
+  }, [reduceMotion]);
 
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
@@ -216,13 +203,7 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          {heroVideoAvailable === true ? (
-            <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline onError={() => setHeroVideoAvailable(false)} />
-          ) : heroVideoAvailable === false ? (
-            REAL_PHOTOS.length > 0 && <img key={REAL_PHOTOS[heroPhotoIndex]} src={REAL_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
-          ) : (
-            <img src={ASSETS.hero} alt="" aria-hidden="true" className="hero-fallback-image" />
-          )}
+          <img key={HERO_PHOTOS[heroPhotoIndex]} src={HERO_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
@@ -378,10 +359,10 @@ function Home() {
               <iframe
                 className="calendar-embed"
                 title="Cryptita Plays events and booked dates"
-                src="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila"
+                src={PUBLIC_CALENDAR_URL}
                 loading="lazy"
               />
-              <a className="calendar-open-link" href="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila" target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
+              <a className="calendar-open-link" href={PUBLIC_CALENDAR_URL} target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
             </Reveal>
           </div>
         </section>

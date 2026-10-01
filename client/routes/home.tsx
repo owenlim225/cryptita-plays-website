@@ -2,7 +2,7 @@ import Home from "../src/pages/Home";
 
 export function meta() {
   return [
-    { title: "Cryptita Plays — Knowledge belongs everywhere" },
+    { title: "Cryptita Plays | Web3 Education and Social Impact" },
     {
       name: "description",
       content:
