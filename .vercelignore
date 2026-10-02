@@ -16,3 +16,6 @@ temp/
 .pnpm-store/
 .react-router/
 .vercel/
+
+# The local-only original video is not part of the published hero.
+client/public/images/tambunan-outreach.mp4

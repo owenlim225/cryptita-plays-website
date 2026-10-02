@@ -23,11 +23,13 @@ const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
   mark: "/brand/cryptita-mark.png",
   hero: "/images/learning-event.jpg",
-  heroVideo: "/images/tambunan-outreach.mp4",
   library: "/images/community-gathering.jpg",
   university: "/images/classroom-session.jpg",
   outreach: "/images/group-discussion.jpg",
 };
+
+const HERO_PHOTOS = [ASSETS.hero, ASSETS.library, ASSETS.university, ASSETS.outreach];
+const PUBLIC_CALENDAR_URL = "https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila";
 
 const books = [
   {
@@ -50,41 +52,35 @@ const books = [
   },
 ];
 
-const REAL_PHOTOS = Object.values(import.meta.glob("../../../assets/real photos/*.{jpg,jpeg,png}", {
-  eager: true,
-  query: "?url",
-  import: "default",
-})) as string[];
-
 const programs = [
   {
     number: "01",
     icon: BookOpen,
     kicker: "Access before adoption",
-    title: "Mini-library mission",
-    copy: "We create community-based mini libraries where books, Web3 learning materials, and QR-based resources make curiosity possible—even without reliable internet.",
-    image: ASSETS.library,
-    alt: "People seated together at tables during a community gathering",
+    title: "Mini-Library Mission & Outreach Program",
+    copy: "Our flagship social-impact initiative brings books, educational resources, school supplies, and learning opportunities to underserved communities, with a long-term goal of establishing 10 mini-libraries nationwide.",
+    image: "/media/initiatives/mini-library/20260609_111450.jpg",
+    alt: "Students and community members gathered inside a school",
     tone: "light",
   },
   {
     number: "02",
     icon: HeartHandshake,
     kicker: "Learning in community",
-    title: "Outreach program",
-    copy: "We bring approachable digital literacy and Web3 learning to communities through in-person conversations and shared activities.",
-    image: ASSETS.outreach,
-    alt: "People gathered around a table for a group discussion",
+    title: "Cryptita Plays: Web3 On Campus",
+    copy: "We bring blockchain, Web3, AI, GameFi, DeFi, cybersecurity, and digital literacy to students through campus seminars, university partnerships, technical learning, and community-building.",
+    image: "/media/initiatives/web3-on-campus/DSC_5578.JPG",
+    alt: "Students attending a campus seminar in a lecture hall",
     tone: "violet",
   },
   {
     number: "03",
     icon: GraduationCap,
     kicker: "Campus to community",
-    title: "University Connect",
-    copy: "Seminars and workshops introduce blockchain basics, digital safety, career awareness, and responsible participation with honesty and context.",
-    image: ASSETS.university,
-    alt: "Attendees listening to a speaker in a classroom",
+    title: "Cryptita Plays Builder Programs",
+    copy: "Learners move beyond concepts to build, test, deploy, and showcase projects through a hands-on pathway: Learn → Build → Deploy → Showcase.",
+    image: "/media/initiatives/builder-programs/20260823_174425.jpg",
+    alt: "Students gathered for a hands-on builder program",
     tone: "light",
   },
 ];
@@ -170,8 +166,8 @@ function SectionHeading({ eyebrow, title, copy, light = false }: { eyebrow: stri
 
 function Home() {
   const [eventIndex, setEventIndex] = useState(0);
-  const [heroVideoAvailable, setHeroVideoAvailable] = useState<boolean | null>(null);
   const [heroPhotoIndex, setHeroPhotoIndex] = useState(0);
+  const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -184,29 +180,20 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController();
-    const timeout = window.setTimeout(() => controller.abort(), 4000);
-    fetch(ASSETS.heroVideo, { method: "HEAD", cache: "no-store", signal: controller.signal })
-      .then((response) => {
-        const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
-        const mediaResponse = !contentType || contentType.startsWith("video/") || contentType.includes("octet-stream");
-        setHeroVideoAvailable(response.ok && mediaResponse);
-      })
-      .catch(() => setHeroVideoAvailable(false))
-      .finally(() => window.clearTimeout(timeout));
-    return () => {
-      controller.abort();
-      window.clearTimeout(timeout);
-    };
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReduceMotion(query.matches);
+    update();
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
   }, []);
 
   useEffect(() => {
-    if (heroVideoAvailable !== false || REAL_PHOTOS.length < 2) return;
+    if (reduceMotion || HERO_PHOTOS.length < 2) return;
     const interval = window.setInterval(() => {
-      setHeroPhotoIndex((index) => (index + 1) % REAL_PHOTOS.length);
-    }, 2000);
+      setHeroPhotoIndex((index) => (index + 1) % HERO_PHOTOS.length);
+    }, 5000);
     return () => window.clearInterval(interval);
-  }, [heroVideoAvailable]);
+  }, [reduceMotion]);
 
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
@@ -216,13 +203,7 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          {heroVideoAvailable === true ? (
-            <video src={ASSETS.heroVideo} poster={ASSETS.hero} aria-label="Tambunan community outreach program by Cryptita Plays" className="hero-background-video" autoPlay muted loop playsInline onError={() => setHeroVideoAvailable(false)} />
-          ) : heroVideoAvailable === false ? (
-            REAL_PHOTOS.length > 0 && <img key={REAL_PHOTOS[heroPhotoIndex]} src={REAL_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
-          ) : (
-            <img src={ASSETS.hero} alt="" aria-hidden="true" className="hero-fallback-image" />
-          )}
+          <img key={HERO_PHOTOS[heroPhotoIndex]} src={HERO_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
@@ -287,9 +268,10 @@ function Home() {
                   <p>Each Mini-Library area selects five iskolar beneficiaries for monthly educational assistance, school supplies, and the confidence to keep showing up.</p>
                   <a href="#impact" className="small-link">Meet the commitment <ArrowRight /></a>
                 </div>
-                <div className="acis-object" aria-hidden="true"><div className="acis-orbit" /><div className="acis-book">+</div><div className="acis-label">5 / area</div></div>
+                <div className="acis-object"><img src="/media/initiatives/acis/20260107_120040(1).jpg" alt="ACIS scholars and community members gathered at an outreach activity" /><div className="acis-label">ACIS scholars</div></div>
               </Reveal>
             </div>
+            <div className="programs-more"><Link to="/initiatives" className="button button-dark">See all initiatives <ArrowRight /></Link></div>
           </div>
         </section>
 
@@ -354,11 +336,11 @@ function Home() {
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">
-            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><Link to="/donate" className="button button-dark">Support a chapter <ArrowRight /></Link></Reveal>
+            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><div className="events-heading-actions"><Link to="/stories" className="button button-dark">All stories <ArrowRight /></Link><Link to="/donate" className="text-link">Support a chapter <ArrowRight /></Link></div></Reveal>
             <Reveal className="event-carousel" delay={100}>
               <div className="event-topline"><span>{activeEvent.date}</span><span>{String(eventIndex + 1).padStart(2, "0")} / {String(events.length).padStart(2, "0")}</span></div>
               <div className="event-card">
-                <div className="event-card-text"><span className="event-tag">{activeEvent.tag}</span><h3>{activeEvent.title}</h3><p>{activeEvent.copy}</p><span className="event-read-time">{activeEvent.readTime} <ArrowRight /></span></div>
+                <div className="event-card-text"><span className="event-tag">{activeEvent.tag}</span><h3>{activeEvent.title}</h3><p>{activeEvent.copy}</p>{activeEvent.title === "What responsible Web3 education looks like" ? <Link to="/stories/what-responsible-web3-education-looks-like" className="event-read-time">Read the story <ArrowRight /></Link> : <span className="event-read-time">{activeEvent.readTime} <ArrowRight /></span>}</div>
                 <div className="event-visual"><div className="event-visual-word">FIELD<br /><em>notes</em></div><div className="event-visual-orbit" /><CalendarDays /></div>
               </div>
               <div className="event-controls"><div className="event-dots">{events.map((event, index) => <button key={event.title} onClick={() => setEvent(index)} className={index === eventIndex ? "active" : ""} aria-label={`View event ${index + 1}`} />)}</div><div className="event-arrows"><button onClick={() => setEvent(eventIndex - 1)} aria-label="Previous event"><ChevronLeft /></button><button onClick={() => setEvent(eventIndex + 1)} aria-label="Next event"><ChevronRight /></button></div></div>
@@ -378,10 +360,10 @@ function Home() {
               <iframe
                 className="calendar-embed"
                 title="Cryptita Plays events and booked dates"
-                src="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila"
+                src={PUBLIC_CALENDAR_URL}
                 loading="lazy"
               />
-              <a className="calendar-open-link" href="https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila" target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
+              <a className="calendar-open-link" href={PUBLIC_CALENDAR_URL} target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
             </Reveal>
           </div>
         </section>

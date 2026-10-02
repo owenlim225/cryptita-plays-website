@@ -120,3 +120,11 @@ client/public/__manus__/version.json
 /.react-router/
 /.vercel/
 client/public/images/tambunan-outreach.mp4
+
+# Local media library: keep the taxonomy and inventory in Git, but store binaries locally until Cloudflare media storage is ready.
+client/public/media/**
+!client/public/media/
+!client/public/media/**/
+!client/public/media/README.md
+!client/public/media/inventory.json
+!client/public/media/**/.gitkeep
