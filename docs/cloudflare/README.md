@@ -65,6 +65,10 @@ Full GET responses are also cached through the Workers Cache API, keyed by envir
 
 ## Verification and cleanup
 
+The initial GitHub Actions deployments passed on 2026-10-05 (Manila): [production](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37233119074) and [staging](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37233151579). Each checked 29 rendered routes, redirects, real 404 responses, all 132 media URLs, content types, indexing rules, byte ranges, and conditional responses. The deployed R2 versions were `5165bd25-ef21-4158-ab69-a8e0339162c6` (production) and `6c1db07e-0d80-4037-a6bc-bc6a519fbb19` (staging). A clean repository-only install, type check, media tests, and Cloudflare build passed without ignored local media. Browser checks of the homepage, Contact, and Partners pages found no broken loaded images or console errors.
+
+For a repeatable full checksum audit from GitHub's network, manually run the deployment workflow on `main` or `staging` with `full_media_verification` enabled. The run saves its JSON verification report as an Actions artifact. Ordinary pushes use lightweight live checks.
+
 Run `node scripts/verify-cloudflare.mjs staging --full` and the production equivalent to validate public routes, redirects, noindex rules, every mapped media URL, MIME types, lengths, full-body checksums, a byte range, and a conditional request. Results are saved to `verification-staging.json` and `verification-production.json`. Browser checks cover rendering and image loading separately. Do not infer video playback success from byte-range unit tests: no available video is currently referenced by the published site.
 
 Source cleanup is a separate step after successful validation. Keep an offline backup before untracking binaries. Remove only explicitly migrated and verified source files from Git tracking, retain local originals, keep the inventories, and ensure a clean checkout still builds and deploys. Unresolved/unreferenced files are not cleanup candidates. No history rewrite is included; untracking media does not remove it from older Git commits.

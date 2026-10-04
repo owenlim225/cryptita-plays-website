@@ -3,6 +3,11 @@ on:
   push:
     branches: [main, staging]
   workflow_dispatch:
+    inputs:
+      full_media_verification:
+        description: Download every mapped media URL and verify its SHA-256 checksum
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -34,4 +39,18 @@ jobs:
       - run: npm run build:cloudflare
       - run: npx wrangler deploy --env "$DEPLOY_ENV"
       - name: Check live routes and assets
-        run: node scripts/verify-cloudflare.mjs "$DEPLOY_ENV"
+        env:
+          FULL_MEDIA_VERIFICATION: ${{ inputs.full_media_verification }}
+        run: |
+          if [ "$FULL_MEDIA_VERIFICATION" = "true" ]; then
+            node scripts/verify-cloudflare.mjs "$DEPLOY_ENV" --full
+          else
+            node scripts/verify-cloudflare.mjs "$DEPLOY_ENV"
+          fi
+      - name: Save full media verification report
+        if: inputs.full_media_verification == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: media-verification-${{ env.DEPLOY_ENV }}
+          path: docs/cloudflare/verification-${{ env.DEPLOY_ENV }}.json
+          if-no-files-found: error
