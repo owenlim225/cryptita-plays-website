@@ -1,5 +1,11 @@
 # SEO launch status — 5 October 2026
 
+## Sitemap retry, 06:25 Manila
+
+At the owner's request, generated physical `client/public/sitemap.xml` and `client/public/robots.txt` files and included them in regular and Cloudflare builds using `npm run seo:generate`. Both use the existing shared SEO generator; the environment-aware Worker continues serving the same content and staging protections. The XML parses with 27 URLs and source/build file checksums match. Live endpoints return 200 with the correct XML/text content types. No fabricated modification dates were added.
+
+Search Console accepted another submission, but its processed report still shows **Couldn't fetch / Unknown / 0 discovered pages**. The details view provided no specific HTTP error. This retry has not resolved that warning, and successful submission is not being reported as successful sitemap processing. [Submission confirmation](seo-evidence/sitemap-resubmitted.jpg).
+
 Technical SEO is deployed to cryptitaplays.com. Google Search Console setup and priority indexing submissions are complete, except that the submitted sitemap still needs a successful processed status from Google. Indexing and first-place rankings are not yet established or guaranteed. The .org domain was not modified.
 
 ## Deployed changes
