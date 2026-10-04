@@ -1,0 +1,34 @@
+{
+  "verifiedOn": "2026-10-05",
+  "buckets": [
+    "cryptita-plays-media-staging",
+    "cryptita-plays-media-production"
+  ],
+  "verification": "Downloaded every uploaded object and verified SHA-256",
+  "assets": {
+    "/media/books/barya-to-blockchain.mp4": {
+      "key": "videos/books/barya-to-blockchain--1613de1f7c30.mp4",
+      "sha256": "1613de1f7c301c877ba56d4446f064a8ee5023bd2c1ff5641b60d395505fa0f9",
+      "bytes": 22696863,
+      "contentType": "video/mp4",
+      "source": "client/public/media/books/barya-to-blockchain.mp4",
+      "publicUrl": "/media/books/barya-to-blockchain.mp4"
+    },
+    "/media/books/code-like-a-cook.mp4": {
+      "key": "videos/books/code-like-a-cook--22af449ac644.mp4",
+      "sha256": "22af449ac6441f46cdcc80ceeb4f40bbd1b50d8c09400511275c8bcfb7e2d981",
+      "bytes": 23554758,
+      "contentType": "video/mp4",
+      "source": "client/public/media/books/code-like-a-cook.mp4",
+      "publicUrl": "/media/books/code-like-a-cook.mp4"
+    },
+    "/media/books/wave3-handbook.mp4": {
+      "key": "videos/books/wave3-handbook--16d8977c7007.mp4",
+      "sha256": "16d8977c70071c7cf0a77fcf1b88a147747c12662d5ffba2f7e467b76bcdc30f",
+      "bytes": 20260443,
+      "contentType": "video/mp4",
+      "source": "client/public/media/books/wave3-handbook.mp4",
+      "publicUrl": "/media/books/wave3-handbook.mp4"
+    }
+  }
+}

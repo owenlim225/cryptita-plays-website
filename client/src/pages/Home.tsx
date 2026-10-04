@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { ApproachCarousel } from "../components/ApproachCarousel";
 import { HeroMedia } from "../components/HeroMedia";
+import { BookVideo } from "../components/BookVideo";
 import { SiteFooter } from "../components/SiteFooter";
 import { CommunityPartnersStrip } from "../components/sections/CommunityPartnersStrip";
 import { EducationalPartnersStrip } from "../components/sections/EducationalPartnersStrip";
@@ -33,18 +34,21 @@ const books = [
     title: "Barya to Blockchain: Web3 Young Learners Encyclopedia",
     author: "Arshelene Lingao (Cryptita Plays)",
     image: "/images/encyclopedia-cover.png",
+    video: "/media/books/barya-to-blockchain.mp4",
     alt: "Cover of Web3 Young Learners Encyclopedia",
   },
   {
     title: "Programming for Youth: Code Like a Cook",
     author: "GANAP with Eli (Eli Rabadon)",
     image: "/images/cook-cover.png",
+    video: "/media/books/code-like-a-cook.mp4",
     alt: "Cover of Programming for Youth: Code Like a Cook",
   },
   {
     title: "Wave3 Handbook",
     author: "Mary Dee Ruzgal & Christop Waves",
     image: "/images/wave3-cover.png",
+    video: "/media/books/wave3-handbook.mp4",
     alt: "Cover of Wave3 Handbook",
   },
 ];
@@ -173,7 +177,6 @@ function Home() {
     document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
     return () => observer.disconnect();
   }, []);
-
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
 
@@ -260,14 +263,7 @@ function Home() {
             <div className="book-grid">
               {books.map((book, index) => (
                 <Reveal className="book-card" key={book.title} delay={index * 70}>
-                  <div className="book-cover-wrap">
-                    <img src={book.image} alt={book.alt} className="book-cover" loading="lazy" />
-                  </div>
-                  <div className="book-caption">
-                    <span>{String(index + 1).padStart(2, "0")} / {String(books.length).padStart(2, "0")}</span>
-                    <h3>{book.title}</h3>
-                    <p>By {book.author}</p>
-                  </div>
+                  <BookVideo book={book} index={index} total={books.length} />
                 </Reveal>
               ))}
             </div>

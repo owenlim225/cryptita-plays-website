@@ -176,6 +176,7 @@ section[id] { scroll-margin-top: 100px; }
 .hero-section::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(circle at 65% 35%, rgba(151, 28, 230, .2), transparent 30%), radial-gradient(circle at 94% 92%, rgba(151, 28, 230, .18), transparent 31%); }
 .hero-fallback-image { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; animation: hero-photo-fade .8s ease both; }
 @keyframes hero-photo-fade { from { opacity: .35; } to { opacity: 1; } }
+.hero-video-overlay { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(16, 13, 20, .82) 0%, rgba(16, 13, 20, .52) 52%, rgba(16, 13, 20, .18) 100%), linear-gradient(0deg, rgba(16, 13, 20, .46), transparent 42%); }
 .hero-grid-lines { position: absolute; inset: 0; z-index: -1; opacity: .14; background-image: linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.2) 1px, transparent 1px); background-size: 92px 92px; mask-image: linear-gradient(90deg, black 0, transparent 80%); }
 .hero-content { position: relative; z-index: 1; display: block; width: 100%; padding-top: 88px; }
 .hero-copy { max-width: 1050px; padding: 48px 0 40px; }
@@ -302,6 +303,12 @@ section[id] { scroll-margin-top: 100px; }
 .book-cover-wrap { display: grid; place-items: center; height: clamp(320px, 35vw, 440px); padding: 25px; background: transparent; }
 .book-cover { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 19px 18px rgba(23, 19, 29, .2)); transition: transform .45s var(--ease-out); }
 .book-cover-wrap:hover .book-cover { transform: scale(1.08); }
+.book-video-trigger { display: block; width: 100%; text-align: left; cursor: pointer; color: inherit; border: 0; background: transparent; padding: 0; }
+.book-video-trigger:focus-visible { outline: 3px solid var(--violet); outline-offset: 6px; border-radius: 8px; }
+.book-video-trigger .book-cover-wrap { position: relative; }
+.book-play-label { position: absolute; bottom: 0; display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px; border-radius: 99px; background: var(--violet); color: white; font-size: 12px; font-weight: 600; }
+.book-video-dialog { width: calc(100% - 2rem); max-width: 960px; max-height: 92dvh; overflow-y: auto; }
+.book-video-dialog video { display: block; width: 100%; max-height: 70dvh; background: #000; border-radius: 8px; }
 .book-caption { padding: 23px 3px 0; border-top: 1px solid var(--line); margin-top: 21px; }
 .book-caption > span { color: var(--violet); font-size: 10px; font-weight: 700; letter-spacing: .13em; }
 .book-caption h3 { max-width: 340px; margin: 10px 0 0; font-size: clamp(21px, 2.1vw, 29px); line-height: 1.18; letter-spacing: -.045em; }
@@ -700,6 +707,8 @@ section[id] { scroll-margin-top: 100px; }
   .contact-next-step > .container { padding-top: 75px; padding-bottom: 82px; }
 }
 
+.hero-video { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+.hero-video.is-playing { opacity: 1; }
 
 /* Photo-led approach carousel and compact availability calendar. */
 .approach-carousel { position: relative; isolation: isolate; overflow: hidden; color: var(--paper); background: var(--ink); }
@@ -743,6 +752,3 @@ section[id] { scroll-margin-top: 100px; }
  .calendar-embed { height: 420px; }
  .calendar-embed-wrap { padding: 8px; border-radius: 20px; }
 }
-
-.hero-video { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
-.hero-video.is-playing { opacity: 1; }

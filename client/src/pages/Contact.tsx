@@ -2,11 +2,12 @@ import { useState } from "react";
 import { faqItems } from "../lib/faq";
 import "./Contact.css"; // Page-specific presentation.
 import { Link } from "react-router";
-import { ArrowDown, ArrowRight, AtSign, BookOpen, ChevronDown, HeartHandshake, Users, Instagram, Linkedin, Menu, MessageCircle, Phone, Send, X } from "lucide-react";
+import { ArrowDown, ArrowRight, AtSign, BookOpen, ChevronDown, Facebook, HeartHandshake, Users, Instagram, Linkedin, Menu, MessageCircle, Phone, Send, X } from "lucide-react";
 import { SiteFooter } from "../components/SiteFooter";
 import { useScrolledHeader } from "../hooks/useScrolledHeader";
 
 const channels = [
+  { label: "Facebook", href: "https://www.facebook.com/cryptitaplays", icon: Facebook },
   { label: "X / Twitter", href: "https://x.com/cryptitaplays", icon: MessageCircle },
   { label: "Instagram", href: "https://www.instagram.com/cryptitaplays/", icon: Instagram },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/cryptitaplays/", icon: Linkedin },

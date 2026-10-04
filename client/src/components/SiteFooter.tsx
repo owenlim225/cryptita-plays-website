@@ -21,6 +21,7 @@ const informationLinks = [
 ] as const;
 
 const socialLinks = [
+  { label: "Facebook", href: "https://www.facebook.com/cryptitaplays" },
   { label: "X / Twitter", href: "https://x.com/cryptitaplays" },
   { label: "Instagram", href: "https://www.instagram.com/cryptitaplays/" },
   { label: "LinkedIn", href: "https://www.linkedin.com/company/cryptitaplays/" },
@@ -79,6 +80,10 @@ export function SiteFooter() {
 
 // SVG paths from the supplied footer-section.tsx.
 function SocialIcon({ label }: { label: string }) {
+  if (label === "Facebook") {
+    return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 22v-9h3l.5-4H14V7c0-1.1.3-2 2-2h2V1.4A25 25 0 0015 1c-3 0-5 1.8-5 5v3H7v4h3v9z" /></svg>;
+  }
+
   if (label === "X / Twitter") {
     return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18.901 3H21l-6.876 7.86L22.5 21h-6.563l-5.137-6.164L5.405 21H3.304l7.353-8.405L1.5 3h6.73l4.644 5.581L18.901 3zm-2.3 16.438h1.164L7.61 4.476H6.36L16.6 19.438z" fill="currentColor" /></svg>;
   }
