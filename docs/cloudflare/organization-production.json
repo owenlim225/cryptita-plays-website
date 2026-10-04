@@ -1,0 +1,11 @@
+{
+  "environment": "production",
+  "bucket": "cryptita-plays-media-production",
+  "verifiedAt": "2026-10-04T21:12:43.711Z",
+  "planSha256": "057633bc728357d7c3f7de1b4f5607ed5881ed0d39d5deb0ad81ccb894a42449",
+  "objects": 113,
+  "publicUrls": 132,
+  "fullChecksums": true,
+  "legacyObjectsPreserved": true,
+  "passed": true
+}
