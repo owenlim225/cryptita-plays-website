@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { educationalPartners } from "../../data/partners";
 import { LogoLoop } from "../LogoLoop";
 
@@ -7,10 +8,12 @@ const logos = educationalPartners.map(({ name, logo }) => ({ src: logo, alt: nam
 export function EducationalPartnersStrip() {
   return (
     <section className="partner-strip" aria-labelledby={headingId} id="partners">
+      <Link to="/partners" className="partner-strip-link" aria-label="View all partners">
       <div className="container">
         <h2 className="partner-strip__heading" id={headingId}>Our educational partners</h2>
       </div>
       <LogoLoop logos={logos} direction="left" speed={58} logoHeight={80} gap={72} accessibleLabel="Educational partner logos" />
+      </Link>
     </section>
   );
 }

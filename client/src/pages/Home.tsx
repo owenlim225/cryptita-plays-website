@@ -14,6 +14,7 @@ import {
   Quote,
   X,
 } from "lucide-react";
+import { ApproachCarousel } from "../components/ApproachCarousel";
 import { SiteFooter } from "../components/SiteFooter";
 import { CommunityPartnersStrip } from "../components/sections/CommunityPartnersStrip";
 import { EducationalPartnersStrip } from "../components/sections/EducationalPartnersStrip";
@@ -295,22 +296,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="approach-section section-padding" id="approach">
-          <div className="container approach-layout">
-            <Reveal className="approach-object-wrap">
-              <div className="approach-object"><div className="approach-core">CP</div><div className="approach-ring ring-a" /><div className="approach-ring ring-b" /><span className="node node-a" /><span className="node node-b" /><span className="node node-c" /></div>
-              <div className="object-caption"><span>02 / 05</span><span>How we show up</span></div>
-            </Reveal>
-            <Reveal className="approach-copy" delay={90}>
-              <SectionHeading light eyebrow="Our approach" title="Start with the person. Then introduce the protocol." copy="We work with educational institutions, community leaders, foundations, and Web3 organizations that share a long-term, people-first view." />
-              <div className="approach-principles">
-                <div><strong>01</strong><span>Foundational before advanced</span><p>Build understanding before asking anyone to participate.</p></div>
-                <div><strong>02</strong><span>Honest about risks</span><p>Make digital safety and critical thinking part of every lesson.</p></div>
-                <div><strong>03</strong><span>Designed for real access</span><p>Keep learning useful even when connectivity is inconsistent.</p></div>
-              </div>
-            </Reveal>
-          </div>
-        </section>
+        <ApproachCarousel />
 
         <EducationalPartnersStrip />
 
@@ -360,7 +346,7 @@ function Home() {
               <iframe
                 className="calendar-embed"
                 title="Cryptita Plays events and booked dates"
-                src={PUBLIC_CALENDAR_URL}
+                src={`${PUBLIC_CALENDAR_URL}&showTitle=0&showPrint=0&showCalendars=0&showTz=0`}
                 loading="lazy"
               />
               <a className="calendar-open-link" href={PUBLIC_CALENDAR_URL} target="_blank" rel="noopener noreferrer">Open full calendar <ArrowRight aria-hidden="true" /></a>
