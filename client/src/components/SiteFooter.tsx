@@ -4,6 +4,7 @@ const sitemapLinks = [
   { label: "Home", to: "/" },
   { label: "Who We Are", to: "/who-we-are" },
   { label: "Initiatives & programs", to: "/initiatives" },
+  { label: "Partners & places reached", to: "/partners" },
   { label: "Books & resources", to: "/#learning" },
   { label: "Engage with us", to: "/engage" },
   { label: "Stories & events", to: "/#events" },

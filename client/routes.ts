@@ -8,6 +8,7 @@ export default [
   route("who-we-are", "./routes/who-we-are.tsx"),
   route("engage", "./routes/engage.tsx"),
   route("initiatives", "./routes/initiatives.tsx"),
+  route("partners", "./routes/partners.tsx"),
   route("initiatives/:slug", "./routes/initiative-detail.tsx"),
   route("stories", "./routes/stories.tsx"),
   route("stories/:slug", "./routes/story-detail.tsx"),
