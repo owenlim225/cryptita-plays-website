@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "react-router dev --host 0.0.0.0",
-    "build": "react-router build",
+    "build": "npm run seo:generate && react-router build",
+    "seo:generate": "node scripts/generate-seo-files.mjs",
     "build:cloudflare": "node scripts/cloudflare-build.mjs",
     "cf:types": "wrangler types",
     "deploy:staging": "npm run build:cloudflare && wrangler deploy --env staging",

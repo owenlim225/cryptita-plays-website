@@ -3,6 +3,7 @@ import { randomUUID } from "node:crypto";
 import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { inventory } from "./media-inventory.mjs";
+import { generateSeoFiles } from "./generate-seo-files.mjs";
 
 const report = await inventory();
 const map = JSON.parse(await readFile("shared/media-assets.json", "utf8").catch(error => {
@@ -19,6 +20,8 @@ for (const asset of report.records) {
 await mkdir("tmp", { recursive: true });
 const publicDir = path.resolve(`tmp/cloudflare-public-${randomUUID()}`);
 await mkdir(publicDir, { recursive: true });
+await generateSeoFiles("client/public");
+await generateSeoFiles(publicDir);
 // Licensed self-hosted fonts are static assets, outside the media/R2 inventory.
 await cp("client/public/fonts", path.join(publicDir, "fonts"), { recursive: true });
 const assets = report.records.filter(asset => asset.references.length && !map[asset.publicPath]);
