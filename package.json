@@ -13,6 +13,7 @@
     "start": "node scripts/start-server.mjs",
     "preview": "node scripts/start-server.mjs",
     "check": "react-router typegen && tsc --noEmit",
+    "test:seo": "tsx --test scripts/seo-crawl.test.mjs && vitest run client/src/lib/seo.test.ts",
     "format": "prettier --write ."
   },
   "dependencies": {

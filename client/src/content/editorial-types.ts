@@ -1,6 +1,7 @@
 export type StorySection = { heading: string; paragraphs: string[]; bullets?: string[] };
 export type EditorialMedia = { src: string; type: "image" | "video"; alt: string };
 export type EditorialStory = {
+  publicationStatus?: "draft" | "published";
   slug: string;
   title: string;
   category: string;

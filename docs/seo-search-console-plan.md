@@ -1,6 +1,6 @@
 # Cryptita Plays SEO and Google Search Console Plan
 
-Prepared 5 October 2026, Asia/Manila. This plan makes `https://cryptitaplays.com/` the clearest official destination for searches for **Cryptita Plays**, then builds discovery for its Web3 education and social-impact work. It covers engineering, Search Console, identity, content, external links, and measurement. This is a plan, not a completed implementation.
+Prepared 5 October 2026, Asia/Manila. This plan makes `https://cryptitaplays.com/` the clearest official destination for searches for **Cryptita Plays**, then builds discovery for its Web3 education and social-impact work. It covers engineering, Search Console, identity, content, external links, and measurement. Implementation has now been deployed; see [launch status and remaining work](seo-launch-status.md). Audit findings below describe the pre-implementation baseline.
 
 The goal is a sustained first organic homepage result in the agreed market. No one can guarantee first position, indexing, a particular snippet, sitelinks, or placement above advertisements and other search features. Google controls those outcomes. [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 

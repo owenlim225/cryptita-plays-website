@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
+import { heroPoster } from "../lib/responsive-images";
 
 const VIDEO = "/images/tambunan-outreach-hero.mp4";
 const PHOTOS = [
-  "/images/learning-event.jpg",
+  heroPoster.src,
   "/images/community-gathering.jpg",
   "/images/classroom-session.jpg",
   "/images/group-discussion.jpg",
@@ -58,7 +59,7 @@ export function HeroMedia() {
   }, [failed, motionAllowed]);
 
   return <>
-    {(!playing || failed || !motionAllowed) && <img key={PHOTOS[photoIndex]} src={PHOTOS[photoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />}
+    {(!playing || failed || !motionAllowed) && <img key={PHOTOS[photoIndex]} {...(photoIndex === 0 ? heroPoster : { src: PHOTOS[photoIndex] })} sizes="100vw" alt="" aria-hidden="true" className="hero-fallback-image" />}
     {motionAllowed && !failed && <video
       ref={videoRef}
       src={VIDEO}

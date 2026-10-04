@@ -1,3 +1,4 @@
+import { brandBanner } from "../lib/responsive-images";
 import { Link } from "react-router";
 
 const sitemapLinks = [
@@ -7,7 +8,7 @@ const sitemapLinks = [
   { label: "Partners & places reached", to: "/partners" },
   { label: "Books & resources", to: "/#learning" },
   { label: "Engage with us", to: "/engage" },
-  { label: "Stories & events", to: "/#events" },
+  { label: "Stories & events", to: "/stories" },
   { label: "Contact Us", to: "/contact" },
 ] as const;
 
@@ -34,7 +35,7 @@ export function SiteFooter() {
       <div className="container footer-main">
         <div className="footer-intro">
           <Link to="/" className="footer-brand" aria-label="Cryptita Plays home">
-            <img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" />
+            <img {...brandBanner} alt="Cryptita Plays" loading="lazy" decoding="async" />
           </Link>
           <p>Bridging Web3 Education and Social Impact</p>
           <a className="footer-email" href="mailto:cryptitaplays@gmail.com">cryptitaplays@gmail.com</a>

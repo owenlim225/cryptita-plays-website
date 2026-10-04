@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { campusPhoto, libraryPhoto } from "../lib/responsive-images";
 
 const slides = [
-  { title: "Foundational before advanced", copy: "Build understanding before asking anyone to participate.", image: "/media/initiatives/web3-on-campus/DSC_5578.JPG" },
-  { title: "Honest about risks", copy: "Make digital safety and critical thinking part of every lesson.", image: "/media/initiatives/web3-on-campus/DSC_5591.JPG" },
-  { title: "Designed for real access", copy: "Keep learning useful even when connectivity is inconsistent.", image: "/media/initiatives/mini-library/20260609_111450.jpg" },
+  { title: "Foundational before advanced", copy: "Build understanding before asking anyone to participate.", image: campusPhoto },
+  { title: "Honest about risks", copy: "Make digital safety and critical thinking part of every lesson.", image: { src: "/media/initiatives/web3-on-campus/DSC_5591.JPG", width: 6016, height: 4000 } },
+  { title: "Designed for real access", copy: "Keep learning useful even when connectivity is inconsistent.", image: libraryPhoto },
 ];
 
 export function ApproachCarousel() {
@@ -11,7 +12,7 @@ export function ApproachCarousel() {
   const slide = slides[active];
   return (
     <section className="approach-carousel" id="approach" aria-label="Our approach" aria-roledescription="carousel">
-      <img className="approach-background" src={slide.image} alt="" loading="lazy" />
+      <img className="approach-background" {...slide.image} sizes="100vw" alt="" loading="lazy" decoding="async" />
       <div className="approach-vignette" aria-hidden="true" />
       <div className="container approach-carousel-inner">
         <div className="chapter-label chapter-label-light"><span className="chapter-dot" /> Our approach</div>

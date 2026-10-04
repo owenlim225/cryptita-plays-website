@@ -1,3 +1,4 @@
+import { brandBanner } from "../lib/responsive-images";
 import { ArrowRight, MapPin } from "lucide-react";
 import { Link } from "react-router";
 import { SiteFooter } from "../components/SiteFooter";
@@ -12,7 +13,7 @@ const partnerGroups = [
 
 function Header() {
   const isScrolled = useScrolledHeader();
-  return <header className={`site-header site-header-solid ${isScrolled ? "is-scrolled" : ""}`}><div className="container nav-inner"><Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link><nav className="desktop-nav" aria-label="Main navigation"><Link to="/initiatives">Initiatives</Link><Link to="/partners" aria-current="page">Partners</Link><Link to="/stories">Field Notes &amp; Events</Link><Link to="/contact" className="nav-donate">Contact us <ArrowRight /></Link></nav></div></header>;
+  return <header className={`site-header site-header-solid ${isScrolled ? "is-scrolled" : ""}`}><div className="container nav-inner"><Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img {...brandBanner} alt="Cryptita Plays" className="brand-logo" /></Link><nav className="desktop-nav" aria-label="Main navigation"><Link to="/initiatives">Initiatives</Link><Link to="/partners" aria-current="page">Partners</Link><Link to="/stories">Field Notes &amp; Events</Link><Link to="/contact" className="nav-donate">Contact us <ArrowRight /></Link></nav></div></header>;
 }
 
 export default function Partners() {

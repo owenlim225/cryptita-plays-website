@@ -1,3 +1,4 @@
+import { brandBanner } from "../lib/responsive-images";
 import { useState } from "react";
 import { faqItems } from "../lib/faq";
 import "./Contact.css"; // Page-specific presentation.
@@ -20,7 +21,7 @@ function ContactHeader() {
   return (
     <header className={`site-header site-header-solid ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
-        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link>
+        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img {...brandBanner} alt="Cryptita Plays" className="brand-logo" /></Link>
         <nav className={`desktop-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
           <Link to="/initiatives">Initiatives</Link><Link to="/who-we-are">Who we are</Link><Link to="/engage">Engage with us</Link>
           <Link to="/contact" aria-current="page" className="nav-donate">Contact us <ArrowRight /></Link>

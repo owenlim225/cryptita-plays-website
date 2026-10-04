@@ -35,6 +35,7 @@ jobs:
       - run: npm ci
       - run: npm run cf:types
       - run: npm run check
+      - run: npm run test:seo
       - run: node --experimental-strip-types --test scripts/media.test.mjs
       - run: npm run build:cloudflare
       - run: npx wrangler deploy --env "$DEPLOY_ENV"

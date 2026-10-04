@@ -10,12 +10,8 @@ export default function Root() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#17131D" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preload" href="/fonts/poppins/poppins-latin-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/poppins/poppins-latin-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <Meta />
         <Links />
       </head>

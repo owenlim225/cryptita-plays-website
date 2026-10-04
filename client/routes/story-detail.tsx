@@ -1,3 +1,4 @@
+import { pageMeta } from "../src/lib/seo";
 import { StoryDetail } from "../src/pages/EditorialDetail";
 import { stories } from "../src/content/stories";
 import type { LoaderFunctionArgs, MetaFunction } from "react-router";
@@ -9,7 +10,10 @@ export function loader({ params }: LoaderFunctionArgs) {
 export const meta: MetaFunction = ({ params }) => {
   const story = stories.find(item => item.slug === params.slug);
   return story
-    ? [{ title: `${story.title} — Cryptita Plays` }, { name: "description", content: story.summary }]
+    ? [
+        ...pageMeta({ path: `/stories/${story.slug}`, title: `${story.title} — Cryptita Plays`, description: story.summary, image: story.heroImage, imageAlt: story.imageAlt }),
+        ...(story.publicationStatus === "draft" ? [{ name: "robots", content: "noindex" }] : []),
+      ]
     : [{ title: "Story not found — Cryptita Plays" }, { name: "robots", content: "noindex" }];
 };
 export default StoryDetail;

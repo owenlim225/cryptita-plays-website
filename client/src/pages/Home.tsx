@@ -1,3 +1,4 @@
+import { brandBanner, brandMark, campusPhoto, libraryPhoto } from "../lib/responsive-images";
 /* Learning Constellation: editorial humanism, beveled learning objects, and Cryptita Violet as the connective signal. */
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
@@ -21,11 +22,6 @@ import { SiteFooter } from "../components/SiteFooter";
 import { CommunityPartnersStrip } from "../components/sections/CommunityPartnersStrip";
 import { EducationalPartnersStrip } from "../components/sections/EducationalPartnersStrip";
 import { useScrolledHeader } from "../hooks/useScrolledHeader";
-
-const ASSETS = {
-  logo: "/brand/cryptita-plays-banner.png",
-  mark: "/brand/cryptita-mark.png",
-};
 
 const PUBLIC_CALENDAR_URL = "https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila";
 
@@ -55,60 +51,47 @@ const books = [
 
 const programs = [
   {
+    slug: "mini-library-mission-outreach",
     number: "01",
     icon: BookOpen,
     kicker: "Access before adoption",
     title: "Mini-Library Mission & Outreach Program",
     copy: "Our flagship social-impact initiative brings books, educational resources, school supplies, and learning opportunities to underserved communities, with a long-term goal of establishing 10 mini-libraries nationwide.",
-    image: "/media/initiatives/mini-library/20260609_111450.jpg",
+    image: libraryPhoto,
     alt: "Students and community members gathered inside a school",
     tone: "light",
   },
   {
+    slug: "web3-on-campus",
     number: "02",
     icon: HeartHandshake,
     kicker: "Learning in community",
     title: "Cryptita Plays: Web3 On Campus",
     copy: "We bring blockchain, Web3, AI, GameFi, DeFi, cybersecurity, and digital literacy to students through campus seminars, university partnerships, technical learning, and community-building.",
-    image: "/media/initiatives/web3-on-campus/DSC_5578.JPG",
+    image: campusPhoto,
     alt: "Students attending a campus seminar in a lecture hall",
     tone: "violet",
   },
   {
+    slug: "builder-programs",
     number: "03",
     icon: GraduationCap,
     kicker: "Campus to community",
     title: "Cryptita Plays Builder Programs",
     copy: "Learners move beyond concepts to build, test, deploy, and showcase projects through a hands-on pathway: Learn → Build → Deploy → Showcase.",
-    image: "/media/initiatives/builder-programs/20260823_174425.jpg",
+    image: { src: "/media/initiatives/builder-programs/20260823_174425.jpg", width: 4000, height: 2252 },
     alt: "Students gathered for a hands-on builder program",
     tone: "light",
   },
 ];
 
-const events = [
-  {
-    date: "Community journal",
-    tag: "Coming soon",
-    title: "Stories from the first mini-library",
-    copy: "A closer look at the people, books, and small moments that turn an empty corner into a place to learn.",
-    readTime: "5 min read",
-  },
-  {
-    date: "Field notes",
-    tag: "Coming soon",
-    title: "What responsible Web3 education looks like",
-    copy: "Why we start with digital safety, critical thinking, and foundational understanding—not hype.",
-    readTime: "4 min read",
-  },
-  {
-    date: "Program update",
-    tag: "Coming soon",
-    title: "Meet the next five iskolar scholars",
-    copy: "Every Mini-Library area selects five student beneficiaries for monthly educational assistance and learning support.",
-    readTime: "3 min read",
-  },
-];
+const events = programs.map((program) => ({
+  date: "Explore our work",
+  tag: program.kicker,
+  title: program.title,
+  copy: program.copy,
+  href: `/initiatives/${program.slug}`,
+}));
 
 function Reveal({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
   return (
@@ -132,8 +115,8 @@ function SiteHeader() {
     <header className={`site-header site-header-home ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
         <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home">
-          <img src={ASSETS.logo} alt="Cryptita Plays" className="brand-logo" />
-          <img src={ASSETS.mark} alt="" className="brand-mark" aria-hidden="true" />
+          <img {...brandBanner} alt="Cryptita Plays" className="brand-logo" />
+          <img {...brandMark} alt="" className="brand-mark" aria-hidden="true" />
         </Link>
         <nav className={`desktop-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
           {links.map(([label, href]) => (
@@ -169,13 +152,21 @@ function Home() {
   const [eventIndex, setEventIndex] = useState(0);
 
   useEffect(() => {
+    if (!("IntersectionObserver" in window)) return;
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) entry.target.classList.add("is-visible");
       });
     }, { threshold: 0.12 });
-    document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
-    return () => observer.disconnect();
+    const elements = document.querySelectorAll(".reveal");
+    elements.forEach((element) => {
+      if (element.getBoundingClientRect().top > window.innerHeight) element.classList.add("reveal-pending");
+      observer.observe(element);
+    });
+    return () => {
+      observer.disconnect();
+      elements.forEach((element) => element.classList.remove("reveal-pending"));
+    };
   }, []);
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
@@ -189,10 +180,12 @@ function Home() {
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">
+              <p className="chapter-label chapter-label-light">Cryptita Plays · Philippines</p>
               <h1>Bridging Web3 Education and Social Impact</h1>
+              <p className="hero-intro">We connect communities in the Philippines with books, digital learning, and hands-on opportunities to build.</p>
               <div className="hero-actions">
-                <a href="#mission" className="button button-primary">Explore the mission <ArrowRight /></a>
-                <Link to="/contact" className="button button-outline">Support our work <ArrowRight /></Link>
+                <Link to="/initiatives" className="button button-primary">Explore our initiatives <ArrowRight /></Link>
+                <Link to="/who-we-are" className="button button-outline">Who we are <ArrowRight /></Link>
               </div>
             </Reveal>
           </div>
@@ -233,10 +226,10 @@ function Home() {
                       <div className="program-kicker"><Icon /> {program.kicker}</div>
                       <h3>{program.title}</h3>
                       <p>{program.copy}</p>
-                      <a href="#approach" className="small-link">See the approach <ArrowRight /></a>
+                      <Link to={`/initiatives/${program.slug}`} className="small-link">Explore the program <ArrowRight /></Link>
                     </div>
                     <div className="program-image-wrap">
-                      <img src={program.image} alt={program.alt} className="program-image" />
+                      <img {...program.image} sizes="(max-width: 760px) calc(100vw - 40px), 470px" alt={program.alt} className="program-image" loading="lazy" decoding="async" />
                       <div className="image-corner-mark"><Network /></div>
                     </div>
                   </Reveal>
@@ -248,9 +241,9 @@ function Home() {
                   <div className="program-kicker"><HeartHandshake /> Sustained support</div>
                   <h3>ACIS: Adopt-a-Child Iskolar</h3>
                   <p>Each Mini-Library area selects five iskolar beneficiaries for monthly educational assistance, school supplies, and the confidence to keep showing up.</p>
-                  <a href="#impact" className="small-link">Meet the commitment <ArrowRight /></a>
+                  <Link to="/initiatives/acis-adopt-a-child-iskolar" className="small-link">Explore ACIS <ArrowRight /></Link>
                 </div>
-                <div className="acis-object"><img src="/media/initiatives/acis/20260107_120040(1).jpg" alt="ACIS scholars and community members gathered at an outreach activity" /><div className="acis-label">ACIS scholars</div></div>
+                <div className="acis-object"><img src="/media/initiatives/acis/20260107_120040(1).jpg" alt="ACIS scholars and community members gathered at an outreach activity" loading="lazy" decoding="async" /><div className="acis-label">ACIS scholars</div></div>
               </Reveal>
             </div>
             <div className="programs-more"><Link to="/initiatives" className="button button-dark">See all initiatives <ArrowRight /></Link></div>
@@ -287,8 +280,8 @@ function Home() {
 
         <section className="founder-section section-padding" id="our-story">
           <div className="container founder-layout">
-            <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" /></Reveal>
-            <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img src={ASSETS.mark} alt="" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
+            <Reveal className="founder-portrait-wrap"><img className="founder-portrait" src="/images/tita-arsh.png" alt="Arshelene R. Lingao at a Cryptita Plays community event" loading="lazy" decoding="async" /></Reveal>
+            <div className="founder-copy-column"><Reveal className="founder-intro"><div className="chapter-label"><span className="chapter-dot" /> The people behind the work</div><h2>A future-ready education is a shared project.</h2></Reveal><Reveal className="founder-note" delay={100}><div className="founder-mark"><img {...brandMark} alt="" loading="lazy" decoding="async" /></div><p>Cryptita Plays was founded by <strong>Arshelene R. Lingao</strong>, a Web3 community builder and social impact advocate focused on youth empowerment, inclusive education, and safe, values-driven learning environments.</p><a href="mailto:cryptitaplays@gmail.com" className="small-link">Connect with Cryptita Plays <ArrowRight /></a></Reveal></div>
           </div>
         </section>
 
@@ -296,11 +289,11 @@ function Home() {
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">
-            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><div className="events-heading-actions"><Link to="/stories" className="button button-dark">All stories <ArrowRight /></Link><Link to="/contact" className="text-link">Support a chapter <ArrowRight /></Link></div></Reveal>
+            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="Explore the programs behind our community work. Follow our main Facebook channel for updates while we prepare more field notes." /><div className="events-heading-actions"><Link to="/stories" className="button button-dark">All stories <ArrowRight /></Link><a href="https://www.facebook.com/cryptitaplays" target="_blank" rel="noopener noreferrer" className="text-link">Follow on Facebook <ArrowRight /></a></div></Reveal>
             <Reveal className="event-carousel" delay={100}>
               <div className="event-topline"><span>{activeEvent.date}</span><span>{String(eventIndex + 1).padStart(2, "0")} / {String(events.length).padStart(2, "0")}</span></div>
               <div className="event-card">
-                <div className="event-card-text"><span className="event-tag">{activeEvent.tag}</span><h3>{activeEvent.title}</h3><p>{activeEvent.copy}</p>{activeEvent.title === "What responsible Web3 education looks like" ? <Link to="/stories/what-responsible-web3-education-looks-like" className="event-read-time">Read the story <ArrowRight /></Link> : <span className="event-read-time">{activeEvent.readTime} <ArrowRight /></span>}</div>
+                <div className="event-card-text"><span className="event-tag">{activeEvent.tag}</span><h3>{activeEvent.title}</h3><p>{activeEvent.copy}</p><Link to={activeEvent.href} className="event-read-time">Explore the program <ArrowRight /></Link></div>
                 <div className="event-visual"><div className="event-visual-word">FIELD<br /><em>notes</em></div><div className="event-visual-orbit" /><CalendarDays /></div>
               </div>
               <div className="event-controls"><div className="event-dots">{events.map((event, index) => <button key={event.title} onClick={() => setEvent(index)} className={index === eventIndex ? "active" : ""} aria-label={`View event ${index + 1}`} />)}</div><div className="event-arrows"><button onClick={() => setEvent(eventIndex - 1)} aria-label="Previous event"><ChevronLeft /></button><button onClick={() => setEvent(eventIndex + 1)} aria-label="Next event"><ChevronRight /></button></div></div>

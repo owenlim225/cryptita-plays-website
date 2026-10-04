@@ -233,7 +233,11 @@ export const initiatives: EditorialStory[] = initiativeRecords.map(({ why, what,
   sections: [
     { heading: "Why it matters", paragraphs: why },
     { heading: "What we do", paragraphs: what, ...(bullets ? { bullets } : {}) },
-    { heading: "Impact", paragraphs: impact },
+    ...(() => {
+      // Keep incomplete editorial prompts out of the public program description.
+      const paragraphs = impact.map((text) => text.replace(/\[Placeholder:[^\]]*\]/g, "").trim()).filter(Boolean);
+      return paragraphs.length ? [{ heading: "Impact", paragraphs }] : [];
+    })(),
   ],
 }));
 
@@ -242,6 +246,7 @@ export const initiativeBySlug: Record<string, EditorialStory> = Object.fromEntri
 );
 
 export const sampleStory: EditorialStory = {
+  publicationStatus: "draft",
   slug: "what-responsible-web3-education-looks-like",
   title: "What responsible Web3 education looks like",
   category: "Field Notes",

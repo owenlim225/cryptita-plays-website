@@ -1,3 +1,4 @@
+import { brandBanner } from "../lib/responsive-images";
 import { useState } from "react";
 import { faqItems } from "../lib/faq";
 import { Link } from "react-router";
@@ -45,7 +46,7 @@ const pageContent: Record<Exclude<InformationPageKey, "faq">, { title: string; i
     sections: [
       { title: "Who this notice covers", paragraphs: ["This notice applies to the Cryptita Plays website and information sent directly to Cryptita Plays. It does not cover third-party sites or services you visit through external links; those services publish their own privacy notices."] },
       { title: "Information you choose to send", paragraphs: ["If you email us, we receive the email address and any name, message, or attachments you choose to include. We use that information to read and respond to your inquiry, including questions about programs, education, or partnerships."] },
-      { title: "Website and service providers", paragraphs: ["The website does not currently offer user accounts, contact forms, an on-site donation checkout, or a wallet connection. The site loads the Poppins typeface from Google Fonts, so your browser requests font files from Google when the page uses that typeface. Website hosting and delivery providers may process basic technical request information to serve and protect the site."] },
+      { title: "Website and service providers", paragraphs: ["The website does not currently offer user accounts, contact forms, an on-site donation checkout, or a wallet connection. The site serves the Poppins typeface from its own hosting; loading the typeface does not require a request to Google Fonts. Website hosting and delivery providers may process basic technical request information to serve and protect the site."] },
       { title: "How information is handled", paragraphs: ["We use inquiry information for the purpose for which it was sent and limit access to people who need it to respond or coordinate the work. We do not use the website to run advertising profiles or sell personal information.", "If a donation or other service is later provided by a third party, that provider will have its own data practices and notice. Please review those details before using the service."] },
       { title: "Questions or requests", paragraphs: ["For questions about this notice or information you have sent to Cryptita Plays, email cryptitaplays@gmail.com. Please do not include passwords, recovery phrases, or other sensitive credentials in a message."] },
       { title: "Changes to this notice", paragraphs: ["We may update this page if the website or the way it handles information changes. The version published on this page describes the current website features."] },
@@ -55,7 +56,7 @@ const pageContent: Record<Exclude<InformationPageKey, "faq">, { title: string; i
     title: "Cookie Policy",
     intro: "This page explains how cookies and similar browser storage are used on the Cryptita Plays website.",
     sections: [
-      { title: "Current use", paragraphs: ["The current website does not set analytics or advertising cookies and does not include a cookie consent center. It loads the Poppins typeface from Google Fonts; this makes requests to Google’s font services, which are governed by Google’s own policies."] },
+      { title: "Current use", paragraphs: ["The current website does not set analytics or advertising cookies and does not include a cookie consent center. The Poppins typeface is served from the website’s own hosting and does not require a request to Google Fonts."] },
       { title: "What cookies are", paragraphs: ["Cookies are small pieces of information a website may ask a browser to store and return on later visits. Similar technologies can store preferences in the browser without using cookies."] },
       { title: "Third-party links", paragraphs: ["Social media and other external links take you to services operated by other organizations. Their use of cookies or similar technologies is controlled by their own settings and privacy notices."] },
       { title: "Managing browser storage", paragraphs: ["You can review or clear cookies and other site data through your browser settings. Blocking site data may affect features on websites you visit. If Cryptita Plays adds optional cookies or analytics in the future, this notice will be updated to explain them."] },
@@ -69,7 +70,7 @@ function InformationHeader() {
   return (
     <header className={`site-header site-header-solid info-header ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container nav-inner">
-        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link>
+        <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img {...brandBanner} alt="Cryptita Plays" className="brand-logo" /></Link>
         <nav className={`desktop-nav info-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
           <Link to="/">Home</Link><Link to="/who-we-are">Who we are</Link><Link to="/engage">Engage with us</Link><Link to="/faq">FAQ</Link><Link to="/contact" className="nav-donate">Contact us <ArrowRight /></Link>
         </nav>

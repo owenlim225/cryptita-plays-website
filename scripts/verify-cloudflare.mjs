@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import { readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import { assetReferences } from "./media-inventory.mjs";
+import { tsImport } from "tsx/esm/api";
 
 const environment = process.argv[2];
 assert.ok(
@@ -24,21 +26,23 @@ const paths = [
   "/privacy",
   "/cookies",
 ];
-const source = await readFile("client/src/content/initiatives.ts", "utf8");
-const slugs = [...source.matchAll(/slug: "([^"]+)"/g)].map(m => m[1]);
-// Initiative slugs precede the sample story in the content source.
+const { initiatives, stories } = await tsImport("../client/src/content/initiatives.ts", import.meta.url);
+const excludedStoryPaths = stories.filter(story => story.publicationStatus === "draft").map(story => `/stories/${story.slug}`);
+if (!stories.some(story => story.publicationStatus !== "draft")) excludedStoryPaths.push("/stories");
 paths.push(
-  ...slugs.slice(0, -1).map(slug => `/initiatives/${slug}`),
-  `/stories/${slugs.at(-1)}`
+  ...initiatives.map(({ slug }) => `/initiatives/${slug}`),
+  ...stories.map(({ slug }) => `/stories/${slug}`)
 );
 for (const route of paths) {
   const response = await fetch(origin + route);
   assert.equal(response.status, 200, route);
+  const html = await response.text();
   assert.match(
-    await response.text(),
+    html,
     /<h1\b/i,
     `${route} must render on the server`
   );
+  if (excludedStoryPaths.includes(route)) assert.match(html, /name="robots" content="[^"]*noindex/i, `${route} stays excluded until publication`);
   if (environment === "staging")
     assert.match(response.headers.get("x-robots-tag") || "", /noindex/);
   else assert.equal(response.headers.get("x-robots-tag"), null);
@@ -57,16 +61,33 @@ for (const route of [
   assert.match(await response.text(), /name="robots" content="noindex"/);
 }
 const robots = await fetch(origin + "/robots.txt");
-assert.match(
-  await robots.text(),
-  environment === "staging" ? /Disallow: \// : /Allow: \//
-);
+const robotsBody = await robots.text();
+assert.match(robotsBody, /Allow: \//);
+assert.doesNotMatch(robotsBody, /Disallow: \//);
+if (environment === "production") assert.match(robotsBody, /Sitemap: https:\/\/cryptitaplays.com\/sitemap.xml/);
+else assert.match(robots.headers.get("x-robots-tag") || "", /noindex/);
+const sitemap = await fetch(origin + "/sitemap.xml");
+assert.equal(sitemap.status, 200);
+assert.match(sitemap.headers.get("content-type") || "", /application\/xml/);
+const sitemapBody = await sitemap.text();
+const sitemapUrls = [...sitemapBody.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
+assert.ok(sitemapUrls.length > 0, "Sitemap contains URLs");
+assert.equal(sitemapUrls.length, new Set(sitemapUrls).size, "Sitemap has no duplicates");
+for (const url of sitemapUrls) {
+  assert.ok(url.startsWith("https://cryptitaplays.com/"), "Sitemap uses production canonical host");
+  assert.ok(!["/404", "/donate", ...excludedStoryPaths].includes(new URL(url).pathname), "Sitemap excludes redirects, errors, drafts and empty story hub");
+  const page = await fetch(origin + new URL(url).pathname, { redirect: "manual" });
+  assert.equal(page.status, 200, url);
+  const html = await page.text();
+  assert.doesNotMatch(html, /name="robots" content="[^"]*noindex/i, url);
+  assert.ok(html.includes(`rel="canonical" href="${url}"`), `Canonical matches sitemap: ${url}`);
+}
 if (environment === "production") {
-  const www = await fetch("https://www.cryptitaplays.com/test?keep=1", {
-    redirect: "manual",
-  });
-  assert.equal(www.status, 308);
-  assert.equal(www.headers.get("location"), origin + "/test?keep=1");
+  for (const alternate of ["http://cryptitaplays.com", "http://www.cryptitaplays.com", "https://www.cryptitaplays.com", origin]) {
+    const redirect = await fetch(alternate + "/contact/?keep=1", { redirect: "manual" });
+    assert.equal(redirect.status, 308);
+    assert.equal(redirect.headers.get("location"), origin + "/contact?keep=1");
+  }
 }
 const map = JSON.parse(await readFile("shared/media-assets.json", "utf8"));
 let count = 0;
@@ -124,12 +145,32 @@ const conditional = await fetch(origin + first, {
   headers: { "If-None-Match": `"${map[first].sha256}"` },
 });
 assert.equal(conditional.status, 304);
+const optimizedPaths = [...(await assetReferences()).keys()].filter(path => path.startsWith("/images/optimized/"));
+for (const path of optimizedPaths) {
+  const response = await fetch(origin + path, { signal: AbortSignal.timeout(30_000) });
+  assert.equal(response.status, 200, path);
+  assert.match(response.headers.get("content-type") || "", /image\/webp/, path);
+  const expected = await readFile(`client/public${path}`);
+  const received = Buffer.from(await response.arrayBuffer());
+  assert.equal(createHash("sha256").update(received).digest("hex"), createHash("sha256").update(expected).digest("hex"), `${path} checksum`);
+}
+for (const weight of [400, 500, 600, 700, 800]) {
+  const path = `/fonts/poppins/poppins-latin-${weight}.woff2`;
+  const response = await fetch(origin + path, { signal: AbortSignal.timeout(30_000) });
+  assert.equal(response.status, 200, path);
+  assert.match(response.headers.get("content-type") || "", /font\/woff2/, path);
+  const expected = await readFile(`client/public${path}`);
+  const received = Buffer.from(await response.arrayBuffer());
+  assert.equal(createHash("sha256").update(received).digest("hex"), createHash("sha256").update(expected).digest("hex"), `${path} checksum`);
+}
 const result = {
+  fonts: 5,
   environment,
   origin,
   verifiedAt: new Date().toISOString(),
   routes: paths.length,
   assets: count,
+  optimizedAssets: optimizedPaths.length,
   fullChecksums: process.argv.includes("--full"),
   passed: true,
 };

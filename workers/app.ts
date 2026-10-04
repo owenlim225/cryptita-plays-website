@@ -1,6 +1,7 @@
 import { createRequestHandler } from "react-router";
 import mediaAssets from "../shared/media-assets.json";
 import { serveMedia, type MediaAsset } from "./media";
+import { canonicalRedirect, robotsText, sitemapXml } from "./seo";
 
 const assetMap: Record<string, MediaAsset> = mediaAssets;
 
@@ -14,16 +15,23 @@ const handleRequest = createRequestHandler(
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const production = env.ENVIRONMENT === "production";
+    const redirect = canonicalRedirect(url, production);
     let response: Response;
-    if (env.ENVIRONMENT === "production" && url.hostname === "www.cryptitaplays.com") {
-      url.hostname = "cryptitaplays.com";
-      url.protocol = "https:";
-      response = Response.redirect(url.toString(), 308);
+    if (redirect) {
+      response = Response.redirect(redirect, 308);
     } else if (url.pathname === "/robots.txt") {
       response = new Response(
-        env.ENVIRONMENT === "production" ? "User-agent: *\nAllow: /\n" : "User-agent: *\nDisallow: /\n",
+        robotsText(production),
         { headers: { "Content-Type": "text/plain; charset=utf-8" } },
       );
+    } else if (url.pathname === "/sitemap.xml") {
+      response = new Response(sitemapXml(), {
+        headers: {
+          "Content-Type": "application/xml; charset=utf-8",
+          "Cache-Control": "public, max-age=300",
+        },
+      });
     } else {
       let pathname: string | null;
       try { pathname = decodeURIComponent(url.pathname); }

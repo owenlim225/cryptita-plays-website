@@ -19,6 +19,8 @@ for (const asset of report.records) {
 await mkdir("tmp", { recursive: true });
 const publicDir = path.resolve(`tmp/cloudflare-public-${randomUUID()}`);
 await mkdir(publicDir, { recursive: true });
+// Licensed self-hosted fonts are static assets, outside the media/R2 inventory.
+await cp("client/public/fonts", path.join(publicDir, "fonts"), { recursive: true });
 const assets = report.records.filter(asset => asset.references.length && !map[asset.publicPath]);
 for (const asset of assets) {
   if (asset.publicationPermission.startsWith("Unreviewed")) throw new Error(`Media requires owner approval: ${asset.publicPath}`);
