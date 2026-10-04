@@ -226,8 +226,8 @@ function Home() {
             <Reveal className="mission-main" delay={80}>
               <SectionHeading eyebrow="Our mission" title="The digital future should not be gated by geography." copy="We are building a bridge between education, technology, and social impact—one community, one learner, one safe introduction at a time." />
               <div className="mission-detail-grid">
-                <p>Cryptita Plays was founded in response to a growing digital divide in rural and hard-to-reach areas. Where internet access is limited, we combine traditional learning tools—books, storytelling, and shared spaces—with simplified introductions to Web3.</p>
-                <p>Our goal is not immediate adoption. It is early familiarity, critical thinking, and digital safety, so students and communities are prepared to make informed decisions when these technologies become part of everyday life.</p>
+                <p>Cryptita Plays is a community-driven social impact initiative focused on bridging Web3 education and social development for underserved communities in the Philippines. Founded with the belief that access to knowledge should not be limited by location, income, or internet availability, Cryptita Plays works to make digital literacy, blockchain awareness, and emerging technology education accessible, safe, and beginner-friendly.</p>
+                <p>At its core, Cryptita Plays operates with a strong education-first mindset. The goal is not to encourage immediate adoption of blockchain technologies, but to build early familiarity and awareness so that students and communities are prepared when these technologies become part of everyday life. By focusing on foundational understanding, critical thinking, and digital safety, the initiative empowers individuals to make informed decisions in the future digital economy.</p>
               </div>
             </Reveal>
             <Reveal className="mission-quote" delay={160}>
