@@ -1,0 +1,78 @@
+.connect-hero { padding: 82px 0; background: radial-gradient(ellipse at 12% 0%, #e9daf5, transparent 65%), var(--paper); border-bottom: 1px solid var(--line); }
+.connect-hero-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 70px; align-items: center; }
+.connect-intro h1 { margin: 24px 0; font-size: clamp(44px, 5.1vw, 72px); line-height: 1.06; letter-spacing: -.065em; }
+.connect-intro h1 em, .connect-faq-intro h2 em { font-style: normal; color: var(--violet-deep); }
+.connect-intro > p { max-width: 500px; color: var(--muted); font-size: 16px; line-height: 1.85; }
+.connect-faq-link { display: inline-flex; align-items: center; gap: 14px; margin-top: 24px; font-size: 12px; font-weight: 600; }
+.connect-faq-link svg { flex-shrink: 0; width: 17px; }
+.connect-card { padding: 32px; border: 1px solid var(--line); border-radius: 22px; background: var(--paper-bright); box-shadow: 0 18px 50px #42135a0b; }
+.connect-eyebrow { color: var(--violet-deep); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.connect-card h2 { font-size: 25px; letter-spacing: -.045em; margin: 10px 0 24px; }
+.connect-card .contact-method strong { font-size: 14px; }
+.connect-card .contact-method-icon { background: var(--lilac); color: var(--violet-deep); }
+.connect-person { display: flex; align-items: center; gap: 15px; margin-top: 26px; }
+.connect-person img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; object-position: center 30%; }
+.connect-person div { display: grid; gap: 2px; }
+.connect-person span { font-size: 11px; color: var(--muted); }
+.connect-person strong { font-size: 14px; }
+.connect-topics { padding: 74px 0; }
+.connect-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 30px; }
+.connect-section-heading h2 { max-width: 540px; margin: 15px 0 0; font-size: clamp(28px, 3vw, 38px); line-height: 1.2; letter-spacing: -.05em; }
+.connect-section-heading > p { color: var(--muted); font-size: 12px; line-height: 1.8; }
+.connect-topic-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.connect-topic { display: flex; flex-direction: column; padding: 27px; border: 1px solid var(--line); border-radius: 16px; transition: background .2s, border-color .2s; }
+.connect-topic:hover { background: var(--lilac); border-color: var(--violet); }
+.connect-topic-top { display: flex; align-items: center; justify-content: space-between; color: var(--violet-deep); }
+.connect-topic-top svg { width: 26px; height: 26px; }
+.connect-topic-top span { color: var(--muted); font-size: 11px; }
+.connect-topic h3 { margin: 25px 0 10px; font-size: 21px; letter-spacing: -.04em; }
+.connect-topic > p { margin: 0 0 24px; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.connect-topic-bottom { display: flex; align-items: center; gap: 15px; padding-top: 17px; border-top: 1px solid var(--line); margin-top: auto; font-size: 11px; }
+.connect-topic-bottom svg { width: 18px; flex-shrink: 0; margin-left: auto; color: var(--violet-deep); }
+.connect-general { margin: 26px 0 0; text-align: center; font-size: 12px; color: var(--muted); }
+.connect-general a, .connect-faq-note a { color: var(--violet-deep); font-weight: 600; }
+.connect-general svg, .connect-faq-intro a svg { display: inline; width: 16px; vertical-align: middle; margin-left: 5px; }
+.connect-faq { padding: 80px 0; background: var(--lilac); }
+.connect-faq-grid { display: grid; grid-template-columns: .8fr 1.4fr; gap: 80px; }
+.connect-faq-intro h2 { margin: 24px 0; font-size: clamp(42px, 5vw, 64px); letter-spacing: -.065em; line-height: 1.05; }
+.connect-faq-intro > p { max-width: 280px; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.connect-faq-intro a { display: inline-block; margin-top: 15px; font-size: 12px; font-weight: 600; }
+.connect-faq-item { border-bottom: 1px solid #17131d26; }
+.connect-faq-item:first-child { border-top: 1px solid #17131d26; }
+.connect-faq-item summary { display: flex; align-items: center; gap: 18px; list-style: none; cursor: pointer; padding: 23px 0; font-size: 14px; font-weight: 600; }
+.connect-faq-item summary::-webkit-details-marker { display: none; }
+.connect-faq-item summary:focus-visible { outline: 3px solid var(--violet-deep); outline-offset: 4px; }
+.connect-faq-number { font-size: 10px; font-weight: 400; color: var(--violet-deep); }
+.connect-faq-item summary svg { width: 17px; flex: 0 0 17px; margin-left: auto; color: var(--violet-deep); }
+.connect-faq-item[open] summary svg { transform: rotate(180deg); }
+.connect-faq-item > p { margin: 0 30px 24px; font-size: 13px; line-height: 1.9; color: #54465f; }
+.connect-faq-note { margin: 25px 0 0; font-size: 12px; color: var(--muted); }
+.connect-follow { padding: 60px 0; }
+.connect-follow-inner { display: flex; justify-content: space-between; align-items: center; gap: 50px; }
+.connect-follow h2 { font-size: 28px; letter-spacing: -.045em; margin: 15px 0 8px; }
+.connect-follow p { color: var(--muted); font-size: 12px; }
+.connect-socials { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.connect-socials a { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 10px; padding: 14px; font-size: 11px; }
+.connect-socials a:hover { background: var(--lilac); }
+.connect-socials svg { width: 16px; height: 16px; }
+.connect-socials a > svg:last-child { width: 13px; margin-left: auto; }
+@media (max-width: 1000px) { .connect-hero-grid { gap: 32px; grid-template-columns: 1fr 1fr; } .connect-card { padding: 24px; } .connect-faq-grid { gap: 40px; } .connect-topic { padding: 21px; } }
+@media (max-width: 760px) {
+  .connect-hero { padding: 48px 0; }
+  .connect-hero-grid, .connect-faq-grid { grid-template-columns: 1fr; gap: 36px; }
+  .connect-intro h1 { font-size: clamp(40px, 8vw, 58px); }
+  .connect-intro > p { font-size: 14px; }
+  .connect-faq-link { margin-top: 14px; }
+  .connect-card { padding: 24px; }
+  .connect-section-heading, .connect-follow-inner { flex-direction: column; align-items: stretch; gap: 14px; }
+  .connect-topic-grid { grid-template-columns: 1fr; }
+  .connect-topic h3 { margin-top: 18px; }
+  .connect-topics, .connect-faq { padding: 52px 0; }
+  .connect-faq-intro > p { max-width: 420px; }
+  .connect-faq-intro h2 { font-size: 46px; }
+  .connect-general a { display: inline-block; }
+  .connect-follow { padding: 44px 0; }
+  .connect-card .contact-method { gap: 10px; }
+  .connect-card .contact-method-icon { width: 38px; height: 38px; flex-basis: 38px; }
+  .connect-card .contact-method strong { font-size: 12px; }
+}
