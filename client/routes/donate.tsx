@@ -1,13 +1,5 @@
-import Donate from "../src/pages/Donate";
+import { redirect } from "react-router";
 
-export function meta() {
-  return [
-    { title: "Donate — Cryptita Plays" },
-    {
-      name: "description",
-      content: "Support Cryptita Plays and learn about its approach to transparent giving.",
-    },
-  ];
+export function loader() {
+  return redirect("/contact", 301);
 }
-
-export default Donate;

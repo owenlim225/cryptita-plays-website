@@ -1,0 +1,3527 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "source": "client/public/brand/cryptita-mark.png",
+      "publicPath": "/brand/cryptita-mark.png",
+      "bytes": 482500,
+      "contentType": "image/png",
+      "sha256": "0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f",
+      "references": [
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 2688,
+      "height": 2672
+    },
+    {
+      "source": "client/public/brand/cryptita-plays-banner.png",
+      "publicPath": "/brand/cryptita-plays-banner.png",
+      "bytes": 304307,
+      "contentType": "image/png",
+      "sha256": "9d986a27b4e20d42db4453c350b825a8d682c315f89074b71f88c7241dbc078b",
+      "references": [
+        "client/src/components/editorial/EditorialArticle.tsx",
+        "client/src/components/SiteFooter.tsx",
+        "client/src/pages/Contact.tsx",
+        "client/src/pages/Home.tsx",
+        "client/src/pages/InformationPage.tsx",
+        "client/src/pages/Initiatives.tsx",
+        "client/src/pages/Partners.tsx",
+        "client/src/pages/Stories.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 2902,
+      "height": 857
+    },
+    {
+      "source": "client/public/brand/partners/community/blocktides.png",
+      "publicPath": "/brand/partners/community/blocktides.png",
+      "bytes": 145189,
+      "contentType": "image/png",
+      "sha256": "06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/community/brgy-tamago.png",
+      "publicPath": "/brand/partners/community/brgy-tamago.png",
+      "bytes": 274284,
+      "contentType": "image/png",
+      "sha256": "53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/community/gn-club.png",
+      "publicPath": "/brand/partners/community/gn-club.png",
+      "bytes": 40562,
+      "contentType": "image/png",
+      "sha256": "2c568ad1be0c5dd6a954249bd22e0f3afe71143aacc6fb98b3eb2f513289e769",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 990,
+      "height": 691
+    },
+    {
+      "source": "client/public/brand/partners/community/museigen-io.png",
+      "publicPath": "/brand/partners/community/museigen-io.png",
+      "bytes": 15971,
+      "contentType": "image/png",
+      "sha256": "6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/community/nen-digital.png",
+      "publicPath": "/brand/partners/community/nen-digital.png",
+      "bytes": 141979,
+      "contentType": "image/png",
+      "sha256": "e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1563,
+      "height": 1563
+    },
+    {
+      "source": "client/public/brand/partners/community/stocksify.png",
+      "publicPath": "/brand/partners/community/stocksify.png",
+      "bytes": 213811,
+      "contentType": "image/png",
+      "sha256": "941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 2713,
+      "height": 2042
+    },
+    {
+      "source": "client/public/brand/partners/community/the-cryptology-academy.png",
+      "publicPath": "/brand/partners/community/the-cryptology-academy.png",
+      "bytes": 24303,
+      "contentType": "image/png",
+      "sha256": "4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/community/the-safehouse.png",
+      "publicPath": "/brand/partners/community/the-safehouse.png",
+      "bytes": 50907,
+      "contentType": "image/png",
+      "sha256": "d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 988,
+      "height": 1137
+    },
+    {
+      "source": "client/public/brand/partners/community/uphsl-gdc.png",
+      "publicPath": "/brand/partners/community/uphsl-gdc.png",
+      "bytes": 543241,
+      "contentType": "image/png",
+      "sha256": "92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "source": "client/public/brand/partners/educational/avalanche.png",
+      "publicPath": "/brand/partners/educational/avalanche.png",
+      "bytes": 182144,
+      "contentType": "image/png",
+      "sha256": "7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 2675,
+      "height": 2408
+    },
+    {
+      "source": "client/public/brand/partners/educational/base-philippines.png",
+      "publicPath": "/brand/partners/educational/base-philippines.png",
+      "bytes": 15631,
+      "contentType": "image/png",
+      "sha256": "d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "client/public/brand/partners/educational/blockchain4her.png",
+      "publicPath": "/brand/partners/educational/blockchain4her.png",
+      "bytes": 20478,
+      "contentType": "image/png",
+      "sha256": "2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/educational/blockchain4youth.gif",
+      "publicPath": "/brand/partners/educational/blockchain4youth.gif",
+      "bytes": 14875,
+      "contentType": "image/gif",
+      "sha256": "a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "GIF",
+      "width": 819,
+      "height": 207
+    },
+    {
+      "source": "client/public/brand/partners/educational/coinex-charity.png",
+      "publicPath": "/brand/partners/educational/coinex-charity.png",
+      "bytes": 279721,
+      "contentType": "image/png",
+      "sha256": "917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1302,
+      "height": 1429
+    },
+    {
+      "source": "client/public/brand/partners/educational/gate-web3.png",
+      "publicPath": "/brand/partners/educational/gate-web3.png",
+      "bytes": 62024,
+      "contentType": "image/png",
+      "sha256": "ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 477,
+      "height": 204
+    },
+    {
+      "source": "client/public/brand/partners/educational/mexc-foundation.png",
+      "publicPath": "/brand/partners/educational/mexc-foundation.png",
+      "bytes": 154846,
+      "contentType": "image/png",
+      "sha256": "460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1262,
+      "height": 1396
+    },
+    {
+      "source": "client/public/brand/partners/educational/morph.png",
+      "publicPath": "/brand/partners/educational/morph.png",
+      "bytes": 28290,
+      "contentType": "image/png",
+      "sha256": "a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1920,
+      "height": 500
+    },
+    {
+      "source": "client/public/brand/partners/educational/okx-wallet.png",
+      "publicPath": "/brand/partners/educational/okx-wallet.png",
+      "bytes": 36266,
+      "contentType": "image/png",
+      "sha256": "1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1028,
+      "height": 588
+    },
+    {
+      "source": "client/public/brand/partners/educational/trustwallet.png",
+      "publicPath": "/brand/partners/educational/trustwallet.png",
+      "bytes": 71071,
+      "contentType": "image/png",
+      "sha256": "9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f",
+      "references": [
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 331,
+      "height": 370
+    },
+    {
+      "source": "client/public/favicon.ico",
+      "publicPath": "/favicon.ico",
+      "bytes": 200742,
+      "contentType": "image/x-icon",
+      "sha256": "09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914",
+      "references": [
+        "client/root.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "ICO",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "client/public/images/classroom-session.jpg",
+      "publicPath": "/images/classroom-session.jpg",
+      "bytes": 348929,
+      "contentType": "image/jpeg",
+      "sha256": "0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/classroom-session.jpg",
+        "slots": [
+          "initiative feature",
+          "blog feature",
+          "news feature"
+        ],
+        "alt": "Students attending a classroom learning session",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "source": "client/public/images/community-gathering.jpg",
+      "publicPath": "/images/community-gathering.jpg",
+      "bytes": 426389,
+      "contentType": "image/jpeg",
+      "sha256": "2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/community-gathering.jpg",
+        "slots": [
+          "initiative feature",
+          "blog feature",
+          "news feature"
+        ],
+        "alt": "Community members gathered for a learning activity",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "source": "client/public/images/cook-cover.png",
+      "publicPath": "/images/cook-cover.png",
+      "bytes": 1510674,
+      "contentType": "image/png",
+      "sha256": "9d7abfe958dc3645ee397370469e92ba1b840d7bbd9fc53079d8f56834ee8deb",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/cook-cover.png",
+        "slots": [
+          "learning resources"
+        ],
+        "alt": "Cover of Programming for Youth: Code Like a Cook",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1087,
+      "height": 1446
+    },
+    {
+      "source": "client/public/images/encyclopedia-cover.png",
+      "publicPath": "/images/encyclopedia-cover.png",
+      "bytes": 1577818,
+      "contentType": "image/png",
+      "sha256": "58ecdcaefa7684c3faf4764681c4c8e3ca8cb794cc4d42f53317927aa48c5e9d",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/encyclopedia-cover.png",
+        "slots": [
+          "learning resources"
+        ],
+        "alt": "Cover of Barya to Blockchain young learners encyclopedia",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "source": "client/public/images/group-discussion.jpg",
+      "publicPath": "/images/group-discussion.jpg",
+      "bytes": 805048,
+      "contentType": "image/jpeg",
+      "sha256": "5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/group-discussion.jpg",
+        "slots": [
+          "initiative feature",
+          "blog feature",
+          "news feature"
+        ],
+        "alt": "Participants sharing a group discussion",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "source": "client/public/images/learning-event.jpg",
+      "publicPath": "/images/learning-event.jpg",
+      "bytes": 276524,
+      "contentType": "image/jpeg",
+      "sha256": "74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852",
+      "references": [
+        "client/src/content/editorial-types.ts",
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/learning-event.jpg",
+        "slots": [
+          "initiative feature",
+          "blog feature",
+          "news feature"
+        ],
+        "alt": "Participants at an educational event",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "source": "client/public/images/tambunan-outreach.mp4",
+      "publicPath": "/images/tambunan-outreach.mp4",
+      "bytes": 184373058,
+      "contentType": "video/mp4",
+      "sha256": "8bf6655602223b624875895eafdab81a7baa9704f1123b6a377e68de9d5732df",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/tambunan-outreach.mp4",
+        "slots": [
+          "initiative video",
+          "news video"
+        ],
+        "alt": "Community outreach video; confirm transcript/caption details",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site video"
+      },
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/images/tita-arsh.png",
+      "publicPath": "/images/tita-arsh.png",
+      "bytes": 1470380,
+      "contentType": "image/png",
+      "sha256": "96876221bbe4ec0aef0ef20d1b4a5adb2bf9daf17f578869cf58a4395de31944",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Contact.tsx",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Confirm permission and preferred credit",
+      "inventoryNote": {
+        "path": "/images/tita-arsh.png",
+        "slots": [
+          "brand/editorial portrait"
+        ],
+        "alt": "Cryptita Plays founder portrait",
+        "credit": "Confirm permission and preferred credit",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1165,
+      "height": 1096
+    },
+    {
+      "source": "client/public/images/wave3-cover.png",
+      "publicPath": "/images/wave3-cover.png",
+      "bytes": 3503779,
+      "contentType": "image/png",
+      "sha256": "275f5342dad95e4257f83da20f326621b3a7aa3567e32d9d2678a7191c667962",
+      "references": [
+        "client/src/content/initiatives.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/images/wave3-cover.png",
+        "slots": [
+          "learning resources"
+        ],
+        "alt": "Cover of Wave3 Handbook",
+        "credit": "Unknown; confirm before publication",
+        "status": "reused current site image"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "PNG",
+      "width": 1800,
+      "height": 2400
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_120040(1).jpg",
+      "publicPath": "/media/initiatives/acis/20260107_120040(1).jpg",
+      "bytes": 1803716,
+      "contentType": "image/jpeg",
+      "sha256": "b953c804a377c84af61dac08520fc48b1dc8aef8878d7d558eeb966864eafa69",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_120040(1).jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3677,
+      "height": 2068
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_143500.jpg",
+      "publicPath": "/media/initiatives/acis/20260107_143500.jpg",
+      "bytes": 3868139,
+      "contentType": "image/jpeg",
+      "sha256": "3cbe4c0584ef581899aca4455be905df437b1ba5f5126237bc5538dd9f35f656",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_143500.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_145133.jpg",
+      "publicPath": "/media/initiatives/acis/20260107_145133.jpg",
+      "bytes": 3840549,
+      "contentType": "image/jpeg",
+      "sha256": "540d5e0503fb7589149bfc4378be1a80a0f8fce4581c51a7e0ddba3420800618",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_145133.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_145153.jpg",
+      "publicPath": "/media/initiatives/acis/20260107_145153.jpg",
+      "bytes": 4179509,
+      "contentType": "image/jpeg",
+      "sha256": "3bc6c710d9f3efd83eb275e40063d95a4c76046d6f2d81cbe825109d873511df",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_145153.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_145154.jpg",
+      "publicPath": "/media/initiatives/acis/20260107_145154.jpg",
+      "bytes": 4966176,
+      "contentType": "image/jpeg",
+      "sha256": "e3cdcf411397373c606de34bab433065ce9798f15cc9652fbfb75760c5d3b45c",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_145154.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/acis/20260107_150243.jpg",
+      "publicPath": "/media/initiatives/acis/20260107_150243.jpg",
+      "bytes": 4042421,
+      "contentType": "image/jpeg",
+      "sha256": "066c9d07434cc3c51ceeb47248c539f4b4428c544aa906906e8caab68ce50aa6",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/20260107_150243.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/acis/IMG_20260109_231318_426.jpg",
+      "publicPath": "/media/initiatives/acis/IMG_20260109_231318_426.jpg",
+      "bytes": 289230,
+      "contentType": "image/jpeg",
+      "sha256": "1bae6c1702f1dd92d98a8c2d4004da4dcca91b454454f3ddf1b18c89fc2ef2cc",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/IMG_20260109_231318_426.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "source": "client/public/media/initiatives/acis/IMG_20260109_231341_269.jpg",
+      "publicPath": "/media/initiatives/acis/IMG_20260109_231341_269.jpg",
+      "bytes": 342637,
+      "contentType": "image/jpeg",
+      "sha256": "b2cfd9db7bfc6707d9bce766c970d454c5faf15da0eb5a5649acacdba5a03db1",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/acis/IMG_20260109_231341_269.jpg",
+        "initiative": "acis-adopt-a-child-iskolar",
+        "kind": "image",
+        "alt": "ACIS: Adopt-a-Child Iskolar program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_154124.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_154124.jpg",
+      "bytes": 9570303,
+      "contentType": "image/jpeg",
+      "sha256": "1714eb082e5bd56b1d7735058f93505d06d656c61182e15d6930c1f41b056f46",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_154124.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_165508.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_165508.jpg",
+      "bytes": 7972088,
+      "contentType": "image/jpeg",
+      "sha256": "54d779bb5ead2f422bac569a7efe1969f1e793e98a49d01ff9a9886d6340d647",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_165508.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_165916.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_165916.jpg",
+      "bytes": 9378103,
+      "contentType": "image/jpeg",
+      "sha256": "e27f92b1f24a089431c2224055cfc1be635c877f8a86847f49958a61521b3ef3",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_165916.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_171252.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_171252.jpg",
+      "bytes": 2336080,
+      "contentType": "image/jpeg",
+      "sha256": "961227bb9328f135b78094b85b32b89ea8b6a53a1592ca4840b47ccdcf718755",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_171252.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_171904.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_171904.jpg",
+      "bytes": 6209964,
+      "contentType": "image/jpeg",
+      "sha256": "d4e57487f585f548832b46e661ccd838b5ccc2d62c7aadeb0a9c1b3d44cdbf59",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_171904.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_192426.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_192426.jpg",
+      "bytes": 2085302,
+      "contentType": "image/jpeg",
+      "sha256": "9ea7b59449ffd00ef99e05afd5b699b300dc3b84e958ff7d1c88bed8683c42e6",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_192426.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3078,
+      "height": 2356
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_192603.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_192603.jpg",
+      "bytes": 8006648,
+      "contentType": "image/jpeg",
+      "sha256": "ee4d30f02c692ca433a7086d23fe0b270305587e61369e47de1fe78b55623998",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_192603.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/20260530_203719.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/20260530_203719.jpg",
+      "bytes": 2075383,
+      "contentType": "image/jpeg",
+      "sha256": "4899e663886e0af55cb7148a74e67221c81557efe6f942a2694fa8d65eb1b908",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/20260530_203719.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3314,
+      "height": 2486
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg",
+      "bytes": 275837,
+      "contentType": "image/jpeg",
+      "sha256": "7a41c2243807d74c0a203c6eba53419c6f7d81d7b94e71a11afd63a6a48a9dda",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 1280,
+      "height": 980
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg",
+      "bytes": 272985,
+      "contentType": "image/jpeg",
+      "sha256": "fa425f9e694d814d61689979af5bfdfd482f73e0cf90a199cb74980f6410193c",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg",
+      "bytes": 251408,
+      "contentType": "image/jpeg",
+      "sha256": "6cca757c0c94b37e407870321645022d74db27d6979d53fefe278d34b0025d7e",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 11",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg",
+      "bytes": 214214,
+      "contentType": "image/jpeg",
+      "sha256": "cca733e11c4f5bbfbd26b4e79092f5c2d5de0782ef46d294294c654fbb032312",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 12",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg",
+      "publicPath": "/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg",
+      "bytes": 257810,
+      "contentType": "image/jpeg",
+      "sha256": "e95941d643965325b16c267c52c4e07fc3687cd295bd6260ece1e7f9720a3e7a",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg",
+        "initiative": "blockchain4youth-collaboration",
+        "kind": "image",
+        "alt": "Blockchain4Youth Ã— Cryptita Plays program photo 13",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_135219.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_135219.jpg",
+      "bytes": 7008506,
+      "contentType": "image/jpeg",
+      "sha256": "7001b8d13d4462ecefbfe335fb7b973c3da29f3c7c98e2a374cff50b91fd7de9",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_135219.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_135241.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_135241.jpg",
+      "bytes": 6626608,
+      "contentType": "image/jpeg",
+      "sha256": "93c50fcb2be3eb85a13156007d7aaac45aebc4e367c91e3f48f586d99eb3e5c1",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_135241.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_135252.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_135252.jpg",
+      "bytes": 7444394,
+      "contentType": "image/jpeg",
+      "sha256": "41bc952dc46d3b7fcdb4a738f336f11d122287a894bb5d9ec19e78a8b8fa3f13",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_135252.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_161724.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_161724.jpg",
+      "bytes": 8785516,
+      "contentType": "image/jpeg",
+      "sha256": "3473e8654c96bf8ecf7a51cfcd70486560f9ff613952755bfa11945baec62a28",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_161724.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_161840.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_161840.jpg",
+      "bytes": 6274203,
+      "contentType": "image/jpeg",
+      "sha256": "90022c59c947ce1bc975ff73072c2d8426479907e990fe01f2ab701f0a218655",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_161840.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2992,
+      "height": 2992
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_162237.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_162237.jpg",
+      "bytes": 6291889,
+      "contentType": "image/jpeg",
+      "sha256": "5d405f516f5a61f929b820152723d0b6f1aa95aad5877f470a2306a02d5458e3",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_162237.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2992,
+      "height": 2992
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_185058.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_185058.jpg",
+      "bytes": 7821718,
+      "contentType": "image/jpeg",
+      "sha256": "08d4343bd171055ffefe04b676c9454c7b9cf6fe4ecc344ae8dd91d62367f208",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_185058.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_185525.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_185525.jpg",
+      "bytes": 8111113,
+      "contentType": "image/jpeg",
+      "sha256": "6cd9d68393e3fbb76335b8ee169a2a6f0618772e326d4f4e4bbd2ca7b6e047c3",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_185525.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-highlight/20260923_191027.jpg",
+      "publicPath": "/media/initiatives/builder-highlight/20260923_191027.jpg",
+      "bytes": 8263354,
+      "contentType": "image/jpeg",
+      "sha256": "a3e6b0a83f6535a4f222b989a149adf657af7f318af1db24ce7a79c4e5577e21",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-highlight/20260923_191027.jpg",
+        "initiative": "builder-highlight",
+        "kind": "image",
+        "alt": "Cryptita Plays: Builder Highlight program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3968,
+      "height": 2232
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_130155.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_130155.jpg",
+      "bytes": 7202777,
+      "contentType": "image/jpeg",
+      "sha256": "11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_130155.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_132313.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_132313.jpg",
+      "bytes": 8339718,
+      "contentType": "image/jpeg",
+      "sha256": "2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_132313.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_132335.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_132335.jpg",
+      "bytes": 2918395,
+      "contentType": "image/jpeg",
+      "sha256": "e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_132335.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_133059.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_133059.jpg",
+      "bytes": 6780717,
+      "contentType": "image/jpeg",
+      "sha256": "cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_133059.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_134304.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_134304.jpg",
+      "bytes": 1546836,
+      "contentType": "image/jpeg",
+      "sha256": "e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_134304.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_135920.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_135920.jpg",
+      "bytes": 1603277,
+      "contentType": "image/jpeg",
+      "sha256": "a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_135920.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_140038.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_140038.jpg",
+      "bytes": 1690484,
+      "contentType": "image/jpeg",
+      "sha256": "87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_140038.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_140154.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_140154.jpg",
+      "bytes": 1545930,
+      "contentType": "image/jpeg",
+      "sha256": "5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_140154.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_140711.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_140711.jpg",
+      "bytes": 1986150,
+      "contentType": "image/jpeg",
+      "sha256": "348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_140711.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_141432.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_141432.jpg",
+      "bytes": 7265825,
+      "contentType": "image/jpeg",
+      "sha256": "f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_141432.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_145036.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_145036.jpg",
+      "bytes": 7844743,
+      "contentType": "image/jpeg",
+      "sha256": "bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_145036.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 11",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_152040(0).jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_152040(0).jpg",
+      "bytes": 1858888,
+      "contentType": "image/jpeg",
+      "sha256": "1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_152040(0).jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 12",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_160619.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_160619.jpg",
+      "bytes": 1881521,
+      "contentType": "image/jpeg",
+      "sha256": "7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_160619.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 13",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_160804.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_160804.jpg",
+      "bytes": 6752762,
+      "contentType": "image/jpeg",
+      "sha256": "d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_160804.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 14",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_171821(0).jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_171821(0).jpg",
+      "bytes": 8739150,
+      "contentType": "image/jpeg",
+      "sha256": "9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_171821(0).jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 15",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/20260823_174425.jpg",
+      "publicPath": "/media/initiatives/builder-programs/20260823_174425.jpg",
+      "bytes": 6698337,
+      "contentType": "image/jpeg",
+      "sha256": "46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/20260823_174425.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 16",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+      "publicPath": "/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+      "bytes": 6328320,
+      "contentType": "image/jpeg",
+      "sha256": "911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 17",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 4000,
+      "height": 2256
+    },
+    {
+      "source": "client/public/media/initiatives/builder-programs/IMG_6389.JPG",
+      "publicPath": "/media/initiatives/builder-programs/IMG_6389.JPG",
+      "bytes": 2352564,
+      "contentType": "image/jpeg",
+      "sha256": "3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/builder-programs/IMG_6389.JPG",
+        "initiative": "builder-programs",
+        "kind": "image",
+        "alt": "Cryptita Plays Builder Programs program photo 18",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_172804.jpg",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/20260621_172804.jpg",
+      "bytes": 8210504,
+      "contentType": "image/jpeg",
+      "sha256": "db0398cf7a2f97e39d15df2ef16382640e2af223bb377aec3cb836b9ebeebdb4",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/ecosystem-collaboration/20260621_172804.jpg",
+        "initiative": "community-ecosystem-collaboration",
+        "kind": "image",
+        "alt": "Community & Ecosystem Collaboration program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_181349.jpg",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/20260621_181349.jpg",
+      "bytes": 8609511,
+      "contentType": "image/jpeg",
+      "sha256": "ab223b147df25df24010e24254a050ddd2afe2ca25a42f193acde6de3e187f2f",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/ecosystem-collaboration/20260621_181349.jpg",
+        "initiative": "community-ecosystem-collaboration",
+        "kind": "image",
+        "alt": "Community & Ecosystem Collaboration program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2628,
+      "height": 3504
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_202651.jpg",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/20260621_202651.jpg",
+      "bytes": 6957890,
+      "contentType": "image/jpeg",
+      "sha256": "fa088eabc92af7a689615ed03f1ef253d35a3042cb8888dd5a49629f899570bc",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/ecosystem-collaboration/20260621_202651.jpg",
+        "initiative": "community-ecosystem-collaboration",
+        "kind": "image",
+        "alt": "Community & Ecosystem Collaboration program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP1475.NEF",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/_GVP1475.NEF",
+      "bytes": 26765912,
+      "contentType": "image/x-nikon-nef",
+      "sha256": "eccaa1ec32667d1b202009d44009d6eb70977f990e838832f4422b8f877d7bb1",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP1547.NEF",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/_GVP1547.NEF",
+      "bytes": 23947647,
+      "contentType": "image/x-nikon-nef",
+      "sha256": "1e4f89763cfc495ec8562eeba256059258ce1acc49b3a167721c7b49b8f05d5e",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP1563.NEF",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/_GVP1563.NEF",
+      "bytes": 27231608,
+      "contentType": "image/x-nikon-nef",
+      "sha256": "d1936c57e3653d0c9fb73e6581851d9d855b20442ef8b5fe647f00fba113ae43",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP1700.NEF",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/_GVP1700.NEF",
+      "bytes": 26670734,
+      "contentType": "image/x-nikon-nef",
+      "sha256": "210f24dd513d3bb0c9ce560d1cba869f0ce820e9549f27233f08d11f87eafb6e",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP9672.NEF",
+      "publicPath": "/media/initiatives/ecosystem-collaboration/_GVP9672.NEF",
+      "bytes": 17790541,
+      "contentType": "image/x-nikon-nef",
+      "sha256": "ccccf55d4e947d07ea710728d9756e06ee36955af804db7bb882d0af1734357a",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_130155.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_130155.jpg",
+      "bytes": 7202777,
+      "contentType": "image/jpeg",
+      "sha256": "11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_130155.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_132313.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_132313.jpg",
+      "bytes": 8339718,
+      "contentType": "image/jpeg",
+      "sha256": "2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_132313.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_132335.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_132335.jpg",
+      "bytes": 2918395,
+      "contentType": "image/jpeg",
+      "sha256": "e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_132335.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_133059.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_133059.jpg",
+      "bytes": 6780717,
+      "contentType": "image/jpeg",
+      "sha256": "cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_133059.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_134304.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_134304.jpg",
+      "bytes": 1546836,
+      "contentType": "image/jpeg",
+      "sha256": "e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_134304.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_135920.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_135920.jpg",
+      "bytes": 1603277,
+      "contentType": "image/jpeg",
+      "sha256": "a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_135920.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_140038.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_140038.jpg",
+      "bytes": 1690484,
+      "contentType": "image/jpeg",
+      "sha256": "87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_140038.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_140154.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_140154.jpg",
+      "bytes": 1545930,
+      "contentType": "image/jpeg",
+      "sha256": "5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_140154.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_140711.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_140711.jpg",
+      "bytes": 1986150,
+      "contentType": "image/jpeg",
+      "sha256": "348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_140711.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_141432.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_141432.jpg",
+      "bytes": 7265825,
+      "contentType": "image/jpeg",
+      "sha256": "f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_141432.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_145036.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_145036.jpg",
+      "bytes": 7844743,
+      "contentType": "image/jpeg",
+      "sha256": "bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_145036.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 11",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_152040(0).jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_152040(0).jpg",
+      "bytes": 1858888,
+      "contentType": "image/jpeg",
+      "sha256": "1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_152040(0).jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 12",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_160619.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_160619.jpg",
+      "bytes": 1881521,
+      "contentType": "image/jpeg",
+      "sha256": "7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_160619.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 13",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_160804.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_160804.jpg",
+      "bytes": 6752762,
+      "contentType": "image/jpeg",
+      "sha256": "d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_160804.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 14",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_171821(0).jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_171821(0).jpg",
+      "bytes": 8739150,
+      "contentType": "image/jpeg",
+      "sha256": "9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_171821(0).jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 15",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/20260823_174425.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/20260823_174425.jpg",
+      "bytes": 6698337,
+      "contentType": "image/jpeg",
+      "sha256": "46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/20260823_174425.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 16",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+      "publicPath": "/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+      "bytes": 6328320,
+      "contentType": "image/jpeg",
+      "sha256": "911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 17",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 4000,
+      "height": 2256
+    },
+    {
+      "source": "client/public/media/initiatives/grantix-fundraising/IMG_6389.JPG",
+      "publicPath": "/media/initiatives/grantix-fundraising/IMG_6389.JPG",
+      "bytes": 2352564,
+      "contentType": "image/jpeg",
+      "sha256": "3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/grantix-fundraising/IMG_6389.JPG",
+        "initiative": "grantix-social-impact-fundraising",
+        "kind": "image",
+        "alt": "GrantiX Ã— Social-Impact Fundraising program photo 18",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20251203_121220.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20251203_121220.jpg",
+      "bytes": 8394136,
+      "contentType": "image/jpeg",
+      "sha256": "31d56221ce9c9d43413c1259bfdefc3122e6dd6c2a9328c7115566748e5aea4b",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20251203_121220.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20251203_121238.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20251203_121238.jpg",
+      "bytes": 8577352,
+      "contentType": "image/jpeg",
+      "sha256": "c2b30abea48f650f18c815b9b8ec880fc7ab84b732208ac164d5dab4566b8e6e",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20251203_121238.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152413.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152413.jpg",
+      "bytes": 3947156,
+      "contentType": "image/jpeg",
+      "sha256": "3e517d62256d076df9d1e43bbc35de93d816c62f9914ae90efc1a2d2d9db3b91",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152413.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152417.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152417.jpg",
+      "bytes": 3938004,
+      "contentType": "image/jpeg",
+      "sha256": "8274e71a7e79980b81f83561a940c460b46f68597a815a0a64f6b5ec5fe7b13f",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152417.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152427.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152427.jpg",
+      "bytes": 4308215,
+      "contentType": "image/jpeg",
+      "sha256": "f8d6d468dfafb8ccb6bb3a00ac4bd14719f6f13ab0479e38adc9854228e125f0",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152427.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152428.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152428.jpg",
+      "bytes": 3804094,
+      "contentType": "image/jpeg",
+      "sha256": "b61df3dd20e33a03ae1aded7f26cc757dfb331cb7f3a4d3056ef75875e91a1bf",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152428.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152435.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152435.jpg",
+      "bytes": 4449136,
+      "contentType": "image/jpeg",
+      "sha256": "1d7d1c5b93015ad9bc25352e45bc0c3324b3a347d5b046b92caf86a325a4b074",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152435.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260107_152439.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260107_152439.jpg",
+      "bytes": 4488778,
+      "contentType": "image/jpeg",
+      "sha256": "adab471267ad19217e7e85ca04c1342c99599613e5cbf1e980c79e62c9b7afb1",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260107_152439.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260609_122052.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260609_122052.jpg",
+      "bytes": 4207957,
+      "contentType": "image/jpeg",
+      "sha256": "e846c82d6a1ca14baae2fbc61825c87037a29b6723fcba297287b479675d337a",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260609_122052.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3648,
+      "height": 2736
+    },
+    {
+      "source": "client/public/media/initiatives/learning-resources/20260609_122057.jpg",
+      "publicPath": "/media/initiatives/learning-resources/20260609_122057.jpg",
+      "bytes": 4241921,
+      "contentType": "image/jpeg",
+      "sha256": "ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/learning-resources/20260609_122057.jpg",
+        "initiative": "cryptita-plays-learning-resources",
+        "kind": "image",
+        "alt": "Cryptita Plays Learning Resources program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3648,
+      "height": 2736
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg",
+      "bytes": 386550,
+      "contentType": "image/jpeg",
+      "sha256": "d103de08da8dc22601b448eef1db62e6b4094ef69cd8124b3903f600d87c21bd",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 640,
+      "height": 723
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609080355_0060.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609080355_0060.jpg",
+      "bytes": 2087668,
+      "contentType": "image/jpeg",
+      "sha256": "e9ea95861111eb5c874c0e14778d25765dd1d2a6491a160549d787ccc1727693",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609080355_0060.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2851,
+      "height": 1604
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609_093735.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609_093735.jpg",
+      "bytes": 9106692,
+      "contentType": "image/jpeg",
+      "sha256": "0dd3be8e8a78bf2238ef6d1133a59aa942c28e47bfbdf5fd63f55d1e93027796",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609_093735.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 2676,
+      "height": 3570
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609_095119.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609_095119.jpg",
+      "bytes": 8349131,
+      "contentType": "image/jpeg",
+      "sha256": "b8bd7e0e468e22bfde3e56268d97ecf98507c1a46e95cfdd7d5357f7c5c4bf7c",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609_095119.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609_095923.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609_095923.jpg",
+      "bytes": 1646968,
+      "contentType": "image/jpeg",
+      "sha256": "6d30c47b73d2117a44b8f3c7cbe08b5cabee420bc6a2847ab05671ccb33b0778",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609_095923.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609_111450.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609_111450.jpg",
+      "bytes": 1439943,
+      "contentType": "image/jpeg",
+      "sha256": "f42d6ad1e4e3df798c3ff09962cf7ff18637eccb9837f8698a748ace98e97aee",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts",
+        "client/src/pages/Home.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609_111450.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/20260609_122057.jpg",
+      "publicPath": "/media/initiatives/mini-library/20260609_122057.jpg",
+      "bytes": 4241921,
+      "contentType": "image/jpeg",
+      "sha256": "ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/20260609_122057.jpg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3648,
+      "height": 2736
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/received_1008644855230226.jpeg",
+      "publicPath": "/media/initiatives/mini-library/received_1008644855230226.jpeg",
+      "bytes": 892059,
+      "contentType": "image/jpeg",
+      "sha256": "e72ca5e0cbd0ddf9dcf3bae44ed62536654de9096637eb810c0a7cbcbc2a69b1",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/received_1008644855230226.jpeg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/received_1727640778263587.jpeg",
+      "publicPath": "/media/initiatives/mini-library/received_1727640778263587.jpeg",
+      "bytes": 779617,
+      "contentType": "image/jpeg",
+      "sha256": "4a1b4b0135edc15328773c0640e023ed6d625c47718510c647c155f66f93aac8",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/received_1727640778263587.jpeg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "source": "client/public/media/initiatives/mini-library/received_835728199324220.jpeg",
+      "publicPath": "/media/initiatives/mini-library/received_835728199324220.jpeg",
+      "bytes": 782332,
+      "contentType": "image/jpeg",
+      "sha256": "fb60cffdf64f379fe5f5a8c207e294c548d9eb07cd782169d8392a37b036f03c",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/mini-library/received_835728199324220.jpeg",
+        "initiative": "mini-library-mission-outreach",
+        "kind": "image",
+        "alt": "Mini-Library Mission & Outreach Program program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/20260504_085553.jpg",
+      "publicPath": "/media/initiatives/web3-on-campus/20260504_085553.jpg",
+      "bytes": 4510787,
+      "contentType": "image/jpeg",
+      "sha256": "787151264caff1e5edf44fc36acaafdffc42efeabda0b7dff23c16c380132ec0",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/20260504_085553.jpg",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 1",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/20260504_085633.jpg",
+      "publicPath": "/media/initiatives/web3-on-campus/20260504_085633.jpg",
+      "bytes": 5483014,
+      "contentType": "image/jpeg",
+      "sha256": "0b9f543fbf10a07fd3f13b2e187a6c8d9081c649f433c860f3c046cc16cf9a75",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/20260504_085633.jpg",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 2",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/20260504_111917.jpg",
+      "publicPath": "/media/initiatives/web3-on-campus/20260504_111917.jpg",
+      "bytes": 9907920,
+      "contentType": "image/jpeg",
+      "sha256": "9f3b39866cf2065e0c54c99ec58be2dcc4123ff5c5da732df5bde7e3f3215164",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/20260504_111917.jpg",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 3",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3750,
+      "height": 2678
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg",
+      "publicPath": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg",
+      "bytes": 1947420,
+      "contentType": "image/jpeg",
+      "sha256": "4de2cb9cc10e5ccd55de593e9c56d50eee83e68650f9d032c6d773d8d0c4d617",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 4",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3529,
+      "height": 1991
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg",
+      "publicPath": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg",
+      "bytes": 1951537,
+      "contentType": "image/jpeg",
+      "sha256": "5631290f937713bba17eadd3f4bf9132560235e808fe634cfa450bcf97e68095",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 5",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "JPEG",
+      "width": 3604,
+      "height": 2033
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5551.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5551.JPG",
+      "bytes": 6455448,
+      "contentType": "image/jpeg",
+      "sha256": "1f69057b26186cb98affea79480636711f8b0d953afe9b13752b1a7db1bfc66e",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5551.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 6",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5552.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5552.JPG",
+      "bytes": 6418918,
+      "contentType": "image/jpeg",
+      "sha256": "b1308bb25ac626f66b5470fdad4773be79ab4b3b7ec777886086e4b5ed392ee8",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5552.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 7",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5563.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5563.JPG",
+      "bytes": 6491897,
+      "contentType": "image/jpeg",
+      "sha256": "000e17cb1291592d00b586b4233db786c24388b524adc154a31d23f4745cdb2c",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5563.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 8",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5578.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5578.JPG",
+      "bytes": 6416435,
+      "contentType": "image/jpeg",
+      "sha256": "438d869c69893ec0c86fbc3d30a9ae79d625a27b9fb1e3e19a248c4095aca6d9",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts",
+        "client/src/pages/Home.tsx",
+        "client/src/pages/Partners.tsx"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5578.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 9",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5591.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5591.JPG",
+      "bytes": 6434070,
+      "contentType": "image/jpeg",
+      "sha256": "0f4dcb07a69311dc2dbda5f56db7fbaf579bd39e4705133c90dc91b9339dd728",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5591.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 10",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5606.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5606.JPG",
+      "bytes": 6367965,
+      "contentType": "image/jpeg",
+      "sha256": "17b0168477b53636d124a5f596e63c04d1dd8a17808c227e7ce9b19d14d355ee",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5606.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 11",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5632.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5632.JPG",
+      "bytes": 6453314,
+      "contentType": "image/jpeg",
+      "sha256": "d6b7590fc8333f0a6bf293e76939f5f1b3ca7bc72a3224db4d8c30c86ea89d6e",
+      "references": [
+        "client/src/content/initiative-media.ts",
+        "client/src/data/partners.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5632.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 12",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "client/public/media/initiatives/web3-on-campus/DSC_5651.JPG",
+      "publicPath": "/media/initiatives/web3-on-campus/DSC_5651.JPG",
+      "bytes": 6361978,
+      "contentType": "image/jpeg",
+      "sha256": "9d338340583c91f40f515c90fdbe550b890cb237836f8478839bd8f81989bc67",
+      "references": [
+        "client/src/content/initiative-media.ts"
+      ],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unknown; confirm before publication",
+      "inventoryNote": {
+        "path": "/media/initiatives/web3-on-campus/DSC_5651.JPG",
+        "initiative": "web3-on-campus",
+        "kind": "image",
+        "alt": "Cryptita Plays: Web3 On Campus program photo 13",
+        "credit": "Unknown; confirm before publication",
+        "status": "user-supplied; verify permissions and replace generic alt text before publication"
+      },
+      "migrationStatus": "Pending upload and validation",
+      "decodedFormat": "MPO",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "source": "assets/banner.png",
+      "publicPath": null,
+      "bytes": 465960,
+      "contentType": "image/png",
+      "sha256": "01c3e85aaa73dac6b1c90d72c236251759d6594b3968632477d10d6ac6e2b60d",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/icon mark.ico",
+      "publicPath": null,
+      "bytes": 200742,
+      "contentType": "image/x-icon",
+      "sha256": "09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/BlockTides.png",
+      "publicPath": null,
+      "bytes": 145189,
+      "contentType": "image/png",
+      "sha256": "06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Brgy Tamago.png",
+      "publicPath": null,
+      "bytes": 274284,
+      "contentType": "image/png",
+      "sha256": "53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/GN club.png",
+      "publicPath": null,
+      "bytes": 75105,
+      "contentType": "image/png",
+      "sha256": "99957579075149085e4b23f5834d95da779cefbfd4388a71b1d23b31f8a3a0f5",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Museigen.io.png",
+      "publicPath": null,
+      "bytes": 15971,
+      "contentType": "image/png",
+      "sha256": "6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/NEN Digital.png",
+      "publicPath": null,
+      "bytes": 141979,
+      "contentType": "image/png",
+      "sha256": "e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Stocksify.png",
+      "publicPath": null,
+      "bytes": 213811,
+      "contentType": "image/png",
+      "sha256": "941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/The Cryptology Academy.png",
+      "publicPath": null,
+      "bytes": 24303,
+      "contentType": "image/png",
+      "sha256": "4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/The SafeHouse.png",
+      "publicPath": null,
+      "bytes": 50907,
+      "contentType": "image/png",
+      "sha256": "d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/UPHSL GDC.png",
+      "publicPath": null,
+      "bytes": 543241,
+      "contentType": "image/png",
+      "sha256": "92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Avalanche.png",
+      "publicPath": null,
+      "bytes": 182144,
+      "contentType": "image/png",
+      "sha256": "7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/BASE Philippines.png",
+      "publicPath": null,
+      "bytes": 15631,
+      "contentType": "image/png",
+      "sha256": "d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Blockchain4Her.png",
+      "publicPath": null,
+      "bytes": 20478,
+      "contentType": "image/png",
+      "sha256": "2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Blockchain4Youth.gif",
+      "publicPath": null,
+      "bytes": 14875,
+      "contentType": "image/gif",
+      "sha256": "a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Coinex Charity.png",
+      "publicPath": null,
+      "bytes": 279721,
+      "contentType": "image/png",
+      "sha256": "917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Gate Web3.png",
+      "publicPath": null,
+      "bytes": 62024,
+      "contentType": "image/png",
+      "sha256": "ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/MEXC Foundation.png",
+      "publicPath": null,
+      "bytes": 154846,
+      "contentType": "image/png",
+      "sha256": "460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Morph.png",
+      "publicPath": null,
+      "bytes": 28290,
+      "contentType": "image/png",
+      "sha256": "a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/OKX Wallet.png",
+      "publicPath": null,
+      "bytes": 36266,
+      "contentType": "image/png",
+      "sha256": "1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/TrustWallet.png",
+      "publicPath": null,
+      "bytes": 71071,
+      "contentType": "image/png",
+      "sha256": "9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/primary logo.png",
+      "publicPath": null,
+      "bytes": 482500,
+      "contentType": "image/png",
+      "sha256": "0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image1.jpg",
+      "publicPath": null,
+      "bytes": 426389,
+      "contentType": "image/jpeg",
+      "sha256": "2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image2.jpg",
+      "publicPath": null,
+      "bytes": 183278,
+      "contentType": "image/jpeg",
+      "sha256": "fe66487789664d52d8e32ad032c91ba564e18d1993c23b6dee091d0c5e4c741a",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image3.jpg",
+      "publicPath": null,
+      "bytes": 348929,
+      "contentType": "image/jpeg",
+      "sha256": "0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image4.jpg",
+      "publicPath": null,
+      "bytes": 231072,
+      "contentType": "image/jpeg",
+      "sha256": "e669ea3c0fb4ad7b24a67ba5b0473b5c2d0e8d53eba522643886392a8621321d",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image5.jpg",
+      "publicPath": null,
+      "bytes": 280166,
+      "contentType": "image/jpeg",
+      "sha256": "e59513d7d83012564822a6dfc880c60c73dc4485a64ff8dc67cf884935fe85f7",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image6.jpg",
+      "publicPath": null,
+      "bytes": 676774,
+      "contentType": "image/jpeg",
+      "sha256": "9e22c217540ab6e0f98902c5aa7130c2a5db66911c96232c744a52df63420f2e",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image7.jpg",
+      "publicPath": null,
+      "bytes": 805048,
+      "contentType": "image/jpeg",
+      "sha256": "5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image8.jpg",
+      "publicPath": null,
+      "bytes": 643676,
+      "contentType": "image/jpeg",
+      "sha256": "9f103d810eafb94bc8aa4880aed64ad6cd70cf747128222ba4672c353296f4c2",
+      "references": [],
+      "publicationPermission": "Unreviewed; do not publish automatically",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    },
+    {
+      "source": "assets/real photos/image_1.jpg",
+      "publicPath": null,
+      "bytes": 276524,
+      "contentType": "image/jpeg",
+      "sha256": "74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852",
+      "references": [],
+      "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
+      "credit": "Unrecorded; confirm preferred attribution",
+      "inventoryNote": null,
+      "migrationStatus": "Excluded pending review"
+    }
+  ],
+  "missing": [],
+  "unavailableInventoryEntries": [
+    {
+      "path": "/media/initiatives/blockchain4youth/20260530_161709.mp4",
+      "initiative": "blockchain4youth-collaboration",
+      "kind": "video",
+      "alt": "Blockchain4Youth Ã— Cryptita Plays program video",
+      "credit": "Unknown; confirm before publication",
+      "status": "user-supplied; verify permissions and replace generic alt text before publication"
+    }
+  ]
+}

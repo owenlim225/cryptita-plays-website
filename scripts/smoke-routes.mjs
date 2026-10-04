@@ -14,7 +14,7 @@ async function readRoute(path) {
 }
 
 const title = (html) => html.match(/<title>([^<]+)<\/title>/i)?.[1] ?? "";
-const publicPaths = ["/", "/donate", "/faq", "/who-we-are", "/engage", "/terms", "/privacy", "/cookies"];
+const publicPaths = ["/", "/contact", "/faq", "/who-we-are", "/engage", "/initiatives", "/partners", "/stories", "/terms", "/privacy", "/cookies"];
 const publicPages = await Promise.all(publicPaths.map(readRoute));
 const titles = new Set();
 
@@ -28,7 +28,11 @@ for (const [index, page] of publicPages.entries()) {
   titles.add(title(page.html));
 }
 
-for (const path of ["/404", "/this-page-does-not-exist"]) {
+const oldDonationRoute = await fetch(new URL("/donate", baseUrl), { redirect: "manual" });
+assert.equal(oldDonationRoute.status, 301, "The former donation URL should redirect");
+assert.equal(oldDonationRoute.headers.get("location"), "/contact");
+
+for (const path of ["/404", "/this-page-does-not-exist", "/initiatives/does-not-exist", "/stories/does-not-exist"]) {
   const page = await readRoute(path);
   assert.equal(page.status, 404, `${path} should return HTTP 404`);
   assert.match(page.html, /<meta\s+name="robots"\s+content="noindex"/i, `${path} should not be indexed`);

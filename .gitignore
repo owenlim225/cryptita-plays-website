@@ -119,6 +119,10 @@ client/public/__manus__/version.json
 # Generated framework and local deployment metadata
 /.react-router/
 /.vercel/
+/.wrangler/
+/.dev.vars*
+/.env.*
+/worker-configuration.d.ts
 client/public/images/tambunan-outreach.mp4
 
 # Local media library: keep the taxonomy and inventory in Git, but store binaries locally until Cloudflare media storage is ready.

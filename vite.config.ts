@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter()],
-  publicDir: path.resolve(import.meta.dirname, "client/public"),
+  publicDir: path.resolve(import.meta.dirname, process.env.CF_PUBLIC_DIR || "client/public"),
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client/src"),

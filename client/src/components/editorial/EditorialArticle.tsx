@@ -14,7 +14,7 @@ export function EditorialArticle({ story, backHref, backLabel, listingHref }: Pr
   return <div className="site-shell editorial-shell">
     <header className="site-header site-header-solid"><div className="container nav-inner">
       <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link>
-      <nav className="desktop-nav" aria-label="Main navigation"><Link to="/initiatives">Initiatives</Link><Link to="/stories">Field Notes &amp; Events</Link><Link to="/donate" className="nav-donate">Support us <ArrowRight /></Link></nav>
+      <nav className="desktop-nav" aria-label="Main navigation"><Link to="/initiatives">Initiatives</Link><Link to="/stories">Field Notes &amp; Events</Link><Link to="/contact" className="nav-donate">Contact us <ArrowRight /></Link></nav>
     </div></header>
     <main className="editorial-main">
       <article>

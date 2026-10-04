@@ -1,5 +1,5 @@
 {
-  "include": ["client/**/*", ".react-router/types/**/*", "shared/**/*", "react-router.config.ts", "vite.config.ts"],
+  "include": ["client/**/*", ".react-router/types/**/*", "shared/**/*", "react-router.config.ts", "vite.config.ts", "workers/**/*", "worker-configuration.d.ts"],
   "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
     "incremental": true,
@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "moduleResolution": "bundler",
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "rootDirs": [".", ".react-router/types"],
     "types": ["node", "vite/client"],

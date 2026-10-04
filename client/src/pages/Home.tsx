@@ -138,8 +138,8 @@ function SiteHeader() {
           {links.map(([label, href]) => (
             <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>
           ))}
-          <Link to="/donate" className="nav-donate" onClick={() => setOpen(false)}>
-            Support us <ArrowUpRight />
+          <Link to="/contact" className="nav-donate" onClick={() => setOpen(false)}>
+            Contact us <ArrowUpRight />
           </Link>
         </nav>
         <button className="menu-trigger" onClick={() => setOpen(!open)} aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"}>
@@ -210,7 +210,7 @@ function Home() {
               <h1>Bridging Web3 Education and Social Impact</h1>
               <div className="hero-actions">
                 <a href="#mission" className="button button-primary">Explore the mission <ArrowRight /></a>
-                <Link to="/donate" className="button button-outline">Donate <ArrowRight /></Link>
+                <Link to="/contact" className="button button-outline">Support our work <ArrowRight /></Link>
               </div>
             </Reveal>
           </div>
@@ -336,7 +336,7 @@ function Home() {
 
         <section className="events-section section-padding" id="events">
           <div className="container events-layout">
-            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><div className="events-heading-actions"><Link to="/stories" className="button button-dark">All stories <ArrowRight /></Link><Link to="/donate" className="text-link">Support a chapter <ArrowRight /></Link></div></Reveal>
+            <Reveal className="events-heading"><SectionHeading eyebrow="Field notes & events" title="Follow the work as it moves." copy="A living journal of workshops, community visits, program updates, and the people making the bridge wider." /><div className="events-heading-actions"><Link to="/stories" className="button button-dark">All stories <ArrowRight /></Link><Link to="/contact" className="text-link">Support a chapter <ArrowRight /></Link></div></Reveal>
             <Reveal className="event-carousel" delay={100}>
               <div className="event-topline"><span>{activeEvent.date}</span><span>{String(eventIndex + 1).padStart(2, "0")} / {String(events.length).padStart(2, "0")}</span></div>
               <div className="event-card">
