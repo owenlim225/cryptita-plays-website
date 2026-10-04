@@ -4,5 +4,5 @@ import type { Config } from "@react-router/dev/config";
 export default {
   appDirectory: "client",
   ssr: true,
-  presets: [vercelPreset()],
+  presets: process.env.DEPLOY_TARGET === "cloudflare" ? [] : [vercelPreset()],
 } satisfies Config;

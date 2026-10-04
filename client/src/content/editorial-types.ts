@@ -17,4 +17,4 @@ export type EditorialStory = {
   relatedSlugs?: string[];
 };
 
-export const DEFAULT_STORY_IMAGE = "/media/brand/cryptita-feature-placeholder.jpg";
+export const DEFAULT_STORY_IMAGE = "/images/learning-event.jpg";

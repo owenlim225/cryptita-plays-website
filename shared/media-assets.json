@@ -1,0 +1,1058 @@
+{
+  "/brand/cryptita-mark.png": {
+    "key": "sha256/0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f.png",
+    "sha256": "0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f",
+    "bytes": 482500,
+    "contentType": "image/png",
+    "source": "client/public/brand/cryptita-mark.png",
+    "publicUrl": "/brand/cryptita-mark.png"
+  },
+  "/brand/cryptita-plays-banner.png": {
+    "key": "sha256/9d986a27b4e20d42db4453c350b825a8d682c315f89074b71f88c7241dbc078b.png",
+    "sha256": "9d986a27b4e20d42db4453c350b825a8d682c315f89074b71f88c7241dbc078b",
+    "bytes": 304307,
+    "contentType": "image/png",
+    "source": "client/public/brand/cryptita-plays-banner.png",
+    "publicUrl": "/brand/cryptita-plays-banner.png"
+  },
+  "/brand/partners/community/blocktides.png": {
+    "key": "sha256/06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df.png",
+    "sha256": "06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df",
+    "bytes": 145189,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/blocktides.png",
+    "publicUrl": "/brand/partners/community/blocktides.png"
+  },
+  "/brand/partners/community/brgy-tamago.png": {
+    "key": "sha256/53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47.png",
+    "sha256": "53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47",
+    "bytes": 274284,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/brgy-tamago.png",
+    "publicUrl": "/brand/partners/community/brgy-tamago.png"
+  },
+  "/brand/partners/community/gn-club.png": {
+    "key": "sha256/2c568ad1be0c5dd6a954249bd22e0f3afe71143aacc6fb98b3eb2f513289e769.png",
+    "sha256": "2c568ad1be0c5dd6a954249bd22e0f3afe71143aacc6fb98b3eb2f513289e769",
+    "bytes": 40562,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/gn-club.png",
+    "publicUrl": "/brand/partners/community/gn-club.png"
+  },
+  "/brand/partners/community/museigen-io.png": {
+    "key": "sha256/6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b.png",
+    "sha256": "6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b",
+    "bytes": 15971,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/museigen-io.png",
+    "publicUrl": "/brand/partners/community/museigen-io.png"
+  },
+  "/brand/partners/community/nen-digital.png": {
+    "key": "sha256/e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9.png",
+    "sha256": "e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9",
+    "bytes": 141979,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/nen-digital.png",
+    "publicUrl": "/brand/partners/community/nen-digital.png"
+  },
+  "/brand/partners/community/stocksify.png": {
+    "key": "sha256/941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239.png",
+    "sha256": "941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239",
+    "bytes": 213811,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/stocksify.png",
+    "publicUrl": "/brand/partners/community/stocksify.png"
+  },
+  "/brand/partners/community/the-cryptology-academy.png": {
+    "key": "sha256/4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4.png",
+    "sha256": "4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4",
+    "bytes": 24303,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/the-cryptology-academy.png",
+    "publicUrl": "/brand/partners/community/the-cryptology-academy.png"
+  },
+  "/brand/partners/community/the-safehouse.png": {
+    "key": "sha256/d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef.png",
+    "sha256": "d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef",
+    "bytes": 50907,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/the-safehouse.png",
+    "publicUrl": "/brand/partners/community/the-safehouse.png"
+  },
+  "/brand/partners/community/uphsl-gdc.png": {
+    "key": "sha256/92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0.png",
+    "sha256": "92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0",
+    "bytes": 543241,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/community/uphsl-gdc.png",
+    "publicUrl": "/brand/partners/community/uphsl-gdc.png"
+  },
+  "/brand/partners/educational/avalanche.png": {
+    "key": "sha256/7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493.png",
+    "sha256": "7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493",
+    "bytes": 182144,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/avalanche.png",
+    "publicUrl": "/brand/partners/educational/avalanche.png"
+  },
+  "/brand/partners/educational/base-philippines.png": {
+    "key": "sha256/d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d.png",
+    "sha256": "d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d",
+    "bytes": 15631,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/base-philippines.png",
+    "publicUrl": "/brand/partners/educational/base-philippines.png"
+  },
+  "/brand/partners/educational/blockchain4her.png": {
+    "key": "sha256/2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930.png",
+    "sha256": "2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930",
+    "bytes": 20478,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/blockchain4her.png",
+    "publicUrl": "/brand/partners/educational/blockchain4her.png"
+  },
+  "/brand/partners/educational/blockchain4youth.gif": {
+    "key": "sha256/a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30.gif",
+    "sha256": "a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30",
+    "bytes": 14875,
+    "contentType": "image/gif",
+    "source": "client/public/brand/partners/educational/blockchain4youth.gif",
+    "publicUrl": "/brand/partners/educational/blockchain4youth.gif"
+  },
+  "/brand/partners/educational/coinex-charity.png": {
+    "key": "sha256/917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3.png",
+    "sha256": "917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3",
+    "bytes": 279721,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/coinex-charity.png",
+    "publicUrl": "/brand/partners/educational/coinex-charity.png"
+  },
+  "/brand/partners/educational/gate-web3.png": {
+    "key": "sha256/ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8.png",
+    "sha256": "ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8",
+    "bytes": 62024,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/gate-web3.png",
+    "publicUrl": "/brand/partners/educational/gate-web3.png"
+  },
+  "/brand/partners/educational/mexc-foundation.png": {
+    "key": "sha256/460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868.png",
+    "sha256": "460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868",
+    "bytes": 154846,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/mexc-foundation.png",
+    "publicUrl": "/brand/partners/educational/mexc-foundation.png"
+  },
+  "/brand/partners/educational/morph.png": {
+    "key": "sha256/a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97.png",
+    "sha256": "a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97",
+    "bytes": 28290,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/morph.png",
+    "publicUrl": "/brand/partners/educational/morph.png"
+  },
+  "/brand/partners/educational/okx-wallet.png": {
+    "key": "sha256/1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214.png",
+    "sha256": "1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214",
+    "bytes": 36266,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/okx-wallet.png",
+    "publicUrl": "/brand/partners/educational/okx-wallet.png"
+  },
+  "/brand/partners/educational/trustwallet.png": {
+    "key": "sha256/9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f.png",
+    "sha256": "9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f",
+    "bytes": 71071,
+    "contentType": "image/png",
+    "source": "client/public/brand/partners/educational/trustwallet.png",
+    "publicUrl": "/brand/partners/educational/trustwallet.png"
+  },
+  "/favicon.ico": {
+    "key": "sha256/09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914.ico",
+    "sha256": "09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914",
+    "bytes": 200742,
+    "contentType": "image/x-icon",
+    "source": "client/public/favicon.ico",
+    "publicUrl": "/favicon.ico"
+  },
+  "/images/classroom-session.jpg": {
+    "key": "sha256/0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7.jpg",
+    "sha256": "0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7",
+    "bytes": 348929,
+    "contentType": "image/jpeg",
+    "source": "client/public/images/classroom-session.jpg",
+    "publicUrl": "/images/classroom-session.jpg"
+  },
+  "/images/community-gathering.jpg": {
+    "key": "sha256/2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8.jpg",
+    "sha256": "2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8",
+    "bytes": 426389,
+    "contentType": "image/jpeg",
+    "source": "client/public/images/community-gathering.jpg",
+    "publicUrl": "/images/community-gathering.jpg"
+  },
+  "/images/cook-cover.png": {
+    "key": "sha256/9d7abfe958dc3645ee397370469e92ba1b840d7bbd9fc53079d8f56834ee8deb.png",
+    "sha256": "9d7abfe958dc3645ee397370469e92ba1b840d7bbd9fc53079d8f56834ee8deb",
+    "bytes": 1510674,
+    "contentType": "image/png",
+    "source": "client/public/images/cook-cover.png",
+    "publicUrl": "/images/cook-cover.png"
+  },
+  "/images/encyclopedia-cover.png": {
+    "key": "sha256/58ecdcaefa7684c3faf4764681c4c8e3ca8cb794cc4d42f53317927aa48c5e9d.png",
+    "sha256": "58ecdcaefa7684c3faf4764681c4c8e3ca8cb794cc4d42f53317927aa48c5e9d",
+    "bytes": 1577818,
+    "contentType": "image/png",
+    "source": "client/public/images/encyclopedia-cover.png",
+    "publicUrl": "/images/encyclopedia-cover.png"
+  },
+  "/images/group-discussion.jpg": {
+    "key": "sha256/5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d.jpg",
+    "sha256": "5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d",
+    "bytes": 805048,
+    "contentType": "image/jpeg",
+    "source": "client/public/images/group-discussion.jpg",
+    "publicUrl": "/images/group-discussion.jpg"
+  },
+  "/images/learning-event.jpg": {
+    "key": "sha256/74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852.jpg",
+    "sha256": "74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852",
+    "bytes": 276524,
+    "contentType": "image/jpeg",
+    "source": "client/public/images/learning-event.jpg",
+    "publicUrl": "/images/learning-event.jpg"
+  },
+  "/images/tita-arsh.png": {
+    "key": "sha256/96876221bbe4ec0aef0ef20d1b4a5adb2bf9daf17f578869cf58a4395de31944.png",
+    "sha256": "96876221bbe4ec0aef0ef20d1b4a5adb2bf9daf17f578869cf58a4395de31944",
+    "bytes": 1470380,
+    "contentType": "image/png",
+    "source": "client/public/images/tita-arsh.png",
+    "publicUrl": "/images/tita-arsh.png"
+  },
+  "/images/wave3-cover.png": {
+    "key": "sha256/275f5342dad95e4257f83da20f326621b3a7aa3567e32d9d2678a7191c667962.png",
+    "sha256": "275f5342dad95e4257f83da20f326621b3a7aa3567e32d9d2678a7191c667962",
+    "bytes": 3503779,
+    "contentType": "image/png",
+    "source": "client/public/images/wave3-cover.png",
+    "publicUrl": "/images/wave3-cover.png"
+  },
+  "/media/initiatives/acis/20260107_120040(1).jpg": {
+    "key": "sha256/b953c804a377c84af61dac08520fc48b1dc8aef8878d7d558eeb966864eafa69.jpg",
+    "sha256": "b953c804a377c84af61dac08520fc48b1dc8aef8878d7d558eeb966864eafa69",
+    "bytes": 1803716,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_120040(1).jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_120040(1).jpg"
+  },
+  "/media/initiatives/acis/20260107_143500.jpg": {
+    "key": "sha256/3cbe4c0584ef581899aca4455be905df437b1ba5f5126237bc5538dd9f35f656.jpg",
+    "sha256": "3cbe4c0584ef581899aca4455be905df437b1ba5f5126237bc5538dd9f35f656",
+    "bytes": 3868139,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_143500.jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_143500.jpg"
+  },
+  "/media/initiatives/acis/20260107_145133.jpg": {
+    "key": "sha256/540d5e0503fb7589149bfc4378be1a80a0f8fce4581c51a7e0ddba3420800618.jpg",
+    "sha256": "540d5e0503fb7589149bfc4378be1a80a0f8fce4581c51a7e0ddba3420800618",
+    "bytes": 3840549,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_145133.jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_145133.jpg"
+  },
+  "/media/initiatives/acis/20260107_145153.jpg": {
+    "key": "sha256/3bc6c710d9f3efd83eb275e40063d95a4c76046d6f2d81cbe825109d873511df.jpg",
+    "sha256": "3bc6c710d9f3efd83eb275e40063d95a4c76046d6f2d81cbe825109d873511df",
+    "bytes": 4179509,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_145153.jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_145153.jpg"
+  },
+  "/media/initiatives/acis/20260107_145154.jpg": {
+    "key": "sha256/e3cdcf411397373c606de34bab433065ce9798f15cc9652fbfb75760c5d3b45c.jpg",
+    "sha256": "e3cdcf411397373c606de34bab433065ce9798f15cc9652fbfb75760c5d3b45c",
+    "bytes": 4966176,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_145154.jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_145154.jpg"
+  },
+  "/media/initiatives/acis/20260107_150243.jpg": {
+    "key": "sha256/066c9d07434cc3c51ceeb47248c539f4b4428c544aa906906e8caab68ce50aa6.jpg",
+    "sha256": "066c9d07434cc3c51ceeb47248c539f4b4428c544aa906906e8caab68ce50aa6",
+    "bytes": 4042421,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/20260107_150243.jpg",
+    "publicUrl": "/media/initiatives/acis/20260107_150243.jpg"
+  },
+  "/media/initiatives/acis/IMG_20260109_231318_426.jpg": {
+    "key": "sha256/1bae6c1702f1dd92d98a8c2d4004da4dcca91b454454f3ddf1b18c89fc2ef2cc.jpg",
+    "sha256": "1bae6c1702f1dd92d98a8c2d4004da4dcca91b454454f3ddf1b18c89fc2ef2cc",
+    "bytes": 289230,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/IMG_20260109_231318_426.jpg",
+    "publicUrl": "/media/initiatives/acis/IMG_20260109_231318_426.jpg"
+  },
+  "/media/initiatives/acis/IMG_20260109_231341_269.jpg": {
+    "key": "sha256/b2cfd9db7bfc6707d9bce766c970d454c5faf15da0eb5a5649acacdba5a03db1.jpg",
+    "sha256": "b2cfd9db7bfc6707d9bce766c970d454c5faf15da0eb5a5649acacdba5a03db1",
+    "bytes": 342637,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/acis/IMG_20260109_231341_269.jpg",
+    "publicUrl": "/media/initiatives/acis/IMG_20260109_231341_269.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_154124.jpg": {
+    "key": "sha256/1714eb082e5bd56b1d7735058f93505d06d656c61182e15d6930c1f41b056f46.jpg",
+    "sha256": "1714eb082e5bd56b1d7735058f93505d06d656c61182e15d6930c1f41b056f46",
+    "bytes": 9570303,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_154124.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_154124.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_165508.jpg": {
+    "key": "sha256/54d779bb5ead2f422bac569a7efe1969f1e793e98a49d01ff9a9886d6340d647.jpg",
+    "sha256": "54d779bb5ead2f422bac569a7efe1969f1e793e98a49d01ff9a9886d6340d647",
+    "bytes": 7972088,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_165508.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_165508.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_165916.jpg": {
+    "key": "sha256/e27f92b1f24a089431c2224055cfc1be635c877f8a86847f49958a61521b3ef3.jpg",
+    "sha256": "e27f92b1f24a089431c2224055cfc1be635c877f8a86847f49958a61521b3ef3",
+    "bytes": 9378103,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_165916.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_165916.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_171252.jpg": {
+    "key": "sha256/961227bb9328f135b78094b85b32b89ea8b6a53a1592ca4840b47ccdcf718755.jpg",
+    "sha256": "961227bb9328f135b78094b85b32b89ea8b6a53a1592ca4840b47ccdcf718755",
+    "bytes": 2336080,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_171252.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_171252.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_171904.jpg": {
+    "key": "sha256/d4e57487f585f548832b46e661ccd838b5ccc2d62c7aadeb0a9c1b3d44cdbf59.jpg",
+    "sha256": "d4e57487f585f548832b46e661ccd838b5ccc2d62c7aadeb0a9c1b3d44cdbf59",
+    "bytes": 6209964,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_171904.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_171904.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_192426.jpg": {
+    "key": "sha256/9ea7b59449ffd00ef99e05afd5b699b300dc3b84e958ff7d1c88bed8683c42e6.jpg",
+    "sha256": "9ea7b59449ffd00ef99e05afd5b699b300dc3b84e958ff7d1c88bed8683c42e6",
+    "bytes": 2085302,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_192426.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_192426.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_192603.jpg": {
+    "key": "sha256/ee4d30f02c692ca433a7086d23fe0b270305587e61369e47de1fe78b55623998.jpg",
+    "sha256": "ee4d30f02c692ca433a7086d23fe0b270305587e61369e47de1fe78b55623998",
+    "bytes": 8006648,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_192603.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_192603.jpg"
+  },
+  "/media/initiatives/blockchain4youth/20260530_203719.jpg": {
+    "key": "sha256/4899e663886e0af55cb7148a74e67221c81557efe6f942a2694fa8d65eb1b908.jpg",
+    "sha256": "4899e663886e0af55cb7148a74e67221c81557efe6f942a2694fa8d65eb1b908",
+    "bytes": 2075383,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/20260530_203719.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/20260530_203719.jpg"
+  },
+  "/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg": {
+    "key": "sha256/7a41c2243807d74c0a203c6eba53419c6f7d81d7b94e71a11afd63a6a48a9dda.jpg",
+    "sha256": "7a41c2243807d74c0a203c6eba53419c6f7d81d7b94e71a11afd63a6a48a9dda",
+    "bytes": 275837,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg"
+  },
+  "/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg": {
+    "key": "sha256/fa425f9e694d814d61689979af5bfdfd482f73e0cf90a199cb74980f6410193c.jpg",
+    "sha256": "fa425f9e694d814d61689979af5bfdfd482f73e0cf90a199cb74980f6410193c",
+    "bytes": 272985,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg"
+  },
+  "/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg": {
+    "key": "sha256/6cca757c0c94b37e407870321645022d74db27d6979d53fefe278d34b0025d7e.jpg",
+    "sha256": "6cca757c0c94b37e407870321645022d74db27d6979d53fefe278d34b0025d7e",
+    "bytes": 251408,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg"
+  },
+  "/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg": {
+    "key": "sha256/cca733e11c4f5bbfbd26b4e79092f5c2d5de0782ef46d294294c654fbb032312.jpg",
+    "sha256": "cca733e11c4f5bbfbd26b4e79092f5c2d5de0782ef46d294294c654fbb032312",
+    "bytes": 214214,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg"
+  },
+  "/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg": {
+    "key": "sha256/e95941d643965325b16c267c52c4e07fc3687cd295bd6260ece1e7f9720a3e7a.jpg",
+    "sha256": "e95941d643965325b16c267c52c4e07fc3687cd295bd6260ece1e7f9720a3e7a",
+    "bytes": 257810,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg",
+    "publicUrl": "/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_135219.jpg": {
+    "key": "sha256/7001b8d13d4462ecefbfe335fb7b973c3da29f3c7c98e2a374cff50b91fd7de9.jpg",
+    "sha256": "7001b8d13d4462ecefbfe335fb7b973c3da29f3c7c98e2a374cff50b91fd7de9",
+    "bytes": 7008506,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_135219.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_135219.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_135241.jpg": {
+    "key": "sha256/93c50fcb2be3eb85a13156007d7aaac45aebc4e367c91e3f48f586d99eb3e5c1.jpg",
+    "sha256": "93c50fcb2be3eb85a13156007d7aaac45aebc4e367c91e3f48f586d99eb3e5c1",
+    "bytes": 6626608,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_135241.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_135241.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_135252.jpg": {
+    "key": "sha256/41bc952dc46d3b7fcdb4a738f336f11d122287a894bb5d9ec19e78a8b8fa3f13.jpg",
+    "sha256": "41bc952dc46d3b7fcdb4a738f336f11d122287a894bb5d9ec19e78a8b8fa3f13",
+    "bytes": 7444394,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_135252.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_135252.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_161724.jpg": {
+    "key": "sha256/3473e8654c96bf8ecf7a51cfcd70486560f9ff613952755bfa11945baec62a28.jpg",
+    "sha256": "3473e8654c96bf8ecf7a51cfcd70486560f9ff613952755bfa11945baec62a28",
+    "bytes": 8785516,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_161724.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_161724.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_161840.jpg": {
+    "key": "sha256/90022c59c947ce1bc975ff73072c2d8426479907e990fe01f2ab701f0a218655.jpg",
+    "sha256": "90022c59c947ce1bc975ff73072c2d8426479907e990fe01f2ab701f0a218655",
+    "bytes": 6274203,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_161840.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_161840.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_162237.jpg": {
+    "key": "sha256/5d405f516f5a61f929b820152723d0b6f1aa95aad5877f470a2306a02d5458e3.jpg",
+    "sha256": "5d405f516f5a61f929b820152723d0b6f1aa95aad5877f470a2306a02d5458e3",
+    "bytes": 6291889,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_162237.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_162237.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_185058.jpg": {
+    "key": "sha256/08d4343bd171055ffefe04b676c9454c7b9cf6fe4ecc344ae8dd91d62367f208.jpg",
+    "sha256": "08d4343bd171055ffefe04b676c9454c7b9cf6fe4ecc344ae8dd91d62367f208",
+    "bytes": 7821718,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_185058.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_185058.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_185525.jpg": {
+    "key": "sha256/6cd9d68393e3fbb76335b8ee169a2a6f0618772e326d4f4e4bbd2ca7b6e047c3.jpg",
+    "sha256": "6cd9d68393e3fbb76335b8ee169a2a6f0618772e326d4f4e4bbd2ca7b6e047c3",
+    "bytes": 8111113,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_185525.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_185525.jpg"
+  },
+  "/media/initiatives/builder-highlight/20260923_191027.jpg": {
+    "key": "sha256/a3e6b0a83f6535a4f222b989a149adf657af7f318af1db24ce7a79c4e5577e21.jpg",
+    "sha256": "a3e6b0a83f6535a4f222b989a149adf657af7f318af1db24ce7a79c4e5577e21",
+    "bytes": 8263354,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-highlight/20260923_191027.jpg",
+    "publicUrl": "/media/initiatives/builder-highlight/20260923_191027.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_130155.jpg": {
+    "key": "sha256/11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4.jpg",
+    "sha256": "11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4",
+    "bytes": 7202777,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_130155.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_130155.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_132313.jpg": {
+    "key": "sha256/2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6.jpg",
+    "sha256": "2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6",
+    "bytes": 8339718,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_132313.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_132313.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_132335.jpg": {
+    "key": "sha256/e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087.jpg",
+    "sha256": "e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087",
+    "bytes": 2918395,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_132335.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_132335.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_133059.jpg": {
+    "key": "sha256/cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359.jpg",
+    "sha256": "cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359",
+    "bytes": 6780717,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_133059.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_133059.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_134304.jpg": {
+    "key": "sha256/e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03.jpg",
+    "sha256": "e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03",
+    "bytes": 1546836,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_134304.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_134304.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_135920.jpg": {
+    "key": "sha256/a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943.jpg",
+    "sha256": "a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943",
+    "bytes": 1603277,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_135920.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_135920.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_140038.jpg": {
+    "key": "sha256/87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549.jpg",
+    "sha256": "87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549",
+    "bytes": 1690484,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_140038.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_140038.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_140154.jpg": {
+    "key": "sha256/5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993.jpg",
+    "sha256": "5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993",
+    "bytes": 1545930,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_140154.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_140154.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_140711.jpg": {
+    "key": "sha256/348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb.jpg",
+    "sha256": "348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb",
+    "bytes": 1986150,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_140711.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_140711.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_141432.jpg": {
+    "key": "sha256/f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb.jpg",
+    "sha256": "f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb",
+    "bytes": 7265825,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_141432.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_141432.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_145036.jpg": {
+    "key": "sha256/bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968.jpg",
+    "sha256": "bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968",
+    "bytes": 7844743,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_145036.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_145036.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_152040(0).jpg": {
+    "key": "sha256/1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93.jpg",
+    "sha256": "1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93",
+    "bytes": 1858888,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_152040(0).jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_152040(0).jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_160619.jpg": {
+    "key": "sha256/7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072.jpg",
+    "sha256": "7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072",
+    "bytes": 1881521,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_160619.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_160619.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_160804.jpg": {
+    "key": "sha256/d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435.jpg",
+    "sha256": "d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435",
+    "bytes": 6752762,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_160804.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_160804.jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_171821(0).jpg": {
+    "key": "sha256/9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe.jpg",
+    "sha256": "9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe",
+    "bytes": 8739150,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_171821(0).jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_171821(0).jpg"
+  },
+  "/media/initiatives/builder-programs/20260823_174425.jpg": {
+    "key": "sha256/46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86.jpg",
+    "sha256": "46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86",
+    "bytes": 6698337,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/20260823_174425.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/20260823_174425.jpg"
+  },
+  "/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg": {
+    "key": "sha256/911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6.jpg",
+    "sha256": "911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6",
+    "bytes": 6328320,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+    "publicUrl": "/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg"
+  },
+  "/media/initiatives/builder-programs/IMG_6389.JPG": {
+    "key": "sha256/3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee.jpg",
+    "sha256": "3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee",
+    "bytes": 2352564,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/builder-programs/IMG_6389.JPG",
+    "publicUrl": "/media/initiatives/builder-programs/IMG_6389.JPG"
+  },
+  "/media/initiatives/ecosystem-collaboration/20260621_172804.jpg": {
+    "key": "sha256/db0398cf7a2f97e39d15df2ef16382640e2af223bb377aec3cb836b9ebeebdb4.jpg",
+    "sha256": "db0398cf7a2f97e39d15df2ef16382640e2af223bb377aec3cb836b9ebeebdb4",
+    "bytes": 8210504,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_172804.jpg",
+    "publicUrl": "/media/initiatives/ecosystem-collaboration/20260621_172804.jpg"
+  },
+  "/media/initiatives/ecosystem-collaboration/20260621_181349.jpg": {
+    "key": "sha256/ab223b147df25df24010e24254a050ddd2afe2ca25a42f193acde6de3e187f2f.jpg",
+    "sha256": "ab223b147df25df24010e24254a050ddd2afe2ca25a42f193acde6de3e187f2f",
+    "bytes": 8609511,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_181349.jpg",
+    "publicUrl": "/media/initiatives/ecosystem-collaboration/20260621_181349.jpg"
+  },
+  "/media/initiatives/ecosystem-collaboration/20260621_202651.jpg": {
+    "key": "sha256/fa088eabc92af7a689615ed03f1ef253d35a3042cb8888dd5a49629f899570bc.jpg",
+    "sha256": "fa088eabc92af7a689615ed03f1ef253d35a3042cb8888dd5a49629f899570bc",
+    "bytes": 6957890,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_202651.jpg",
+    "publicUrl": "/media/initiatives/ecosystem-collaboration/20260621_202651.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_130155.jpg": {
+    "key": "sha256/11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4.jpg",
+    "sha256": "11970558274a4162f7baf49262a28b9a27a57b1428adc2cc954f2a33e4e91ec4",
+    "bytes": 7202777,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_130155.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_130155.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_132313.jpg": {
+    "key": "sha256/2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6.jpg",
+    "sha256": "2a9c0bbd9896c67a4111776c027ed7a0417ed9dec58389d663e5249864bc2bf6",
+    "bytes": 8339718,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_132313.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_132313.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_132335.jpg": {
+    "key": "sha256/e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087.jpg",
+    "sha256": "e6fb5b714bfe6e983d16576e03d6b9d435345ef519fa1618c571c9b0de08b087",
+    "bytes": 2918395,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_132335.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_132335.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_133059.jpg": {
+    "key": "sha256/cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359.jpg",
+    "sha256": "cd324f7300c860017416a1260f7f127eb420ebdb0e5d9705c07eea817501d359",
+    "bytes": 6780717,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_133059.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_133059.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_134304.jpg": {
+    "key": "sha256/e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03.jpg",
+    "sha256": "e1dddcd7ecf8c4fbb396b4186baa56166e02996d6ebacbc51a82d84c48f16b03",
+    "bytes": 1546836,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_134304.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_134304.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_135920.jpg": {
+    "key": "sha256/a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943.jpg",
+    "sha256": "a2917bcd2f9eaf1aa98ed01e639ae87b3b4ea964f032651e341049295de28943",
+    "bytes": 1603277,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_135920.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_135920.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_140038.jpg": {
+    "key": "sha256/87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549.jpg",
+    "sha256": "87d7468204fea69d30103a013e9b463e469d8b05cb4bedef0aecdad6a2bc4549",
+    "bytes": 1690484,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_140038.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_140038.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_140154.jpg": {
+    "key": "sha256/5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993.jpg",
+    "sha256": "5137da0bcb22629cdf61a545b94242ad1cd6cbc4f778c003863492ce751d8993",
+    "bytes": 1545930,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_140154.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_140154.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_140711.jpg": {
+    "key": "sha256/348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb.jpg",
+    "sha256": "348737d07548e710bd49c13835fd0708b600b15e319b8a1679d53648205af8eb",
+    "bytes": 1986150,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_140711.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_140711.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_141432.jpg": {
+    "key": "sha256/f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb.jpg",
+    "sha256": "f40813ca4c36126a6be2418c20ba8ac71c07bbe22818cb6106769aba48f0bbbb",
+    "bytes": 7265825,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_141432.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_141432.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_145036.jpg": {
+    "key": "sha256/bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968.jpg",
+    "sha256": "bd7f7e20144a4c879b0e952fca6d7868ea337bfee3932be9b2a98a32101f4968",
+    "bytes": 7844743,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_145036.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_145036.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_152040(0).jpg": {
+    "key": "sha256/1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93.jpg",
+    "sha256": "1c30ac33df19883c1aee62678d5e8f638983d3e98f3955f1d79e1a9a82638b93",
+    "bytes": 1858888,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_152040(0).jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_152040(0).jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_160619.jpg": {
+    "key": "sha256/7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072.jpg",
+    "sha256": "7813d5577057ae40161133a91c14ab69f6465bb1ae4e6d30d63b2f500f8d3072",
+    "bytes": 1881521,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_160619.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_160619.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_160804.jpg": {
+    "key": "sha256/d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435.jpg",
+    "sha256": "d44d4fb4d4f21efa3ceee06db89f3a277211eb155c3295633c7b9b77e6726435",
+    "bytes": 6752762,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_160804.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_160804.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_171821(0).jpg": {
+    "key": "sha256/9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe.jpg",
+    "sha256": "9c59fbf112d412f2860fc40d9ae1267ef07a3237991a7d51af8fdc1e72cdcfbe",
+    "bytes": 8739150,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_171821(0).jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_171821(0).jpg"
+  },
+  "/media/initiatives/grantix-fundraising/20260823_174425.jpg": {
+    "key": "sha256/46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86.jpg",
+    "sha256": "46b5f211686ccec773e89848cdc9ce0ef6cf788688667e0bd1bd8cb9f1eeda86",
+    "bytes": 6698337,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/20260823_174425.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/20260823_174425.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg": {
+    "key": "sha256/911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6.jpg",
+    "sha256": "911b37129b0ac6dc17db01f53101f3b084c9ac14ecf6d81934f4093d42e242a6",
+    "bytes": 6328320,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
+    "publicUrl": "/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg"
+  },
+  "/media/initiatives/grantix-fundraising/IMG_6389.JPG": {
+    "key": "sha256/3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee.jpg",
+    "sha256": "3f969909c5a310b7e8d2438358f84fcf1417fdc70549bd778d461de8f8a97cee",
+    "bytes": 2352564,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/grantix-fundraising/IMG_6389.JPG",
+    "publicUrl": "/media/initiatives/grantix-fundraising/IMG_6389.JPG"
+  },
+  "/media/initiatives/learning-resources/20251203_121220.jpg": {
+    "key": "sha256/31d56221ce9c9d43413c1259bfdefc3122e6dd6c2a9328c7115566748e5aea4b.jpg",
+    "sha256": "31d56221ce9c9d43413c1259bfdefc3122e6dd6c2a9328c7115566748e5aea4b",
+    "bytes": 8394136,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20251203_121220.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20251203_121220.jpg"
+  },
+  "/media/initiatives/learning-resources/20251203_121238.jpg": {
+    "key": "sha256/c2b30abea48f650f18c815b9b8ec880fc7ab84b732208ac164d5dab4566b8e6e.jpg",
+    "sha256": "c2b30abea48f650f18c815b9b8ec880fc7ab84b732208ac164d5dab4566b8e6e",
+    "bytes": 8577352,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20251203_121238.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20251203_121238.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152413.jpg": {
+    "key": "sha256/3e517d62256d076df9d1e43bbc35de93d816c62f9914ae90efc1a2d2d9db3b91.jpg",
+    "sha256": "3e517d62256d076df9d1e43bbc35de93d816c62f9914ae90efc1a2d2d9db3b91",
+    "bytes": 3947156,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152413.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152413.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152417.jpg": {
+    "key": "sha256/8274e71a7e79980b81f83561a940c460b46f68597a815a0a64f6b5ec5fe7b13f.jpg",
+    "sha256": "8274e71a7e79980b81f83561a940c460b46f68597a815a0a64f6b5ec5fe7b13f",
+    "bytes": 3938004,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152417.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152417.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152427.jpg": {
+    "key": "sha256/f8d6d468dfafb8ccb6bb3a00ac4bd14719f6f13ab0479e38adc9854228e125f0.jpg",
+    "sha256": "f8d6d468dfafb8ccb6bb3a00ac4bd14719f6f13ab0479e38adc9854228e125f0",
+    "bytes": 4308215,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152427.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152427.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152428.jpg": {
+    "key": "sha256/b61df3dd20e33a03ae1aded7f26cc757dfb331cb7f3a4d3056ef75875e91a1bf.jpg",
+    "sha256": "b61df3dd20e33a03ae1aded7f26cc757dfb331cb7f3a4d3056ef75875e91a1bf",
+    "bytes": 3804094,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152428.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152428.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152435.jpg": {
+    "key": "sha256/1d7d1c5b93015ad9bc25352e45bc0c3324b3a347d5b046b92caf86a325a4b074.jpg",
+    "sha256": "1d7d1c5b93015ad9bc25352e45bc0c3324b3a347d5b046b92caf86a325a4b074",
+    "bytes": 4449136,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152435.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152435.jpg"
+  },
+  "/media/initiatives/learning-resources/20260107_152439.jpg": {
+    "key": "sha256/adab471267ad19217e7e85ca04c1342c99599613e5cbf1e980c79e62c9b7afb1.jpg",
+    "sha256": "adab471267ad19217e7e85ca04c1342c99599613e5cbf1e980c79e62c9b7afb1",
+    "bytes": 4488778,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260107_152439.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260107_152439.jpg"
+  },
+  "/media/initiatives/learning-resources/20260609_122052.jpg": {
+    "key": "sha256/e846c82d6a1ca14baae2fbc61825c87037a29b6723fcba297287b479675d337a.jpg",
+    "sha256": "e846c82d6a1ca14baae2fbc61825c87037a29b6723fcba297287b479675d337a",
+    "bytes": 4207957,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260609_122052.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260609_122052.jpg"
+  },
+  "/media/initiatives/learning-resources/20260609_122057.jpg": {
+    "key": "sha256/ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2.jpg",
+    "sha256": "ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2",
+    "bytes": 4241921,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/learning-resources/20260609_122057.jpg",
+    "publicUrl": "/media/initiatives/learning-resources/20260609_122057.jpg"
+  },
+  "/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg": {
+    "key": "sha256/d103de08da8dc22601b448eef1db62e6b4094ef69cd8124b3903f600d87c21bd.jpg",
+    "sha256": "d103de08da8dc22601b448eef1db62e6b4094ef69cd8124b3903f600d87c21bd",
+    "bytes": 386550,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg"
+  },
+  "/media/initiatives/mini-library/20260609080355_0060.jpg": {
+    "key": "sha256/e9ea95861111eb5c874c0e14778d25765dd1d2a6491a160549d787ccc1727693.jpg",
+    "sha256": "e9ea95861111eb5c874c0e14778d25765dd1d2a6491a160549d787ccc1727693",
+    "bytes": 2087668,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609080355_0060.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609080355_0060.jpg"
+  },
+  "/media/initiatives/mini-library/20260609_093735.jpg": {
+    "key": "sha256/0dd3be8e8a78bf2238ef6d1133a59aa942c28e47bfbdf5fd63f55d1e93027796.jpg",
+    "sha256": "0dd3be8e8a78bf2238ef6d1133a59aa942c28e47bfbdf5fd63f55d1e93027796",
+    "bytes": 9106692,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609_093735.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609_093735.jpg"
+  },
+  "/media/initiatives/mini-library/20260609_095119.jpg": {
+    "key": "sha256/b8bd7e0e468e22bfde3e56268d97ecf98507c1a46e95cfdd7d5357f7c5c4bf7c.jpg",
+    "sha256": "b8bd7e0e468e22bfde3e56268d97ecf98507c1a46e95cfdd7d5357f7c5c4bf7c",
+    "bytes": 8349131,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609_095119.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609_095119.jpg"
+  },
+  "/media/initiatives/mini-library/20260609_095923.jpg": {
+    "key": "sha256/6d30c47b73d2117a44b8f3c7cbe08b5cabee420bc6a2847ab05671ccb33b0778.jpg",
+    "sha256": "6d30c47b73d2117a44b8f3c7cbe08b5cabee420bc6a2847ab05671ccb33b0778",
+    "bytes": 1646968,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609_095923.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609_095923.jpg"
+  },
+  "/media/initiatives/mini-library/20260609_111450.jpg": {
+    "key": "sha256/f42d6ad1e4e3df798c3ff09962cf7ff18637eccb9837f8698a748ace98e97aee.jpg",
+    "sha256": "f42d6ad1e4e3df798c3ff09962cf7ff18637eccb9837f8698a748ace98e97aee",
+    "bytes": 1439943,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609_111450.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609_111450.jpg"
+  },
+  "/media/initiatives/mini-library/20260609_122057.jpg": {
+    "key": "sha256/ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2.jpg",
+    "sha256": "ce28e9c8a4d3033415053e8047c00e5b37c61e0fc7666a3320dfcb26850e51b2",
+    "bytes": 4241921,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/20260609_122057.jpg",
+    "publicUrl": "/media/initiatives/mini-library/20260609_122057.jpg"
+  },
+  "/media/initiatives/mini-library/received_1008644855230226.jpeg": {
+    "key": "sha256/e72ca5e0cbd0ddf9dcf3bae44ed62536654de9096637eb810c0a7cbcbc2a69b1.jpeg",
+    "sha256": "e72ca5e0cbd0ddf9dcf3bae44ed62536654de9096637eb810c0a7cbcbc2a69b1",
+    "bytes": 892059,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/received_1008644855230226.jpeg",
+    "publicUrl": "/media/initiatives/mini-library/received_1008644855230226.jpeg"
+  },
+  "/media/initiatives/mini-library/received_1727640778263587.jpeg": {
+    "key": "sha256/4a1b4b0135edc15328773c0640e023ed6d625c47718510c647c155f66f93aac8.jpeg",
+    "sha256": "4a1b4b0135edc15328773c0640e023ed6d625c47718510c647c155f66f93aac8",
+    "bytes": 779617,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/received_1727640778263587.jpeg",
+    "publicUrl": "/media/initiatives/mini-library/received_1727640778263587.jpeg"
+  },
+  "/media/initiatives/mini-library/received_835728199324220.jpeg": {
+    "key": "sha256/fb60cffdf64f379fe5f5a8c207e294c548d9eb07cd782169d8392a37b036f03c.jpeg",
+    "sha256": "fb60cffdf64f379fe5f5a8c207e294c548d9eb07cd782169d8392a37b036f03c",
+    "bytes": 782332,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/mini-library/received_835728199324220.jpeg",
+    "publicUrl": "/media/initiatives/mini-library/received_835728199324220.jpeg"
+  },
+  "/media/initiatives/web3-on-campus/20260504_085553.jpg": {
+    "key": "sha256/787151264caff1e5edf44fc36acaafdffc42efeabda0b7dff23c16c380132ec0.jpg",
+    "sha256": "787151264caff1e5edf44fc36acaafdffc42efeabda0b7dff23c16c380132ec0",
+    "bytes": 4510787,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/20260504_085553.jpg",
+    "publicUrl": "/media/initiatives/web3-on-campus/20260504_085553.jpg"
+  },
+  "/media/initiatives/web3-on-campus/20260504_085633.jpg": {
+    "key": "sha256/0b9f543fbf10a07fd3f13b2e187a6c8d9081c649f433c860f3c046cc16cf9a75.jpg",
+    "sha256": "0b9f543fbf10a07fd3f13b2e187a6c8d9081c649f433c860f3c046cc16cf9a75",
+    "bytes": 5483014,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/20260504_085633.jpg",
+    "publicUrl": "/media/initiatives/web3-on-campus/20260504_085633.jpg"
+  },
+  "/media/initiatives/web3-on-campus/20260504_111917.jpg": {
+    "key": "sha256/9f3b39866cf2065e0c54c99ec58be2dcc4123ff5c5da732df5bde7e3f3215164.jpg",
+    "sha256": "9f3b39866cf2065e0c54c99ec58be2dcc4123ff5c5da732df5bde7e3f3215164",
+    "bytes": 9907920,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/20260504_111917.jpg",
+    "publicUrl": "/media/initiatives/web3-on-campus/20260504_111917.jpg"
+  },
+  "/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg": {
+    "key": "sha256/4de2cb9cc10e5ccd55de593e9c56d50eee83e68650f9d032c6d773d8d0c4d617.jpg",
+    "sha256": "4de2cb9cc10e5ccd55de593e9c56d50eee83e68650f9d032c6d773d8d0c4d617",
+    "bytes": 1947420,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg",
+    "publicUrl": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg"
+  },
+  "/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg": {
+    "key": "sha256/5631290f937713bba17eadd3f4bf9132560235e808fe634cfa450bcf97e68095.jpg",
+    "sha256": "5631290f937713bba17eadd3f4bf9132560235e808fe634cfa450bcf97e68095",
+    "bytes": 1951537,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg",
+    "publicUrl": "/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5551.JPG": {
+    "key": "sha256/1f69057b26186cb98affea79480636711f8b0d953afe9b13752b1a7db1bfc66e.jpg",
+    "sha256": "1f69057b26186cb98affea79480636711f8b0d953afe9b13752b1a7db1bfc66e",
+    "bytes": 6455448,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5551.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5551.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5552.JPG": {
+    "key": "sha256/b1308bb25ac626f66b5470fdad4773be79ab4b3b7ec777886086e4b5ed392ee8.jpg",
+    "sha256": "b1308bb25ac626f66b5470fdad4773be79ab4b3b7ec777886086e4b5ed392ee8",
+    "bytes": 6418918,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5552.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5552.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5563.JPG": {
+    "key": "sha256/000e17cb1291592d00b586b4233db786c24388b524adc154a31d23f4745cdb2c.jpg",
+    "sha256": "000e17cb1291592d00b586b4233db786c24388b524adc154a31d23f4745cdb2c",
+    "bytes": 6491897,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5563.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5563.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5578.JPG": {
+    "key": "sha256/438d869c69893ec0c86fbc3d30a9ae79d625a27b9fb1e3e19a248c4095aca6d9.jpg",
+    "sha256": "438d869c69893ec0c86fbc3d30a9ae79d625a27b9fb1e3e19a248c4095aca6d9",
+    "bytes": 6416435,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5578.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5578.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5591.JPG": {
+    "key": "sha256/0f4dcb07a69311dc2dbda5f56db7fbaf579bd39e4705133c90dc91b9339dd728.jpg",
+    "sha256": "0f4dcb07a69311dc2dbda5f56db7fbaf579bd39e4705133c90dc91b9339dd728",
+    "bytes": 6434070,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5591.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5591.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5606.JPG": {
+    "key": "sha256/17b0168477b53636d124a5f596e63c04d1dd8a17808c227e7ce9b19d14d355ee.jpg",
+    "sha256": "17b0168477b53636d124a5f596e63c04d1dd8a17808c227e7ce9b19d14d355ee",
+    "bytes": 6367965,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5606.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5606.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5632.JPG": {
+    "key": "sha256/d6b7590fc8333f0a6bf293e76939f5f1b3ca7bc72a3224db4d8c30c86ea89d6e.jpg",
+    "sha256": "d6b7590fc8333f0a6bf293e76939f5f1b3ca7bc72a3224db4d8c30c86ea89d6e",
+    "bytes": 6453314,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5632.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5632.JPG"
+  },
+  "/media/initiatives/web3-on-campus/DSC_5651.JPG": {
+    "key": "sha256/9d338340583c91f40f515c90fdbe550b890cb237836f8478839bd8f81989bc67.jpg",
+    "sha256": "9d338340583c91f40f515c90fdbe550b890cb237836f8478839bd8f81989bc67",
+    "bytes": 6361978,
+    "contentType": "image/jpeg",
+    "source": "client/public/media/initiatives/web3-on-campus/DSC_5651.JPG",
+    "publicUrl": "/media/initiatives/web3-on-campus/DSC_5651.JPG"
+  }
+}

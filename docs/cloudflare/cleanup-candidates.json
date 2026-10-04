@@ -1,0 +1,437 @@
+{
+  "status": "Proposed only; no files removed",
+  "files": [
+    {
+      "source": "client/public/brand/cryptita-mark.png",
+      "sha256": "0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f",
+      "publicPaths": [
+        "/brand/cryptita-mark.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/cryptita-plays-banner.png",
+      "sha256": "9d986a27b4e20d42db4453c350b825a8d682c315f89074b71f88c7241dbc078b",
+      "publicPaths": [
+        "/brand/cryptita-plays-banner.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/blocktides.png",
+      "sha256": "06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df",
+      "publicPaths": [
+        "/brand/partners/community/blocktides.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/brgy-tamago.png",
+      "sha256": "53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47",
+      "publicPaths": [
+        "/brand/partners/community/brgy-tamago.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/gn-club.png",
+      "sha256": "2c568ad1be0c5dd6a954249bd22e0f3afe71143aacc6fb98b3eb2f513289e769",
+      "publicPaths": [
+        "/brand/partners/community/gn-club.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/museigen-io.png",
+      "sha256": "6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b",
+      "publicPaths": [
+        "/brand/partners/community/museigen-io.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/nen-digital.png",
+      "sha256": "e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9",
+      "publicPaths": [
+        "/brand/partners/community/nen-digital.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/stocksify.png",
+      "sha256": "941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239",
+      "publicPaths": [
+        "/brand/partners/community/stocksify.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/the-cryptology-academy.png",
+      "sha256": "4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4",
+      "publicPaths": [
+        "/brand/partners/community/the-cryptology-academy.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/the-safehouse.png",
+      "sha256": "d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef",
+      "publicPaths": [
+        "/brand/partners/community/the-safehouse.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/community/uphsl-gdc.png",
+      "sha256": "92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0",
+      "publicPaths": [
+        "/brand/partners/community/uphsl-gdc.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/avalanche.png",
+      "sha256": "7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493",
+      "publicPaths": [
+        "/brand/partners/educational/avalanche.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/base-philippines.png",
+      "sha256": "d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d",
+      "publicPaths": [
+        "/brand/partners/educational/base-philippines.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/blockchain4her.png",
+      "sha256": "2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930",
+      "publicPaths": [
+        "/brand/partners/educational/blockchain4her.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/blockchain4youth.gif",
+      "sha256": "a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30",
+      "publicPaths": [
+        "/brand/partners/educational/blockchain4youth.gif"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/coinex-charity.png",
+      "sha256": "917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3",
+      "publicPaths": [
+        "/brand/partners/educational/coinex-charity.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/gate-web3.png",
+      "sha256": "ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8",
+      "publicPaths": [
+        "/brand/partners/educational/gate-web3.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/mexc-foundation.png",
+      "sha256": "460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868",
+      "publicPaths": [
+        "/brand/partners/educational/mexc-foundation.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/morph.png",
+      "sha256": "a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97",
+      "publicPaths": [
+        "/brand/partners/educational/morph.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/okx-wallet.png",
+      "sha256": "1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214",
+      "publicPaths": [
+        "/brand/partners/educational/okx-wallet.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/brand/partners/educational/trustwallet.png",
+      "sha256": "9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f",
+      "publicPaths": [
+        "/brand/partners/educational/trustwallet.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/favicon.ico",
+      "sha256": "09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914",
+      "publicPaths": [
+        "/favicon.ico"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/classroom-session.jpg",
+      "sha256": "0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7",
+      "publicPaths": [
+        "/images/classroom-session.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/community-gathering.jpg",
+      "sha256": "2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8",
+      "publicPaths": [
+        "/images/community-gathering.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/cook-cover.png",
+      "sha256": "9d7abfe958dc3645ee397370469e92ba1b840d7bbd9fc53079d8f56834ee8deb",
+      "publicPaths": [
+        "/images/cook-cover.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/encyclopedia-cover.png",
+      "sha256": "58ecdcaefa7684c3faf4764681c4c8e3ca8cb794cc4d42f53317927aa48c5e9d",
+      "publicPaths": [
+        "/images/encyclopedia-cover.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/group-discussion.jpg",
+      "sha256": "5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d",
+      "publicPaths": [
+        "/images/group-discussion.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/learning-event.jpg",
+      "sha256": "74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852",
+      "publicPaths": [
+        "/images/learning-event.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/tita-arsh.png",
+      "sha256": "96876221bbe4ec0aef0ef20d1b4a5adb2bf9daf17f578869cf58a4395de31944",
+      "publicPaths": [
+        "/images/tita-arsh.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "client/public/images/wave3-cover.png",
+      "sha256": "275f5342dad95e4257f83da20f326621b3a7aa3567e32d9d2678a7191c667962",
+      "publicPaths": [
+        "/images/wave3-cover.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/icon mark.ico",
+      "sha256": "09eec0f955e086fda496c80f5475f0c435c1bcf388d20a1dbabd46a69c3d1914",
+      "publicPaths": [
+        "/favicon.ico"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/BlockTides.png",
+      "sha256": "06ae556cbddc2e6144549c87d0350e8bbac5359b8d3ab6636fc08f946bd458df",
+      "publicPaths": [
+        "/brand/partners/community/blocktides.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Brgy Tamago.png",
+      "sha256": "53d30f67d0210d1273247a129e3755abacc79c81f36d1d5901c593014d003a47",
+      "publicPaths": [
+        "/brand/partners/community/brgy-tamago.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Museigen.io.png",
+      "sha256": "6e652a5d2ae0a3eb5e4303a2851eefeb61021f10e0b42d7e9a2406f8cb14621b",
+      "publicPaths": [
+        "/brand/partners/community/museigen-io.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/NEN Digital.png",
+      "sha256": "e46538ba0971704308ed8b5ec284d6963972a25f0eebf363fd4f52b0dd84dca9",
+      "publicPaths": [
+        "/brand/partners/community/nen-digital.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/Stocksify.png",
+      "sha256": "941b1100d10c0c2588ad39e463729b0cf446a17a4c33ed958ea5f5518b584239",
+      "publicPaths": [
+        "/brand/partners/community/stocksify.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/The Cryptology Academy.png",
+      "sha256": "4f66c125eba88d92d4cce42fd53d50bb71b5b3b638cfc3ca480585db2f83b0e4",
+      "publicPaths": [
+        "/brand/partners/community/the-cryptology-academy.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/The SafeHouse.png",
+      "sha256": "d3fe07cbe11deba9cc58319b7c9b6c7635a82351114a231a48ae59287da91cef",
+      "publicPaths": [
+        "/brand/partners/community/the-safehouse.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Community Partners/UPHSL GDC.png",
+      "sha256": "92f798839b286942e69f307f3ec206a5b439a5d9f1ad37f8c9d3c2162fe194e0",
+      "publicPaths": [
+        "/brand/partners/community/uphsl-gdc.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Avalanche.png",
+      "sha256": "7c4d8615a3989119920dc6cbf47ba30d42c8b28dcb708dc23bd290a9499a3493",
+      "publicPaths": [
+        "/brand/partners/educational/avalanche.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/BASE Philippines.png",
+      "sha256": "d0098f02ecfadb8401aa8b49a8b1a58080aea982e3d51e85b6eb09977d3b727d",
+      "publicPaths": [
+        "/brand/partners/educational/base-philippines.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Blockchain4Her.png",
+      "sha256": "2931a734be53050f48b8fc9a999cb3258bda6f85d9fc9568290cddee957c6930",
+      "publicPaths": [
+        "/brand/partners/educational/blockchain4her.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Blockchain4Youth.gif",
+      "sha256": "a9547b870ad2764290f6be3f846d80b84600f2fab57625efd91c745b5d32cf30",
+      "publicPaths": [
+        "/brand/partners/educational/blockchain4youth.gif"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Coinex Charity.png",
+      "sha256": "917149cbdde648d469d2b7a91dd43467848c35015cf6753e3b14d22b3c16ebb3",
+      "publicPaths": [
+        "/brand/partners/educational/coinex-charity.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Gate Web3.png",
+      "sha256": "ca9b69d15913de5ba539c12b38fde88c86e5ae7c4de658bf6b4458fdc693eab8",
+      "publicPaths": [
+        "/brand/partners/educational/gate-web3.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/MEXC Foundation.png",
+      "sha256": "460c6b1fc25938905450f8ce228d3d210b9c7497e03aead8e8abee637d1cd868",
+      "publicPaths": [
+        "/brand/partners/educational/mexc-foundation.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/Morph.png",
+      "sha256": "a2bbba2cdf587517f1c1121c741bcc889d1f5774093b9a5a01a7a74059eecd97",
+      "publicPaths": [
+        "/brand/partners/educational/morph.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/OKX Wallet.png",
+      "sha256": "1f2c627f6e037ba6e6bffa94164aa3ef4b71cb5d725c65929004f6cae9a3a214",
+      "publicPaths": [
+        "/brand/partners/educational/okx-wallet.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/Partner logo files/Educational Partners/TrustWallet.png",
+      "sha256": "9b82d2158f817c9ef55ce8795a2eaca4a4c2eeba218c40cace322b798284b55f",
+      "publicPaths": [
+        "/brand/partners/educational/trustwallet.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/primary logo.png",
+      "sha256": "0802f4a5ef474b31c3b2489d31bb74d8684c27ef0e6a27a0b20e1e26534aae6f",
+      "publicPaths": [
+        "/brand/cryptita-mark.png"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/real photos/image1.jpg",
+      "sha256": "2b6b4252a5ae4dc9b05e1c5a9c8219030a98ce7fecbe36f79418c61cf738d2e8",
+      "publicPaths": [
+        "/images/community-gathering.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/real photos/image3.jpg",
+      "sha256": "0ac1039b49bb7a8bc8c0693455df7019bec290cd08a46af06aaae33de063bca7",
+      "publicPaths": [
+        "/images/classroom-session.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/real photos/image7.jpg",
+      "sha256": "5e8646a5d7a9e47d14314628c1f135edde6b375710df56e48ad8562e9014ec9d",
+      "publicPaths": [
+        "/images/group-discussion.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    },
+    {
+      "source": "assets/real photos/image_1.jpg",
+      "sha256": "74f43e2a2964714c55a812199cc45cfd58098c6402669e69b989c4de8bf0b852",
+      "publicPaths": [
+        "/images/learning-event.jpg"
+      ],
+      "action": "Candidate for Git untracking only after both environments pass full verification. Preserve local original and an offline backup."
+    }
+  ]
+}

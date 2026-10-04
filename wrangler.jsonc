@@ -1,0 +1,78 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "cryptita-play-local",
+  "main": "workers/app.ts",
+  "compatibility_date": "2026-10-04",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./build/client",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  },
+  "vars": {
+    "ENVIRONMENT": "staging",
+    "SITE_ORIGIN": "http://localhost:8787"
+  },
+  "env": {
+    "staging": {
+      "name": "cryptita-play-staging",
+      "workers_dev": false,
+      "preview_urls": false,
+      "routes": [
+        {
+          "pattern": "staging.cryptitaplays.com",
+          "custom_domain": true
+        }
+      ],
+      "vars": {
+        "ENVIRONMENT": "staging",
+        "SITE_ORIGIN": "https://staging.cryptitaplays.com"
+      },
+      "r2_buckets": [
+        {
+          "binding": "MEDIA",
+          "bucket_name": "cryptita-plays-media-staging"
+        }
+      ]
+    },
+    "production": {
+      "name": "cryptita-play-production",
+      "workers_dev": false,
+      "preview_urls": false,
+      "routes": [
+        {
+          "pattern": "cryptitaplays.com",
+          "custom_domain": true
+        },
+        {
+          "pattern": "www.cryptitaplays.com",
+          "custom_domain": true
+        }
+      ],
+      "vars": {
+        "ENVIRONMENT": "production",
+        "SITE_ORIGIN": "https://cryptitaplays.com"
+      },
+      "r2_buckets": [
+        {
+          "binding": "MEDIA",
+          "bucket_name": "cryptita-plays-media-production"
+        }
+      ]
+    }
+  },
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "cryptita-plays-media-staging"
+    }
+  ]
+}
