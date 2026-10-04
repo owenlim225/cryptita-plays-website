@@ -49,6 +49,10 @@ The equivalent local command is `node scripts/organize-r2-media.mjs staging --ap
 
 Save the workflow reports as `organization-staging.json` and `organization-production.json` beside this document. Run `node scripts/activate-media-organization.mjs` only after both reports pass and match the catalog hash. Deploy staging first and run the full media audit; then promote to production and repeat the audit. Activation changes only the central map's R2 keys, preserving public paths, media bytes, IDs, application references, and credits.
 
+## Completion evidence
+
+Organization completed on 2026-10-05 (Manila). All 113 destination objects passed source and destination checksum verification in each bucket: [staging copy audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37234730159) and [production copy audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37234983858). Both sites then passed the full 132-URL checksum audit and 29-route checks after activation: [staging deployment audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37235244727) and [production deployment audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37235544567). Local JSON reports are saved beside this guide. No original source or legacy R2 object was deleted.
+
 ## Future uploads and rollback
 
 For a new or changed file, assign a readable key in a reviewed candidate asset map, record approval for its checksum, and update the catalog without renumbering existing photos. Run `node scripts/migrate-media.mjs <environment> <candidate-map.json>` for both buckets, compare the generated candidate maps, and verify before activation. Existing registered files keep their organized names. Do not regenerate the one-time catalog over reviewed assignments.

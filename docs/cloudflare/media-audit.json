@@ -13,10 +13,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 2688,
-      "height": 2672
+      "height": 2672,
+      "r2Key": "brand/logos/cryptita-plays-mark--0802f4a5ef47.png"
     },
     {
       "source": "client/public/brand/cryptita-plays-banner.png",
@@ -37,10 +38,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 2902,
-      "height": 857
+      "height": 857,
+      "r2Key": "brand/logos/cryptita-plays-banner--9d986a27b4e2.png"
     },
     {
       "source": "client/public/brand/partners/community/blocktides.png",
@@ -54,10 +56,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 500,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/community/blocktides/logo--06ae556cbddc.png"
     },
     {
       "source": "client/public/brand/partners/community/brgy-tamago.png",
@@ -71,10 +74,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 500,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/community/brgy-tamago/logo--53d30f67d021.png"
     },
     {
       "source": "client/public/brand/partners/community/gn-club.png",
@@ -88,10 +92,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 990,
-      "height": 691
+      "height": 691,
+      "r2Key": "partners/community/gn-club/logo--2c568ad1be0c.png"
     },
     {
       "source": "client/public/brand/partners/community/museigen-io.png",
@@ -105,10 +110,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 500,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/community/museigen-io/logo--6e652a5d2ae0.png"
     },
     {
       "source": "client/public/brand/partners/community/nen-digital.png",
@@ -122,10 +128,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1563,
-      "height": 1563
+      "height": 1563,
+      "r2Key": "partners/community/nen-digital/logo--e46538ba0971.png"
     },
     {
       "source": "client/public/brand/partners/community/stocksify.png",
@@ -139,10 +146,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 2713,
-      "height": 2042
+      "height": 2042,
+      "r2Key": "partners/community/stocksify/logo--941b1100d10c.png"
     },
     {
       "source": "client/public/brand/partners/community/the-cryptology-academy.png",
@@ -156,10 +164,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 500,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/community/the-cryptology-academy/logo--4f66c125eba8.png"
     },
     {
       "source": "client/public/brand/partners/community/the-safehouse.png",
@@ -173,10 +182,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 988,
-      "height": 1137
+      "height": 1137,
+      "r2Key": "partners/community/the-safehouse/logo--d3fe07cbe11d.png"
     },
     {
       "source": "client/public/brand/partners/community/uphsl-gdc.png",
@@ -190,10 +200,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1600,
-      "height": 1600
+      "height": 1600,
+      "r2Key": "partners/community/uphsl-gdc/logo--92f798839b28.png"
     },
     {
       "source": "client/public/brand/partners/educational/avalanche.png",
@@ -207,10 +218,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 2675,
-      "height": 2408
+      "height": 2408,
+      "r2Key": "partners/educational/avalanche/logo--7c4d8615a398.png"
     },
     {
       "source": "client/public/brand/partners/educational/base-philippines.png",
@@ -224,10 +236,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 3840,
-      "height": 2160
+      "height": 2160,
+      "r2Key": "partners/educational/base-philippines/logo--d0098f02ecfa.png"
     },
     {
       "source": "client/public/brand/partners/educational/blockchain4her.png",
@@ -241,10 +254,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 500,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/educational/blockchain4her/logo--2931a734be53.png"
     },
     {
       "source": "client/public/brand/partners/educational/blockchain4youth.gif",
@@ -258,10 +272,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "GIF",
       "width": 819,
-      "height": 207
+      "height": 207,
+      "r2Key": "partners/educational/blockchain4youth/logo--a9547b870ad2.gif"
     },
     {
       "source": "client/public/brand/partners/educational/coinex-charity.png",
@@ -275,10 +290,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1302,
-      "height": 1429
+      "height": 1429,
+      "r2Key": "partners/educational/coinex-charity/logo--917149cbdde6.png"
     },
     {
       "source": "client/public/brand/partners/educational/gate-web3.png",
@@ -292,10 +308,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 477,
-      "height": 204
+      "height": 204,
+      "r2Key": "partners/educational/gate-web3/logo--ca9b69d15913.png"
     },
     {
       "source": "client/public/brand/partners/educational/mexc-foundation.png",
@@ -309,10 +326,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1262,
-      "height": 1396
+      "height": 1396,
+      "r2Key": "partners/educational/mexc-foundation/logo--460c6b1fc259.png"
     },
     {
       "source": "client/public/brand/partners/educational/morph.png",
@@ -326,10 +344,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1920,
-      "height": 500
+      "height": 500,
+      "r2Key": "partners/educational/morph/logo--a2bbba2cdf58.png"
     },
     {
       "source": "client/public/brand/partners/educational/okx-wallet.png",
@@ -343,10 +362,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1028,
-      "height": 588
+      "height": 588,
+      "r2Key": "partners/educational/okx-wallet/logo--1f2c627f6e03.png"
     },
     {
       "source": "client/public/brand/partners/educational/trustwallet.png",
@@ -360,10 +380,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 331,
-      "height": 370
+      "height": 370,
+      "r2Key": "partners/educational/trustwallet/logo--9b82d2158f81.png"
     },
     {
       "source": "client/public/favicon.ico",
@@ -377,10 +398,11 @@
       "publicationPermission": "Owner approved currently displayed site assets on 2026-10-05",
       "credit": "Unrecorded; confirm preferred attribution",
       "inventoryNote": null,
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "ICO",
       "width": 256,
-      "height": 256
+      "height": 256,
+      "r2Key": "brand/icons/cryptita-plays-favicon--09eec0f955e0.ico"
     },
     {
       "source": "client/public/images/classroom-session.jpg",
@@ -405,10 +427,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2048,
-      "height": 1536
+      "height": 1536,
+      "r2Key": "site/editorial/classroom-session--0ac1039b49bb.jpg"
     },
     {
       "source": "client/public/images/community-gathering.jpg",
@@ -433,10 +456,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2048,
-      "height": 1366
+      "height": 1366,
+      "r2Key": "site/editorial/community-gathering--2b6b4252a5ae.jpg"
     },
     {
       "source": "client/public/images/cook-cover.png",
@@ -459,10 +483,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1087,
-      "height": 1446
+      "height": 1446,
+      "r2Key": "resources/books/code-like-a-cook/cover--9d7abfe958dc.png"
     },
     {
       "source": "client/public/images/encyclopedia-cover.png",
@@ -485,10 +510,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1087,
-      "height": 1447
+      "height": 1447,
+      "r2Key": "resources/books/barya-to-blockchain/cover--58ecdcaefa76.png"
     },
     {
       "source": "client/public/images/group-discussion.jpg",
@@ -513,10 +539,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2048,
-      "height": 1536
+      "height": 1536,
+      "r2Key": "site/editorial/group-discussion--5e8646a5d7a9.jpg"
     },
     {
       "source": "client/public/images/learning-event.jpg",
@@ -542,10 +569,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2048,
-      "height": 1536
+      "height": 1536,
+      "r2Key": "site/editorial/learning-event--74f43e2a2964.jpg"
     },
     {
       "source": "client/public/images/tambunan-outreach.mp4",
@@ -590,10 +618,11 @@
         "credit": "Confirm permission and preferred credit",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1165,
-      "height": 1096
+      "height": 1096,
+      "r2Key": "people/arshelene-lingao/arshelene-lingao-portrait--96876221bbe4.png"
     },
     {
       "source": "client/public/images/wave3-cover.png",
@@ -616,10 +645,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "reused current site image"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "PNG",
       "width": 1800,
-      "height": 2400
+      "height": 2400,
+      "r2Key": "resources/books/wave3-handbook/cover--275f5342dad9.png"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_120040(1).jpg",
@@ -641,10 +671,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3677,
-      "height": 2068
+      "height": 2068,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-001--b953c804a377.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_143500.jpg",
@@ -665,10 +696,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-002--3cbe4c0584ef.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_145133.jpg",
@@ -689,10 +721,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-003--540d5e0503fb.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_145153.jpg",
@@ -713,10 +746,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-004--3bc6c710d9f3.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_145154.jpg",
@@ -737,10 +771,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-005--e3cdcf411397.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/20260107_150243.jpg",
@@ -761,10 +796,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-006--066c9d07434c.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/IMG_20260109_231318_426.jpg",
@@ -785,10 +821,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 1280,
-      "height": 960
+      "height": 960,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-007--1bae6c1702f1.jpg"
     },
     {
       "source": "client/public/media/initiatives/acis/IMG_20260109_231341_269.jpg",
@@ -809,10 +846,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 1280,
-      "height": 960
+      "height": 960,
+      "r2Key": "initiatives/acis-adopt-a-child-iskolar/photos/acis-adopt-a-child-iskolar-photo-008--b2cfd9db7bfc.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_154124.jpg",
@@ -833,10 +871,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-001--1714eb082e5b.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_165508.jpg",
@@ -857,10 +896,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-002--54d779bb5ead.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_165916.jpg",
@@ -881,10 +921,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-003--e27f92b1f24a.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_171252.jpg",
@@ -905,10 +946,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-004--961227bb9328.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_171904.jpg",
@@ -929,10 +971,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-005--d4e57487f585.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_192426.jpg",
@@ -954,10 +997,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3078,
-      "height": 2356
+      "height": 2356,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-006--9ea7b59449ff.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_192603.jpg",
@@ -978,10 +1022,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-007--ee4d30f02c69.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/20260530_203719.jpg",
@@ -1002,10 +1047,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3314,
-      "height": 2486
+      "height": 2486,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-008--4899e663886e.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002147_852.jpg",
@@ -1026,10 +1072,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 1280,
-      "height": 980
+      "height": 980,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-009--7a41c2243807.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002215_418.jpg",
@@ -1050,10 +1097,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 1280,
-      "height": 960
+      "height": 960,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-010--fa425f9e694d.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_421.jpg",
@@ -1074,10 +1122,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 1280,
-      "height": 960
+      "height": 960,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-011--6cca757c0c94.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002221_462.jpg",
@@ -1098,10 +1147,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 960,
-      "height": 1280
+      "height": 1280,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-012--cca733e11c4f.jpg"
     },
     {
       "source": "client/public/media/initiatives/blockchain4youth/IMG_20260602_002225_731.jpg",
@@ -1122,10 +1172,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 960,
-      "height": 1280
+      "height": 1280,
+      "r2Key": "initiatives/blockchain4youth/photos/blockchain4youth-photo-013--e95941d64396.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_135219.jpg",
@@ -1146,10 +1197,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-001--7001b8d13d44.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_135241.jpg",
@@ -1170,10 +1222,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-002--93c50fcb2be3.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_135252.jpg",
@@ -1194,10 +1247,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-003--41bc952dc46d.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_161724.jpg",
@@ -1218,10 +1272,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-004--3473e8654c96.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_161840.jpg",
@@ -1242,10 +1297,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2992,
-      "height": 2992
+      "height": 2992,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-005--90022c59c947.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_162237.jpg",
@@ -1266,10 +1322,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2992,
-      "height": 2992
+      "height": 2992,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-006--5d405f516f5a.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_185058.jpg",
@@ -1290,10 +1347,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-007--08d4343bd171.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_185525.jpg",
@@ -1314,10 +1372,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-008--6cd9d68393e3.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-highlight/20260923_191027.jpg",
@@ -1338,10 +1397,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3968,
-      "height": 2232
+      "height": 2232,
+      "r2Key": "initiatives/builder-highlight/photos/builder-highlight-photo-009--a3e6b0a83f65.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_130155.jpg",
@@ -1362,10 +1422,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-001--11970558274a.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_132313.jpg",
@@ -1386,10 +1447,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-002--2a9c0bbd9896.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_132335.jpg",
@@ -1410,10 +1472,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-003--e6fb5b714bfe.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_133059.jpg",
@@ -1434,10 +1497,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-004--cd324f7300c8.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_134304.jpg",
@@ -1458,10 +1522,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-005--e1dddcd7ecf8.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_135920.jpg",
@@ -1482,10 +1547,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-006--a2917bcd2f9e.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_140038.jpg",
@@ -1506,10 +1572,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-007--87d7468204fe.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_140154.jpg",
@@ -1530,10 +1597,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-008--5137da0bcb22.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_140711.jpg",
@@ -1554,10 +1622,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-009--348737d07548.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_141432.jpg",
@@ -1578,10 +1647,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-010--f40813ca4c36.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_145036.jpg",
@@ -1602,10 +1672,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-011--bd7f7e20144a.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_152040(0).jpg",
@@ -1626,10 +1697,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-012--1c30ac33df19.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_160619.jpg",
@@ -1650,10 +1722,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-013--7813d5577057.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_160804.jpg",
@@ -1674,10 +1747,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-014--d44d4fb4d4f2.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_171821(0).jpg",
@@ -1698,10 +1772,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-015--9c59fbf112d4.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/20260823_174425.jpg",
@@ -1723,10 +1798,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-016--46b5f211686c.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
@@ -1747,10 +1823,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 4000,
-      "height": 2256
+      "height": 2256,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-017--911b37129b0a.jpg"
     },
     {
       "source": "client/public/media/initiatives/builder-programs/IMG_6389.JPG",
@@ -1771,10 +1848,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4032,
-      "height": 3024
+      "height": 3024,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-018--3f969909c5a3.jpg"
     },
     {
       "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_172804.jpg",
@@ -1795,10 +1873,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/ecosystem-collaboration/photos/ecosystem-collaboration-photo-001--db0398cf7a2f.jpg"
     },
     {
       "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_181349.jpg",
@@ -1820,10 +1899,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2628,
-      "height": 3504
+      "height": 3504,
+      "r2Key": "initiatives/ecosystem-collaboration/photos/ecosystem-collaboration-photo-002--ab223b147df2.jpg"
     },
     {
       "source": "client/public/media/initiatives/ecosystem-collaboration/20260621_202651.jpg",
@@ -1844,10 +1924,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/ecosystem-collaboration/photos/ecosystem-collaboration-photo-003--fa088eabc92a.jpg"
     },
     {
       "source": "client/public/media/initiatives/ecosystem-collaboration/_GVP1475.NEF",
@@ -1928,10 +2009,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-001--11970558274a.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_132313.jpg",
@@ -1952,10 +2034,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-002--2a9c0bbd9896.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_132335.jpg",
@@ -1976,10 +2059,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-003--e6fb5b714bfe.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_133059.jpg",
@@ -2000,10 +2084,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-004--cd324f7300c8.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_134304.jpg",
@@ -2024,10 +2109,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-005--e1dddcd7ecf8.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_135920.jpg",
@@ -2048,10 +2134,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-006--a2917bcd2f9e.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_140038.jpg",
@@ -2072,10 +2159,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-007--87d7468204fe.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_140154.jpg",
@@ -2096,10 +2184,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-008--5137da0bcb22.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_140711.jpg",
@@ -2120,10 +2209,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-009--348737d07548.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_141432.jpg",
@@ -2144,10 +2234,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-010--f40813ca4c36.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_145036.jpg",
@@ -2168,10 +2259,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-011--bd7f7e20144a.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_152040(0).jpg",
@@ -2192,10 +2284,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-012--1c30ac33df19.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_160619.jpg",
@@ -2216,10 +2309,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-013--7813d5577057.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_160804.jpg",
@@ -2240,10 +2334,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-014--d44d4fb4d4f2.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_171821(0).jpg",
@@ -2264,10 +2359,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-015--9c59fbf112d4.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/20260823_174425.jpg",
@@ -2288,10 +2384,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-016--46b5f211686c.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/dji_mimo_20260823_135704_0_1787547428888_photo.jpg",
@@ -2312,10 +2409,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 4000,
-      "height": 2256
+      "height": 2256,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-017--911b37129b0a.jpg"
     },
     {
       "source": "client/public/media/initiatives/grantix-fundraising/IMG_6389.JPG",
@@ -2336,10 +2434,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4032,
-      "height": 3024
+      "height": 3024,
+      "r2Key": "shared/initiatives/builder-programs-and-grantix-fundraising/photos/builder-programs-and-grantix-fundraising-photo-018--3f969909c5a3.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20251203_121220.jpg",
@@ -2360,10 +2459,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-001--31d56221ce9c.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20251203_121238.jpg",
@@ -2384,10 +2484,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-002--c2b30abea48f.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152413.jpg",
@@ -2408,10 +2509,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-003--3e517d62256d.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152417.jpg",
@@ -2432,10 +2534,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-004--8274e71a7e79.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152427.jpg",
@@ -2456,10 +2559,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-005--f8d6d468dfaf.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152428.jpg",
@@ -2480,10 +2584,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-006--b61df3dd20e3.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152435.jpg",
@@ -2504,10 +2609,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-007--1d7d1c5b9301.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260107_152439.jpg",
@@ -2528,10 +2634,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-008--adab471267ad.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260609_122052.jpg",
@@ -2552,10 +2659,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3648,
-      "height": 2736
+      "height": 2736,
+      "r2Key": "initiatives/learning-resources/photos/learning-resources-photo-009--e846c82d6a1c.jpg"
     },
     {
       "source": "client/public/media/initiatives/learning-resources/20260609_122057.jpg",
@@ -2576,10 +2684,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3648,
-      "height": 2736
+      "height": 2736,
+      "r2Key": "shared/initiatives/learning-resources-and-mini-library-mission-outreach/photos/learning-resources-and-mini-library-mission-outreach-photo-001--ce28e9c8a4d3.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260607210950035_103688081_screenshot.jpg",
@@ -2600,10 +2709,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 640,
-      "height": 723
+      "height": 723,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-001--d103de08da8d.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609080355_0060.jpg",
@@ -2624,10 +2734,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2851,
-      "height": 1604
+      "height": 1604,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-002--e9ea95861111.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609_093735.jpg",
@@ -2648,10 +2759,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 2676,
-      "height": 3570
+      "height": 3570,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-003--0dd3be8e8a78.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609_095119.jpg",
@@ -2672,10 +2784,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-004--b8bd7e0e468e.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609_095923.jpg",
@@ -2696,10 +2809,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-005--6d30c47b73d2.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609_111450.jpg",
@@ -2722,10 +2836,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 2252
+      "height": 2252,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-006--f42d6ad1e4e3.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/20260609_122057.jpg",
@@ -2746,10 +2861,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3648,
-      "height": 2736
+      "height": 2736,
+      "r2Key": "shared/initiatives/learning-resources-and-mini-library-mission-outreach/photos/learning-resources-and-mini-library-mission-outreach-photo-001--ce28e9c8a4d3.jpg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/received_1008644855230226.jpeg",
@@ -2770,10 +2886,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4032,
-      "height": 3024
+      "height": 3024,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-007--e72ca5e0cbd0.jpeg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/received_1727640778263587.jpeg",
@@ -2794,10 +2911,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4032,
-      "height": 3024
+      "height": 3024,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-008--4a1b4b0135ed.jpeg"
     },
     {
       "source": "client/public/media/initiatives/mini-library/received_835728199324220.jpeg",
@@ -2818,10 +2936,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4032,
-      "height": 3024
+      "height": 3024,
+      "r2Key": "initiatives/mini-library-mission-outreach/photos/mini-library-mission-outreach-photo-009--fb60cffdf64f.jpeg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/20260504_085553.jpg",
@@ -2842,10 +2961,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-001--787151264caf.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/20260504_085633.jpg",
@@ -2866,10 +2986,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 4000,
-      "height": 3000
+      "height": 3000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-002--0b9f543fbf10.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/20260504_111917.jpg",
@@ -2890,10 +3011,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3750,
-      "height": 2678
+      "height": 2678,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-003--9f3b39866cf2.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110818_0_1778060516585_photo.jpg",
@@ -2914,10 +3036,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3529,
-      "height": 1991
+      "height": 1991,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-004--4de2cb9cc10e.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/dji_mimo_20260504_110822_0_1778060516799_photo.jpg",
@@ -2938,10 +3061,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "JPEG",
       "width": 3604,
-      "height": 2033
+      "height": 2033,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-005--5631290f9377.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5551.JPG",
@@ -2962,10 +3086,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-006--1f69057b2618.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5552.JPG",
@@ -2986,10 +3111,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-007--b1308bb25ac6.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5563.JPG",
@@ -3010,10 +3136,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-008--000e17cb1291.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5578.JPG",
@@ -3037,10 +3164,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-009--438d869c6989.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5591.JPG",
@@ -3062,10 +3190,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-010--0f4dcb07a693.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5606.JPG",
@@ -3086,10 +3215,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-011--17b0168477b5.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5632.JPG",
@@ -3111,10 +3241,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-012--d6b7590fc833.jpg"
     },
     {
       "source": "client/public/media/initiatives/web3-on-campus/DSC_5651.JPG",
@@ -3135,10 +3266,11 @@
         "credit": "Unknown; confirm before publication",
         "status": "user-supplied; verify permissions and replace generic alt text before publication"
       },
-      "migrationStatus": "Pending upload and validation",
+      "migrationStatus": "Organized copies checksum verified in staging and production R2 buckets",
       "decodedFormat": "MPO",
       "width": 6016,
-      "height": 4000
+      "height": 4000,
+      "r2Key": "initiatives/web3-on-campus/photos/web3-on-campus-photo-013--9d338340583c.jpg"
     },
     {
       "source": "assets/banner.png",
