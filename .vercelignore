@@ -17,5 +17,6 @@ temp/
 .react-router/
 .vercel/
 
-# The local-only original video is not part of the published hero.
+# Preserve the local original; Cloudflare serves the hero derivative from R2.
 client/public/images/tambunan-outreach.mp4
+client/public/images/tambunan-outreach-hero.mp4

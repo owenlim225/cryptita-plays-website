@@ -56,10 +56,10 @@ Uploads are resumable, retry individual requests, stream file bodies, and verify
 
 - `/media/brand/cryptita-feature-placeholder.jpg` did not exist. The fallback constant now points to the approved `/images/learning-event.jpg`.
 - `/media/initiatives/blockchain4youth/20260530_161709.mp4` was referenced but absent locally. Its broken gallery entry was removed; its inventory note remains. Playback cannot be verified until a playable, approved source is supplied.
-- `client/public/images/tambunan-outreach.mp4` is a 184,373,058-byte local-only, unreferenced video. It is retained and excluded from publication/migration pending review.
+- `client/public/images/tambunan-outreach.mp4` is the preserved local HEVC original. The owner approved its H.264 homepage hero derivative on 2026-10-05; see [hero video delivery](HERO-VIDEO.md).
 - Nikon `.NEF` camera originals are not browser-displayable derivatives. They remain local, unmodified, and excluded pending source/rights review.
 - Other unreferenced files and `assets/` source copies are retained. Consult the audit's `references` and `publicationPermission` fields for the exact list.
-- The original site has no `srcset` or separately declared responsive variants. All declared image references and fallbacks are validated; no derivatives or transcoded videos are claimed.
+- The original site has no `srcset` or separately declared responsive image variants. The homepage video now has an H.264 derivative documented in [hero video delivery](HERO-VIDEO.md).
 
 Full GET responses are also cached through the Workers Cache API, keyed by environment origin and content hash. Changing the central map therefore selects a new edge cache entry without serving a stale object from the previous hash. Range and conditional requests bypass this full-response cache.
 
@@ -71,7 +71,7 @@ For a repeatable full checksum audit from GitHub's network, manually run the dep
 
 Full public-download SHA-256 audits subsequently passed for all 132 URLs in both environments: [production audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37233416121) and [staging audit](https://github.com/owenlim225/cryptita-plays-website/actions/runs/37233410169). Their reports are committed beside this README as `verification-production.json` and `verification-staging.json`. Staging also passed an independent full download check from the local connection. The production outreach gallery loaded all 13 images without console errors. There are 113 unique content-addressed objects per bucket; the 54 files in `cleanup-candidates.json` are now eligible for a separately reviewed Git-untracking step, with local originals and backup preserved. No source files have been removed.
 
-Run `node scripts/verify-cloudflare.mjs staging --full` and the production equivalent to validate public routes, redirects, noindex rules, every mapped media URL, MIME types, lengths, full-body checksums, a byte range, and a conditional request. Results are saved to `verification-staging.json` and `verification-production.json`. Browser checks cover rendering and image loading separately. Do not infer video playback success from byte-range unit tests: no available video is currently referenced by the published site.
+Run `node scripts/verify-cloudflare.mjs staging --full` and the production equivalent to validate public routes, redirects, noindex rules, every mapped media URL, MIME types, lengths, full-body checksums, a byte range, and a conditional request. Results are saved to `verification-staging.json` and `verification-production.json`. Browser checks cover rendering and image loading separately. Do not infer video playback success from byte-range unit tests; the homepage hero also requires browser playback and fallback checks as described in HERO-VIDEO.md.
 
 Source cleanup is a separate step after successful validation. Keep an offline backup before untracking binaries. Remove only explicitly migrated and verified source files from Git tracking, retain local originals, keep the inventories, and ensure a clean checkout still builds and deploys. Unresolved/unreferenced files are not cleanup candidates. No history rewrite is included; untracking media does not remove it from older Git commits.
 

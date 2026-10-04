@@ -15,6 +15,7 @@ import {
   X,
 } from "lucide-react";
 import { ApproachCarousel } from "../components/ApproachCarousel";
+import { HeroMedia } from "../components/HeroMedia";
 import { SiteFooter } from "../components/SiteFooter";
 import { CommunityPartnersStrip } from "../components/sections/CommunityPartnersStrip";
 import { EducationalPartnersStrip } from "../components/sections/EducationalPartnersStrip";
@@ -23,13 +24,8 @@ import { useScrolledHeader } from "../hooks/useScrolledHeader";
 const ASSETS = {
   logo: "/brand/cryptita-plays-banner.png",
   mark: "/brand/cryptita-mark.png",
-  hero: "/images/learning-event.jpg",
-  library: "/images/community-gathering.jpg",
-  university: "/images/classroom-session.jpg",
-  outreach: "/images/group-discussion.jpg",
 };
 
-const HERO_PHOTOS = [ASSETS.hero, ASSETS.library, ASSETS.university, ASSETS.outreach];
 const PUBLIC_CALENDAR_URL = "https://calendar.google.com/calendar/embed?src=6035e2225ec6cddc3f94deaf8167fdfaea780e2e9663460d5c18c73c5599e695%40group.calendar.google.com&ctz=Asia%2FManila";
 
 const books = [
@@ -167,8 +163,6 @@ function SectionHeading({ eyebrow, title, copy, light = false }: { eyebrow: stri
 
 function Home() {
   const [eventIndex, setEventIndex] = useState(0);
-  const [heroPhotoIndex, setHeroPhotoIndex] = useState(0);
-  const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -180,22 +174,6 @@ function Home() {
     return () => observer.disconnect();
   }, []);
 
-  useEffect(() => {
-    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const update = () => setReduceMotion(query.matches);
-    update();
-    query.addEventListener("change", update);
-    return () => query.removeEventListener("change", update);
-  }, []);
-
-  useEffect(() => {
-    if (reduceMotion || HERO_PHOTOS.length < 2) return;
-    const interval = window.setInterval(() => {
-      setHeroPhotoIndex((index) => (index + 1) % HERO_PHOTOS.length);
-    }, 5000);
-    return () => window.clearInterval(interval);
-  }, [reduceMotion]);
-
   const activeEvent = events[eventIndex];
   const setEvent = (next: number) => setEventIndex((next + events.length) % events.length);
 
@@ -204,7 +182,7 @@ function Home() {
       <SiteHeader />
       <main>
         <section className="hero-section">
-          <img key={HERO_PHOTOS[heroPhotoIndex]} src={HERO_PHOTOS[heroPhotoIndex]} alt="" aria-hidden="true" className="hero-fallback-image" />
+          <HeroMedia />
           <div className="hero-video-overlay" aria-hidden="true" />
           <div className="container hero-content">
             <Reveal className="hero-copy">

@@ -1054,5 +1054,13 @@
     "contentType": "image/jpeg",
     "source": "client/public/media/initiatives/web3-on-campus/DSC_5651.JPG",
     "publicUrl": "/media/initiatives/web3-on-campus/DSC_5651.JPG"
+  },
+  "/images/tambunan-outreach-hero.mp4": {
+    "key": "videos/hero/tambunan-outreach-baca2a668f624031.mp4",
+    "sha256": "baca2a668f6240314183cbc1b046d6b439b608914bd2c4d4eb4def8603c8f005",
+    "bytes": 85349063,
+    "contentType": "video/mp4",
+    "source": "client/public/images/tambunan-outreach-hero.mp4",
+    "publicUrl": "/images/tambunan-outreach-hero.mp4"
   }
 }

@@ -743,3 +743,6 @@ section[id] { scroll-margin-top: 100px; }
  .calendar-embed { height: 420px; }
  .calendar-embed-wrap { padding: 8px; border-radius: 20px; }
 }
+
+.hero-video { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+.hero-video.is-playing { opacity: 1; }

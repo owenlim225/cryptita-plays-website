@@ -915,6 +915,17 @@
       "alt": "Community & Ecosystem Collaboration program photo 3",
       "credit": "Unknown; confirm before publication",
       "status": "user-supplied; verify permissions and replace generic alt text before publication"
+    },
+    {
+      "path": "/images/tambunan-outreach-hero.mp4",
+      "slots": [
+        "homepage hero"
+      ],
+      "kind": "video",
+      "alt": "Decorative community outreach video",
+      "credit": "User-supplied; attribution unrecorded",
+      "status": "Owner approved homepage use on 2026-10-05; H.264 derivative; original preserved",
+      "source": "/images/tambunan-outreach.mp4"
     }
   ],
   "folders": [
