@@ -7,7 +7,7 @@ const sitemapLinks = [
   { label: "Books & resources", to: "/#learning" },
   { label: "Engage with us", to: "/engage" },
   { label: "Stories & events", to: "/#events" },
-  { label: "Donate", to: "/donate" },
+  { label: "Contact Us", to: "/contact" },
 ] as const;
 
 const informationLinks = [

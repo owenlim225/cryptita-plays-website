@@ -12,7 +12,7 @@ const faqItems = [
   ["Does Cryptita Plays encourage people to adopt blockchain right away?", "No. The organization takes an education-first approach. It introduces foundational concepts, critical thinking, and digital safety so learners can make informed choices in the future."],
   ["What programs does Cryptita Plays run?", "The programs include community mini-libraries and outreach, Web3 education and university sessions, beginner-friendly learning materials, and the ACIS: Adopt-a-Child Iskolar Program."],
   ["What is the ACIS Program?", "ACIS supports selected students from Mini-Library communities with monthly educational assistance, school supplies, and learning materials. Each Mini-Library area selects five iskolar beneficiaries."],
-  ["Can I donate now?", "The current giving page says approved receiving details are still pending. Please do not send funds to an address or QR code from an unverified source. Check the Donate page for current instructions."],
+  ["How can I discuss supporting Cryptita Plays?", "Contact founder Arshelene Lingao to discuss donation arrangements and the programs you would like to support. Please wait for details shared through Cryptita Plays’ verified contact channels before sending funds."],
   ["How can my school or organization work with Cryptita Plays?", "Cryptita Plays collaborates with educational institutions, community leaders, foundations, and Web3 organizations. Visit Engage with us or email cryptitaplays@gmail.com to start a conversation."],
 ];
 
@@ -32,7 +32,7 @@ const pageContent: Record<Exclude<InformationPageKey, "faq">, { title: string; i
     sections: [
       { title: "Education and community partnerships", paragraphs: ["Schools, universities, libraries, and community leaders can explore seminars, workshops, outreach, and learning spaces shaped around local needs."] },
       { title: "Learning resources and co-development", paragraphs: ["We create beginner-friendly materials for children and young people. If your team has an idea for a book, activity, or learning resource that fits an education-first approach, let’s discuss it."] },
-      { title: "Support for programs", paragraphs: ["Partners can discuss support for mini-libraries, educational materials, community learning, and ACIS. The Donate page will show approved receiving details when they are available; please do not send funds using unverified instructions."] },
+      { title: "Support for programs", paragraphs: ["Partners can discuss support for mini-libraries, educational materials, community learning, and ACIS. Contact founder Arshelene Lingao to talk through donation arrangements and the programs you would like to support."] },
       { title: "Events and sharing the work", paragraphs: ["We welcome invitations and opportunities to share practical, safety-conscious Web3 education. You can also follow Cryptita Plays and help more people discover the stories and resources."] },
     ],
   },
@@ -42,7 +42,7 @@ const pageContent: Record<Exclude<InformationPageKey, "faq">, { title: string; i
     sections: [
       { title: "About this website", paragraphs: ["This site shares information about Cryptita Plays, its education-first mission, programs, learning resources, and ways to get in touch. Content is provided for general informational and educational purposes.", "Descriptions of programs and plans may change as community needs and available resources change. Contact Cryptita Plays if you need clarification about a specific program."] },
       { title: "Educational content", paragraphs: ["Web3 and blockchain materials are introductory education. They are not a recommendation to use, buy, sell, or invest in any digital asset or technology. Cryptita Plays emphasizes foundational understanding, critical thinking, and digital safety rather than immediate adoption."] },
-      { title: "Donations and external services", paragraphs: ["The website does not currently provide an on-site payment or wallet connection. The Donate page will publish approved giving instructions when they are available. Do not send funds using an unverified address, QR code, or message.", "Links to other websites are provided for convenience. Those websites operate under their own terms and privacy notices; Cryptita Plays does not control their content or services."] },
+      { title: "Donations and external services", paragraphs: ["The website does not provide an on-site payment or wallet connection. Donation arrangements are discussed directly with the founder. Please wait for details shared through Cryptita Plays’ verified contact channels before sending funds.", "Links to other websites are provided for convenience. Those websites operate under their own terms and privacy notices; Cryptita Plays does not control their content or services."] },
       { title: "Responsible use and updates", paragraphs: ["Please use this website lawfully and do not attempt to disrupt its operation or misuse its content or contact channels.", "These terms may be updated when the website or its services change. Questions about these terms can be sent to cryptitaplays@gmail.com."] },
     ],
   },
@@ -78,7 +78,7 @@ function InformationHeader() {
       <div className="container nav-inner">
         <Link to="/" className="brand-lockup" aria-label="Cryptita Plays home"><img src="/brand/cryptita-plays-banner.png" alt="Cryptita Plays" className="brand-logo" /></Link>
         <nav className={`desktop-nav info-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">
-          <Link to="/">Home</Link><Link to="/who-we-are">Who we are</Link><Link to="/engage">Engage with us</Link><Link to="/faq">FAQ</Link><Link to="/donate" className="nav-donate">Donate <ArrowRight /></Link>
+          <Link to="/">Home</Link><Link to="/who-we-are">Who we are</Link><Link to="/engage">Engage with us</Link><Link to="/faq">FAQ</Link><Link to="/contact" className="nav-donate">Contact us <ArrowRight /></Link>
         </nav>
         <button className="menu-trigger info-menu-trigger" onClick={() => setOpen(!open)} aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"}>{open ? <X /> : <Menu />}</button>
       </div>
